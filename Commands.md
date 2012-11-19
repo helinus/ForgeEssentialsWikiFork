@@ -2,7 +2,7 @@
 Teleport to your last death point.  
 ### /butcher [radius]  
 Kill all mobs within a certain radius, or 15 blocks by default. Excludes villagers and tamed animals.  
-### /home [here|<x> <y> <z>]  
+### /home [here|\<x> <y> <z>]  
 Teleports your to your home. "/home here" sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.  
 ### /kill [player]  
 Kill yourself or the specified player.  
