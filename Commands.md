@@ -32,6 +32,8 @@ Remove all item entities within a certain radius, or 15 blocks by default.
 Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.  
 ### /smite [me|\<player>]
 Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.
+### /modlist [page]
+Shows a list of all mods used by the server.
 
 ## WorldControl Commands
 
