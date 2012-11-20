@@ -1,6 +1,6 @@
 ## Syntax Explanation
 Take this command as an example: "/rules [\<number> \<"remove">|\<new rule>]"  
-**/rules:** The command itself. Always preceded by / or in some cases, //
+**/rules:** The command itself. Always preceded by / or in some cases, //  
 **[\<number> remove|\<new rule>]:** This is an optional argument. Anything surrounded by [] is optional. Inside of the optional brackets are the required brackets, \<>. These mean that the argument within the \<> is required if the argument within the [] is used. "remove" has quotation marks, meaning that it is a literal word that can be used as an argument. Here are some examples of valid commands:  
 **/rules** All the arguments after the command are surrounded by [], meaning they are optional as a whole.  
 **/rules 2 remove** The optional argument requires 2 sub-arguments. If that optional argument is used at all, all sub-arguments must be provided.  
