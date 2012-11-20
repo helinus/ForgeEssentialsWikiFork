@@ -1,4 +1,4 @@
-# # Essential Commands  
+# Essentials Commands
 ### /back  
 Teleport to your last death point.  
 ### /butcher [radius]  
