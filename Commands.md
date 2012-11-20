@@ -1,12 +1,19 @@
 ## Syntax Explanation
 Take this command as an example: "/rules [\<number> \<"remove">|\<new rule>]"  
 **/rules:** The command itself. Always preceded by / or in some cases, //  
-**[\<number> remove|\<new rule>]:** This is an optional argument. Anything surrounded by [] is optional. Inside of the optional brackets are the required brackets, \<>. These mean that the argument within the \<> is required if the argument within the [] is used. "remove" has quotation marks, meaning that it is a literal word that can be used as an argument. Here are some examples of valid commands:  
+  
+**[\<number> remove|\<new rule>]:** This is an optional argument. Anything surrounded by [] is optional. Inside of the optional brackets are the required brackets, \<>. These mean that the argument within the \<> is required if the argument within the [] is used. "remove" has quotation marks, meaning that it is a literal word that can be used as an argument.  
+  
+Here are some examples of valid commands:  
 **/rules:** All the arguments after the command are surrounded by [], meaning they are optional as a whole.  
+  
 **/rules 2 remove:** The optional argument requires 2 sub-arguments. If that optional argument is used at all, all sub-arguments must be provided.  
+  
 **/rules 2 No TNT:** This is also valid because one option for the second argument is the enter any new rule that you want. In this case, the new rule can be multiple words. This is not the case with all commands.  
+  
 Here are some invalid commands:  
 **/rules 2:** The argument is provided, so both sub-arguments are necessary, not just one.  
+  
 **/rules remove 2:** The arguments are backwards. The game will think that you want rule number remove to be 2, not rule 2 to be removed. It will likely tell you about this mistake in a hurtful way.  
 ## User Commands
 ### /back  
