@@ -1,3 +1,8 @@
+## Using Localization
+If you ever find yourself writing a message in code that will be seen by a player, you will need to localize it. When creating new localization keys, please follow lower camel case for key names. For example, `noHomeSet` is easier to read than `nohomeset`. Function names follow the same convention.
+
+If you need to insert data into a string, don't assume that all languages place these extra bits into the same spot as English does - use the string format specifiers, detailed in the Formatting Guide on the bottom of this page.
+
 ## Creating new Languages
 If you are **fluent** (could hold a conversation) in a language that ForgeEssentials does not yet have, you are encouraged to create a locale file containing translations with all the current strings and submit a Pull Request to us. We will try and get it rolled into ForgeEssentials as quickly as possible.
 
