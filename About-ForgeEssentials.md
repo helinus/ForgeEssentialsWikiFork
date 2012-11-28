@@ -1,1 +1,1 @@
-We are a bukkit plugin replacement for use on Forge servers, incorporating WorldEdit, WorldGuard functionality, an extensible Permissions API, and much more!
+We are a bukkit plugin replacement for use on Forge servers, incorporating WorldEdit, WorldGuard functionality, an extensible Permissions API, server admin command mod, and much more!
