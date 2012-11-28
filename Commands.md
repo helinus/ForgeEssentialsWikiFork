@@ -38,7 +38,6 @@ Shows a list of all mods used by the server.
 ## WorldControl Commands
 
 ## Admin Commands
-### /restart
-Restarts the server.
+
 ### /serverdo <command> [arg1] [arg2]...
 Allows a player to enter console commands.
