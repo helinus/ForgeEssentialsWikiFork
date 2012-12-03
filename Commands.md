@@ -37,7 +37,43 @@ Shows a list of all mods used by the server.
 
 ## WorldControl Commands
 
+### //pos1 <x> <y> <z>
+Sets the first selection point to given X, Y, and Z coordinates.
+
+### //pos2 <x> <y> <z>
+Sets the second selection point to given X, Y, and Z coordinates.
+
+### //wand
+Binds the currently selected item in the player's hotbar to the WorldControl wand. If no item is selected, WC will use fists to select the area.
+
+### //undo
+Undoes the last WorldControl action. The system only saves five steps of undo action.
+
+### //redo
+Redoes an action previously undone using the //undo command. The system only saves five steps of redo action.
+
+### //set <block ID[:metadata]>
+Sets all blocks within the current selection to the ID provided. Optionally, metadata can be provided for blocks that can use it.
+
+### //replace <target block ID[:metadata]> <replace with block ID[:metadata]>
+Searches the current selection for blocks of the target ID (optionally metadata; if none is provided, all blocks of the ID will be replaced) with the second block ID and optional Metadata.
+
+### //thaw <radius> [<x> <z>]
+Removes snow from exposed blocks, and replaces ice with water blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
+
+### //freeze <radius> [<x> <z>]
+Replaces exposed water with ice blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
+
+### //snow <radius> [<x> <z>]
+Adds a layer of snow to exposed blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
+
+### //till <radius> [<x> <z>]
+Transforms exposed dirt and grass into farmland within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
+
+### //untill <radius> [<x> <z>]
+Transforms exposed farmland into dirt blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
+
 ## Admin Commands
 
-### /serverdo <command> [arg1] [arg2]...
+### /serverdo <command> [arg1] [arg2] ...
 Allows a player to enter console commands.
