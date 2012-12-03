@@ -76,4 +76,5 @@ Transforms exposed farmland into dirt blocks within a specified radius. If the X
 ## Admin Commands
 
 ### /serverdo <command> [arg1] [arg2] ...
-Allows a player to enter console commands.
+Allows network clients to perform server commands as though they had been typed into the server's console.
+NOTE: Until permissions are working, only Ops are able to use this command.
