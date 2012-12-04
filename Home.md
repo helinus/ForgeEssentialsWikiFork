@@ -4,7 +4,7 @@ Welcome to the ForgeEssentials wiki!
 
 Take a look at our [Commands Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Commands) to figure out how to use the functions in FE and peripheral modules.
 
-Curious about the config options? (TODO: Add config page.)
+Curious about the config options? Look in the configs, there should be enough info to help you out.
 
 ### Miscellaneous Things!
 
