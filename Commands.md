@@ -37,10 +37,10 @@ Shows a list of all mods used by the server.
 
 ## WorldControl Commands
 
-### //pos1 <x> <y> <z>
+### //pos1 &lt;x> &lt;y> &lt;z>
 Sets the first selection point to given X, Y, and Z coordinates.
 
-### //pos2 <x> <y> <z>
+### //pos2 &lt;x> &lt;y> &lt;z>
 Sets the second selection point to given X, Y, and Z coordinates.
 
 ### //wand
@@ -52,29 +52,29 @@ Undoes the last WorldControl action. The system only saves five steps of undo ac
 ### //redo
 Redoes an action previously undone using the //undo command. The system only saves five steps of redo action.
 
-### //set <block ID[:metadata]>
+### //set &lt;block ID[:metadata]>
 Sets all blocks within the current selection to the ID provided. Optionally, metadata can be provided for blocks that can use it.
 
-### //replace <target block ID[:metadata]> <replace with block ID[:metadata]>
+### //replace &lt;target block ID[:metadata]> &lt;replace with block ID[:metadata]>
 Searches the current selection for blocks of the target ID (optionally metadata; if none is provided, all blocks of the ID will be replaced) with the second block ID and optional Metadata.
 
-### //thaw <radius> [<x> <z>]
+### //thaw &lt;radius> [<x> <z>]
 Removes snow from exposed blocks, and replaces ice with water blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
-### //freeze <radius> [<x> <z>]
+### //freeze &lt;radius> [&lt;x> &lt;z>]
 Replaces exposed water with ice blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
-### //snow <radius> [<x> <z>]
+### //snow &lt;radius> [&lt;x> &lt;z>]
 Adds a layer of snow to exposed blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
-### //till <radius> [<x> <z>]
+### //till &lt;radius> [&lt;x> &lt;z>]
 Transforms exposed dirt and grass into farmland within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
-### //untill <radius> [<x> <z>]
+### //untill &lt;radius> [&lt;x> &lt;z>]
 Transforms exposed farmland into dirt blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
 ## Admin Commands
 
-### /serverdo <command> [arg1] [arg2] ...
+### /serverdo &lt;command> [arg1] [arg2] ...
 Allows network clients to perform server commands as though they had been typed into the server's console.
 NOTE: Until permissions are working, only Ops are able to use this command.
