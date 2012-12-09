@@ -58,7 +58,7 @@ Sets all blocks within the current selection to the ID provided. Optionally, met
 ### //replace &lt;target block ID[:metadata]> &lt;replace with block ID[:metadata]>
 Searches the current selection for blocks of the target ID (optionally metadata; if none is provided, all blocks of the ID will be replaced) with the second block ID and optional Metadata.
 
-### //thaw &lt;radius> [<x> <z>]
+### //thaw &lt;radius> [&lt;x> &lt;z>]
 Removes snow from exposed blocks, and replaces ice with water blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
 ### //freeze &lt;radius> [&lt;x> &lt;z>]
