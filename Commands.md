@@ -43,6 +43,9 @@ Sets the first selection point to given X, Y, and Z coordinates.
 ### //pos2 &lt;x> &lt;y> &lt;z>
 Sets the second selection point to given X, Y, and Z coordinates.
 
+### //deselect
+Removes the current selection, because having it hang around when it isn't needed is annoying. Does not affect blocks.
+
 ### //wand
 Binds the currently selected item in the player's hotbar to the WorldControl wand. If no item is selected, WC will use fists to select the area.
 
