@@ -10,5 +10,5 @@ _ForgeEssentials.BasicCommands.home.set_
 ### /burn [me|player]  
 sets a player on fire
 _ForgeEssentials.BasicCommands.burn.me_  
-_ForgeEssentials.BasicCommands.burn.<player>_  
+_ForgeEssentials.BasicCommands.burn.{player}_  
 _ForgeEssentials.BasicCommands.burn_
