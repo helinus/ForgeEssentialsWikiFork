@@ -7,8 +7,8 @@ _ForgeEssentials.BasicCommands.home_
  "/home here" sets your home to your current location.  
  "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.  
 _ForgeEssentials.BasicCommands.home.set_  
-### /burn [me|player]  
-sets a player on fire
+### /burn [me|player] [ammount]  
+sets a player on fire. Default ammount is 15.  
 _ForgeEssentials.BasicCommands.burn.me_  
 _ForgeEssentials.BasicCommands.burn.{player}_  
-_ForgeEssentials.BasicCommands.burn_
+_ForgeEssentials.BasicCommands.burn_  
