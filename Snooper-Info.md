@@ -11,17 +11,7 @@ Now, how does it work? I have no clue, It just does. You can look at the code if
 
 If you look at the PHP code, you can see that, when GetInfo(...) is called, a hex number is send along. This is the number that determines what response you will get.
 
-* 0) Server info
-* 1) All the online players
-* 2, 3, 4) Nothing, reserved for general info.
-* 5) Player info *
-* 6) Player armor *
-* 7) player inventory *
-
-*= For these you need to send the username too. In the example page it gets done through GET_["player"].
-
-## Config options
-
+### Config options
 * enable: If false, no snooper!
 * autoReload: If true, attempts to restore after error (the query only!).
 * hostname: You should know this if you have done server stuff before.
@@ -32,8 +22,8 @@ If you look at the PHP code, you can see that, when GetInfo(...) is called, a he
 You can't toggle this response off completely.
 Toggle-able settings are marked with this: *(The setting to toggle)
 All of the info is send as a JSON string.
-### Server Info
 
+### Server Info (type = 0x00)
 * The server IP/hostname *(send_IP)
 * The server Port *(send_IP)
 * The modlist *(send_Mods)
@@ -47,3 +37,37 @@ All of the info is send as a JSON string.
 * Worldborder information (Only center and radius) *(send_WorldBorder)
 * Players online (count)
 * TPS for all dimentions specified in config
+
+### Players online (type = 0x01)
+* An array of players online.
+
+### Player info (type = 0x05, extra data = username)
+* Gamemode
+* Capabilities (allowFly, edit, isFly & noDamage)
+* Armor value
+* XP (lvl & bar)
+* Current group
+* Health
+* foodStats (saturation & fool)
+* ping
+* Money
+* Current position (default point formatting, see below)
+
+### Player armor info (type = 0x06, extra data = username)
+* Array of 4 armor slots (default stack formatting, see below)
+
+### Player inventory info (type = 0x06, extra data = username)
+* Boolean Enchantments, If this is true, the enchantments where send along. This gets only false if the text to send was too long (> 2000 characters).
+* Array of all used inventory slots (default stack formatting, see below)
+
+
+### Stack format:
+This is the format used to send info about itemstacks. To reduce bandwidth usage and to fit as much data in 1 go as possible, the amount of data send is minimal. You will always get:
+* Item ID
+* Item name (the nice one, like "Diamond Chestplate")
+
+Optional data:
+* Enchantments, Only if it was requested.
+* Damage value, If not 0.
+* Stacksize, if > 1.
+* Actual item-name (if item was re-named using anvil) ("tile." and "item." are removed)
