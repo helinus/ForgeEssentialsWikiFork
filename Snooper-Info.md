@@ -31,6 +31,7 @@ If you look at the PHP code, you can see that, when GetInfo(...) is called, a he
 ## Info send:
 You can't toggle this response off completely.
 Toggle-able settings are marked with this: *(The setting to toggle)
+All of the info is send as a JSON string.
 ### Server Info
 
 * The server IP/hostname *(send_IP)
