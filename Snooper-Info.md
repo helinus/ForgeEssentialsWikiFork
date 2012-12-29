@@ -19,3 +19,30 @@ If you look at the PHP code, you can see that, when GetInfo(...) is called, a he
 * 7) player inventory *
 
 *= For these you need to send the username too. In the example page it gets done through GET_["player"].
+
+## Config options
+
+* enable: If false, no snooper!
+* autoReload: If true, attempts to restore after error (the query only!).
+* hostname: You should know this if you have done server stuff before.
+* overrideIPValue: Set this to the server IP or domain name if its not send correctly. (set overrideIP to true).
+* port: This defaults to the MC server port.
+
+## Info send:
+You can't toggle this response off completely.
+Toggle-able settings are marked with this: *(The setting to toggle)
+### Server Info
+
+* The server IP/hostname *(send_IP)
+* The server Port *(send_IP)
+* The modlist *(send_Mods)
+* The MOTD *(send_MOTD)
+* The difficulty
+* Server uptime
+* MC version
+* Default gamemode
+* Player slots
+* Worldname
+* Worldborder information (Only center and radius) *(send_WorldBorder)
+* Players online (count)
+* TPS for all dimentions specified in config
