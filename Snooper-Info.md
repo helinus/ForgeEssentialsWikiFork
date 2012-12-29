@@ -60,7 +60,7 @@ All of the info is send as a JSON string.
 * Boolean Enchantments, If this is true, the enchantments where send along. This gets only false if the text to send was too long (> 2000 characters).
 * Array of all used inventory slots (default stack formatting, see below)
 
-
+## Formatting
 ### Stack format:
 This is the format used to send info about itemstacks. To reduce bandwidth usage and to fit as much data in 1 go as possible, the amount of data send is minimal. You will always get:
 * Item ID
@@ -71,3 +71,9 @@ Optional data:
 * Damage value, If not 0.
 * Stacksize, if > 1.
 * Actual item-name (if item was re-named using anvil) ("tile." and "item." are removed)
+
+### Point format:
+You get whats available.
+Sometimes only X, Y and Z.
+Most of the time you'll get the dimension too.
+Sometimes (warps and homes) you can get the pitch and yaw too.
