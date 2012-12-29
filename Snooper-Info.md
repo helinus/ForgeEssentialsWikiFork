@@ -2,7 +2,7 @@ So, what is the snooper? Its a module of ForgeEssentials that lets you get all k
 It is based upon (but not compatible with) the vanilla system.
 
 If you want to read about that, go [here](http://dinnerbone.com/blog/2011/10/14/minecraft-19-has-rcon-and-query/).
-My PHP example page is based on [this](https://github.com/xPaw/PHP-Minecraft-Query)repo.
+My PHP example page is based on [this](https://github.com/xPaw/PHP-Minecraft-Query) repo.
 
 You can see a static example page [here](http://driesgames.game-server.cc/snooper/static/).
 The snooper_php.zip file contains the source code. [Extra link.](http://driesgames.game-server.cc/snooper)
