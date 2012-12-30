@@ -18,8 +18,8 @@ Here are some invalid commands:
 ## User Commands
 ### /back  
 Teleport to your last death point.  
-### /butcher [radius] [x, y, z]
-Kill all mobs within a certain radius, or 15 blocks by default. Excludes villagers and tamed animals.  
+### /butcher [radius] [type] [x, y, z]
+Kill all hostile mobs within a certain radius, or 10 blocks by default.  Now you can specify "world" (without quotes) for the radius to kill all of the type of mob in the entire dimension, and can choose from six type groups: passive includes all non-hostile mobs except tamed animals; hostile is self explanatory, except it doesn't cover bosses; golem, villager and tamed are also self-explanatory; all will kill all of the above (basically everything except players and bosses).
 ### /burn [me|player]
 Sets you or someone else on fire.
 ### /capabilities [player] [capability] [value|default]
