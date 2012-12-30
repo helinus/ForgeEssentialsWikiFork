@@ -20,20 +20,33 @@ Here are some invalid commands:
 Teleport to your last death point.  
 ### /butcher [radius] [x, y, z]
 Kill all mobs within a certain radius, or 15 blocks by default. Excludes villagers and tamed animals.  
+### /burn [me|player]
+Sets you or someone else on fire.
+### /capabilities [player] [capability] [value|default]
+Allows you to modify a bunch of interesting stuff related to the player.
+### /enderchest
+Opens your ender chest inventory.
+### /heal [player]
+Restores the target's health, hunger and extinguishes them.
 ### /home [here|x, y, z]  
 Teleports your to your home. "/home here" sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.  
 ### /kill [player]  
 Kill yourself or the specified player.  
+### /kit [set|del][kitname]
+set: Saves your inventory to a kit.
+del: Deletes a particular kit.
+Otherwise, gives the specified kit to a player.
 ### /motd [new motd]  
 Get the message of the day or set a new MOTD.  
+### /modlist [page]
+Prints a list of mods installed on the server.
+### /potion [player] [effect] [duration in seconds]
 ### /remove [radius] [x, y, z]  
 Remove all item entities within a certain radius, or 15 blocks by default.  
 ### /rules [\<number> remove|\<new rule>]  
 Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.  
 ### /smite [me|\<player>]
 Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.
-### /modlist [page]
-Shows a list of all mods used by the server.
 
 ## WorldControl Commands
 
