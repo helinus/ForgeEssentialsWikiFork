@@ -33,9 +33,9 @@ Teleports your to your home. "/home here" sets your home to your current locatio
 ### /kill [player]  
 Kill yourself or the specified player.  
 ### /kit [set|del][kitname]
-set: Saves your inventory to a kit.
-del: Deletes a particular kit.
-Otherwise, gives the specified kit to a player.
+/kit set <name> [timeout in seconds] => Save your inventory as a kit.
+/kit del <name> => Delete the kit.
+/kit <name> => Get the kit
 ### /motd [new motd]  
 Get the message of the day or set a new MOTD.  
 ### /modlist [page]
