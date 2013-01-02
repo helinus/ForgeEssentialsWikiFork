@@ -32,6 +32,13 @@ Here are some invalid commands:
 		<td>Teleport to your last death point or teleport (/tp command is being worked on).</td>
 	</tr>
 	<tr>
+		<td>backup</td>
+		<td></td>
+		<td>ForgeEssentials.backup</td>
+		<td>/backup</td>
+		<td>Runs a backup of your world data folder.</td>
+	</tr>
+	<tr>
 		<td>burn</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.burn</td>
