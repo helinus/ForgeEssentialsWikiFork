@@ -32,40 +32,245 @@ Here are some invalid commands:
 		<td>Teleport to your last death point or teleport (/tp command is being worked on).</td>
 	</tr>
 	<tr>
+		<td>burn</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.burn</td>
+		<td>/burn [me|player]</td>
+		<td>Sets you or someone else on fire.</td>
+	</tr>
+	<tr>
 		<td>butcher</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.butcher</td>
 		<td>/butcher [radius|world] [type] [x, y, z]</td>
 		<td>Kill all hostile mobs within a certain radius, or 10 blocks by default.  Putting "world" instead of a numerical radius specifies the entire dimension.  The 6 types you can choose from are: passive (all non-hostile mobs except tamed animals), hostile (doesn't cover bosses), golem, villager, tamed, and all (everything but bosses and players).  <b>BE CAREFUL!  This cannot be undone!</td>
 	</tr>
-</table>
-### /burn [me|player]
-Sets you or someone else on fire.
-### /capabilities [player] [capability] [value|default]
-Allows you to modify a bunch of interesting stuff related to the player.
-### /enderchest
-Opens your ender chest inventory.
-### /heal [player]
-Restores the target's health, hunger and extinguishes them.
-### /home [here|x, y, z]  
-Teleports your to your home. "/home here" sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.  
-### /kill [player]  
-Kill yourself or the specified player.  
-### /kit [set|del][kitname]
-/kit set <name> [timeout in seconds] => Save your inventory as a kit.
-/kit del <name> => Delete the kit.
-/kit <name> => Get the kit
-### /motd [new motd]  
-Get the message of the day or set a new MOTD.  
-### /modlist [page]
-Prints a list of mods installed on the server.
-### /potion [player] [effect] [duration in seconds]
-### /remove [radius] [x, y, z]  
-Remove all item entities within a certain radius, or 15 blocks by default.  
-### /rules [\<number> remove|\<new rule>]  
-Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.  
-### /smite [me|\<player>]
-Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.
+	<tr>
+		<td>capabilities</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.capabilities</td>
+		<td>/capabilities [player] [capability] [value|default]</td>
+		<td>Allows you to modify a bunch of interesting stuff related to the player.</td>
+	</tr>
+	<tr>
+		<td>enderchest</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.enderchest</td>
+		<td>/enderchest</td>
+		<td>Opens your ender chest inventory.</td>
+	</tr>
+	<tr>
+		<td>heal</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.heal</td>
+		<td>/heal [player]</td>
+		<td>Restores the target's health, hunger and extinguishes them.</td>
+	</tr>
+	<tr>
+		<td>home</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.home</td>
+		<td>/home [here|x, y, z] </td>
+		<td>Teleports your to your home. "/home here" sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.</td>
+	</tr>
+	<tr>
+		<td>kill</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.kill</td>
+		<td>/kill [player]</td>
+		<td>Kill yourself or the specified player.</td>
+	</tr>
+	<tr>
+		<td>kit</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.kit</td>
+		<td>/kit [set|del][kitname]</td>
+		<td>/kit set <name> [timeout in seconds] => Save your inventory as a kit.<br>
+		/kit del <name> => Delete the kit.<br>
+		/kit <name> => Get the kit</td>
+	</tr>
+	<tr>
+		<td>motd</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.motd</td>
+		<td>/motd [new motd]  </td>
+		<td>Get the message of the day or set a new MOTD.</td>
+	</tr>
+	<tr>
+		<td>modlist</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.modlist</td>
+		<td>/modlist [page]</td>
+		<td>Prints a list of mods installed on the server.</td>
+	</tr>
+	<tr>
+		<td>msg</td>
+		<td>tell, whisper</td>
+		<td>ForgeEssentials<br>.BasicCommands.msg</td>
+		<td>/msg <player> <message></td>
+		<td>Allows you to send a private message to another player.</td>
+	</tr>
+	<tr>
+		<td>potion</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.potion</td>
+		<td>/potion [player] [effect] [duration in seconds]</td>
+		<td>Applies the specified effect to the specified player, for the specified duration.  "me" makes the potion work on you.</td>
+	</tr>
+	<tr>
+		<td>r</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.r</td>
+		<td>/r <message></td>
+		<td>Replies directly to the last person you interacted with in the private message system.</td>
+	</tr>
+	<tr>
+		<td>remove</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.remove</td>
+		<td>/remove [radius] [x, y, z]</td>
+		<td>Remove all item entities within specified radius or specified point, or 15 blocks by default.</td>
+	</tr>
+	<tr>
+		<td>rules</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.rules</td>
+		<td>/rules [\<number> remove|\<new rule>]  </td>
+		<td>Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.</td>
+	</tr>
+	<tr>
+		<td>smite</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.smite</td>
+		<td>/smite [me|\<player>]</td>
+		<td>Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td></td>
+		<td></td>
+	</tr>
 </table>
 
 ## WorldControl Commands
