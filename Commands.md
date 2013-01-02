@@ -16,10 +16,29 @@ Here are some invalid commands:
   
 **/rules remove 2:** The arguments are backwards. The game will think that you want rule number remove to be 2, not rule 2 to be removed. It will likely tell you about this mistake in a hurtful way.  
 ## User Commands
-### /back  
-Teleport to your last death point or teleport (/tp command is being worked on).
-### /butcher [radius] [type] [x, y, z]
-Kill all hostile mobs within a certain radius, or 10 blocks by default.  Now you can specify "world" (without quotes) for the radius to kill all of the type of mob in the entire dimension, and can choose from six type groups: passive includes all non-hostile mobs except tamed animals; hostile is self explanatory, except it doesn't cover bosses; golem, villager and tamed are also self-explanatory; all will kill all of the above (basically everything except players and bosses).
+<table>
+	<tr>
+		<th>Command</th>
+		<th>Aliases</th>
+		<th>Permission Node</th>
+		<th>Usage</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>back</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.back</td>
+		<td>/back</td>
+		<td>Teleport to your last death point or teleport (/tp command is being worked on).</td>
+	</tr>
+	<tr>
+		<td>butcher</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.butcher</td>
+		<td>/butcher [radius|world] [type] [x, y, z]</td>
+		<td>Kill all hostile mobs within a certain radius, or 10 blocks by default.  Putting "world" instead of a numerical radius specifies the entire dimension.  The 6 types you can choose from are: passive (all non-hostile mobs except tamed animals), hostile (doesn't cover bosses), golem, villager, tamed, and all (everything but bosses and players).  <b>BE CAREFUL!  This cannot be undone!</td>
+	</tr>
+</table>
 ### /burn [me|player]
 Sets you or someone else on fire.
 ### /capabilities [player] [capability] [value|default]
@@ -47,6 +66,7 @@ Remove all item entities within a certain radius, or 15 blocks by default.
 Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.  
 ### /smite [me|\<player>]
 Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.
+</table>
 
 ## WorldControl Commands
 
