@@ -153,11 +153,11 @@ Here are some invalid commands:
 		<td>Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.</td>
 	</tr>
 	<tr>
-		<td></td>
+		<td>tps</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
+		<td>/tps [all|#]</td>
+		<td>Will display current memory use and average ticks per second of the current world you are in. The bigger the number, the better the server is performing.</td>
 	</tr>
 	<tr>
 		<td></td>
