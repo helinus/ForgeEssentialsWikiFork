@@ -321,6 +321,10 @@ Transforms exposed dirt and grass into farmland within a specified radius. If th
 ### //untill &lt;radius> [&lt;x> &lt;z>]
 Transforms exposed farmland into dirt blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
 
+## WorldBorder Commands
+
+### Placeholder
+
 ## Admin Commands
 
 ### /serverdo &lt;command> [arg1] [arg2] ...
