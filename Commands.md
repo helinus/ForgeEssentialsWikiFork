@@ -67,6 +67,13 @@ Here are some invalid commands:
 		<td>Opens your ender chest inventory.</td>
 	</tr>
 	<tr>
+		<td>feperm</td>
+		<td>fep, perm, p</td>
+		<td>ForgeEssentials<br>.perm</td>
+		<td>/p <group|user> ...</td>
+		<td>Edits the permissions system. For more information, see [Permissions Reference](Permissions)<br>**WARNING** This is an all or nothing perm at the moment!</td>
+	</tr>
+	<tr>
 		<td>heal</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.heal</td>
