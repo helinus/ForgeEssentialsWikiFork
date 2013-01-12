@@ -113,7 +113,7 @@ Here are some invalid commands:
 	<tr>
 		<td>msg</td>
 		<td>tell, whisper</td>
-		<td>ForgeEssentials<br>.BasicCommands.msg</td>
+		<td>ForgeEssentials<br>.Chat.msg</td>
 		<td>/msg <player> <message></td>
 		<td>Allows you to send a private message to another player.</td>
 	</tr>
@@ -127,7 +127,7 @@ Here are some invalid commands:
 	<tr>
 		<td>r</td>
 		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.r</td>
+		<td>ForgeEssentials<br>.Chat.r</td>
 		<td>/r <message></td>
 		<td>Replies directly to the last person you interacted with in the private message system.</td>
 	</tr>
