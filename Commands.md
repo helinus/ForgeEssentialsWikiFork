@@ -69,7 +69,7 @@ Here are some invalid commands:
 	<tr>
 		<td>feperm</td>
 		<td>fep, perm, p</td>
-		<td>ForgeEssentials<br>.perm</td>
+		<td>ForgeEssentials.perm</td>
 		<td>/p &#60;group|user&#62 ...</td>
 		<td>Edits the permissions system. For more information, see <a href=Permissions>Permissions Reference</a><br>**WARNING** This is an all or nothing perm at the moment!</td>
 	</tr>
