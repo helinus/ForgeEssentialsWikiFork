@@ -17,4 +17,5 @@ The minecraftforums post is [here](http://www.minecraftforum.net/topic/1592223-f
 Check out our plans for [design features](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Design-Features).
 
 Looking for information on localizing ForgeEssentials? [Look here!](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Localization-Guide)
+
 How to open ForgeEssentials database file: Click [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/How-to-open-ForgeEssentials-database-file)
