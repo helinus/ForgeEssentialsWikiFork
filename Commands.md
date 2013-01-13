@@ -149,7 +149,7 @@ Here are some invalid commands:
 		<td>rules</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.rules</td>
-		<td>/rules [\&#60;number&#62 remove|\&#60;new rule&#62;]  </td>
+		<td>/rules [&#60;number&#62 remove|&#60;new rule&#62;]  </td>
 		<td>Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.</td>
 	</tr>
 	<tr>
