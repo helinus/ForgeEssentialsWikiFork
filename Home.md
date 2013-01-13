@@ -17,3 +17,12 @@ The minecraftforums post is [here](http://www.minecraftforum.net/topic/1592223-f
 Check out our plans for [design features](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Design-Features).
 
 Looking for information on localizing ForgeEssentials? [Look here!](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Localization-Guide)
+
+#### Directory
+
++[Commands Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Commands)
++[Permissions Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions)
++[About Us](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/About-ForgeEssentials)
++[Forums](http://www.minecraftforum.net/topic/1592223-forgeessentials-permissions-protection-logging-more-+for-forge-based-servers/)
++[Design Features](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Design-Features)
++[Localization](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Localization-Guide)
