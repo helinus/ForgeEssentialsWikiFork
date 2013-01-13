@@ -4,7 +4,7 @@ That's right, I've deemed the system finished *enough* to warrant documentation.
 ## Where to Begin
 Well, let's start off with the basics.  Zones.  Zones aren't quite fleshed out and in working order yet, but they work enough for this, and so you need to know what they're about.  Zones allow multiple areas of layered permissions.  For more detailed information, see the "Zones":Zones page.  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
 ### Creating Groups
-<table><tr><td>/p group create group_name (prefix|suffix|parent|priority) [zone]</td></tr></table>
+<table><tr><td>/p group create &#60group&#62 (prefix|suffix|parent|priority) [zone]</td></tr></table>
 
 Groups, by default, are created in the _GLOBAL_ zone.  You can change this by specifying a zone for any [zone] parameter in the commands.
 
@@ -12,15 +12,15 @@ Each zone can have multiple groups, and groups can be part of multiple zones (th
 
 Now for another tag: _SUPER_.  Use this ZoneName if you have any group that needs to have its permissions checked FIRST, before anything else.  _SUPER_ is also global: it spans worlds.  But unlike _GLOBAL_, which is always checked last, a player's _SUPER_ group is always checked first, before any local zones or world zones.
 ### Modifying Groups
-<table><tr><td>/p group group_name (prefix|suffix|parent|priority) set value [zone]</td></tr></table>
+<table><tr><td>/p group &#60group&#62 (prefix|suffix|parent|priority) set &#60value&#62 [zone]</td></tr></table>
 
-The next topic for groups is changing the settings.  You can display the group's current settings by simply using /p group prefix|suffix|parent|priority.  If you want to change them, simply add a "set \<value\>" at the end.  Group prefixes use colored markup with the ampersand (&) and the hex characters.  A group's priority is an integer value, ranging from 0-999, 0 being the lowest, 999 being the highest.  Within a zone, a player can be part of multiple groups, and this serves, first, to tell what group's prefix will be added to a player's chat lines, and second, the order in which permission nodes are checked and utilized.
+The next topic for groups is changing the settings.  You can display the group's current settings by simply using /p group \<group\> \(prefix|suffix|parent|priority\).  If you want to change them, simply add a "set \<value\>" at the end.  Group prefixes use colored markup with the ampersand (&) and the hex characters.  A group's priority is an integer value, ranging from 0-999, 0 being the lowest, 999 being the highest.  Within a zone, a player can be part of multiple groups, and this serves, first, to tell what group's prefix will be added to a player's chat lines, and second, the order in which permission nodes are checked and utilized.
 ### Modifying Group's Permissions
-<table><tr><td>/p group group_name (allow|true|deny|false|clear) perm [zone]</td></tr></table>
+<table><tr><td>/p group &#60group&#62 (allow|true|deny|false|clear) &#60perm&#62 [zone]</td></tr></table>
 
 Allow == true, deny == false.  You can use this command to change a group's settings.  Allowing a permission will enable anyone in the group in that zone to use it, unless denied by another zone.  Denying will keep anyone in the group from being able to use the node, even if they're allowed in any other zones or in their private permissions, except in the case of _SUPER_ groups and user permissions.
 ### Deleting Groups
-<table><tr><td>/p group delete group_name [zone]</td></tr></table>
+<table><tr><td>/p group delete &#60group&#62 [zone]</td></tr></table>
 
 Last in this area is the delete command.  Like everything else, it defaults to the worldZone, but you can specify the zone.
 ### "Here"
@@ -29,18 +29,18 @@ Also, you can use the keyword "here" to specify the zone you're in.  The zone ma
 ##Users
 Next is the users section.  Users can be a part of many different groups.  In fact, it's bound to happen throughout the course of your server, as anyone who makes a zone has admin rights over that zone for the users who come into them.  Players also have their own permissions that you can set.  A player's permissions are checked before the zone and allowed unless the zone specifically denies them the permission.  This is always the case, except when a player has a _SUPER_ permission.  Then that is ALWAYS what is used, whether it's allowed or denied.  Any zone that deals with that specific node has no effect on that node.
 ### Changing Player Settings
-<table><tr><td>/p user player_name (prefix|suffix) [set value]</td></tr></table>
+<table><tr><td>/p user &#60player&#62 (prefix|suffix) [set &#60value&#62]</td></tr></table>
 
 The players' prefixes and suffixes are stored as part of their PlayerInfo configs, usually found in the FEData folder (.minecraft/<worldFolder>/FEData/ForgeConfig/PlayerInfo/<username>.cfg).  You can also change it there.  Using the command with `set value` will tell you what the player's current personal prefix or suffix is.
 ### Modifying User Permissions
-<table><tr><td>/p user player_name (allow|true|deny|false|clear) perm [zone]</td></tr></table>
+<table><tr><td>/p user &#60player&#62 (allow|true|deny|false|clear) &#60perm&#62 [zone]</td></tr></table>
 
 This will act for the player the same way its counterpart command does for groups.  There is one variation you can use, however:
 
-<table><tr><td>/p user supers player_name (allow|true|deny|false|clear) perm [zone]</td></tr></table>
+<table><tr><td>/p user supers &#60player&#62 (allow|true|deny|false|clear) &#60perm&#62 [zone]</td></tr></table>
 Using it this way allows you to modify a player's super permissions, those that are always taken finally, no matter what other groups or zones affect the specified node.
 ### Player Group Management
-<table><tr><td>/p user player_name group [set|add|remove group_name] [zone]</td></tr></table>
+<table><tr><td>/p user &#60player&#62 group [set|add|remove] &#60group_name&#62 [zone]</td></tr></table>
 
 Using this without the set, add or remove keywords will allow you to view the player's current group's name.  Using "set" will clear whatever other groups the player is in, either in the specified zone, or in _GLOBAL_ by default, and add them to the specified group.  Adding merely makes them part of the group in addition to whatever others they may be in, and remove takes them out of the group.
 
