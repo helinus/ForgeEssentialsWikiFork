@@ -99,9 +99,9 @@ Here are some invalid commands:
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.kit</td>
 		<td>/kit [set|del][kitname]</td>
-		<td>/kit set <name> [timeout in seconds] => Save your inventory as a kit.<br>
-		/kit del <name> => Delete the kit.<br>
-		/kit <name> => Get the kit</td>
+		<td>/kit set &#60;name&#62; [timeout in seconds] => Save your inventory as a kit.<br>
+		/kit del &#60;name&#62 => Delete the kit.<br>
+		/kit &#60;name&#62 => Get the kit</td>
 	</tr>
 	<tr>
 		<td>motd</td>
@@ -121,7 +121,7 @@ Here are some invalid commands:
 		<td>msg</td>
 		<td>tell, whisper</td>
 		<td>ForgeEssentials<br>.Chat.msg</td>
-		<td>/msg <player> <message></td>
+		<td>/msg &#60;player&#62 <message></td>
 		<td>Allows you to send a private message to another player.</td>
 	</tr>
 	<tr>
@@ -135,7 +135,7 @@ Here are some invalid commands:
 		<td>r</td>
 		<td></td>
 		<td>ForgeEssentials<br>.Chat.r</td>
-		<td>/r <message></td>
+		<td>/r &#60;message&#62</td>
 		<td>Replies directly to the last person you interacted with in the private message system.</td>
 	</tr>
 	<tr>
@@ -149,14 +149,14 @@ Here are some invalid commands:
 		<td>rules</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.rules</td>
-		<td>/rules [\<number> remove|\<new rule>]  </td>
+		<td>/rules [\&#60;number&#62 remove|\&#60;new rule&#62;]  </td>
 		<td>Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.</td>
 	</tr>
 	<tr>
 		<td>smite</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.smite</td>
-		<td>/smite [me|\<player>]</td>
+		<td>/smite [me|&#60;player&#62;]</td>
 		<td>Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.</td>
 	</tr>
 	<tr>
