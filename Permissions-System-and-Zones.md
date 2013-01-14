@@ -1,4 +1,3 @@
-# WTH IS A ZONE?
 A Zone is first and foremost an area definition. Think regions from WorldGuard. You can select an area, and create a zone of that area. Once a zone has been created, you can set permissions on the zone. This means that a permission that may be denied throughout the server, may be allowed in a certain zone, or even the opposite. You may also set permissions to specific players while they are in zones, or specific groups in the zone. This functionality allows the ForgeEssentials to take the role of Towny, PeX, WorldGuard, Residence, or any other permissions and protection system.
 
 ## Automagically generated groups, zones, and players
