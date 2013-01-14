@@ -10,5 +10,5 @@ The WORLD_ zones are zones that are automatically created for every world that l
 ### the _DEFAULT_ group
 This is an automatically generated group that stands for the zone. Think of anything set here as a WorldGuard flag. This is usually the place where CommandBlocks, Pistons, and liquids check for their permissions if they are allowed to act in a given zone. It is also a fallback for players and groups. See the examples section for the DEFAULT group in action.
 
-## the _ENTRY_PLAYER_ player
+### the _ENTRY_PLAYER_ player
 This is an automatically generated player that is used for any players when they log into a server for the first time. Players will continue to use the Entry Group until they are added to another group via commands or manually imported from the permissions configs. When a server using ForgeEssentials is started for the first time, the ENTRY_PLAYER is added to the Guests group. This means that any player that logs into the server, will be a part of the guests group as well.
