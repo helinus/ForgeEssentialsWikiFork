@@ -12,3 +12,10 @@ This is an automatically generated group that stands for the zone. Think of anyt
 
 ### the _ENTRY_PLAYER_ player
 This is an automatically generated player that is used for any players when they log into a server for the first time. Players will continue to use the Entry Group until they are added to another group via commands or manually imported from the permissions configs. When a server using ForgeEssentials is started for the first time, the ENTRY_PLAYER is added to the Guests group. This means that any player that logs into the server, will be a part of the guests group as well.
+
+## The permission check hierarchy
+// incomming picture //
+When a permission is checked.. the first thing that happens is the zone the target is in, is found. Lets take a player for example...  
+ - 1 - Find the Players Zone.
+ - 2 - Check if the Player has this permission allowed in this zone.
+... etc... to be contnued
