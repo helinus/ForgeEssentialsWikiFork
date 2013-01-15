@@ -4,7 +4,7 @@ That's right, I've deemed the system finished *enough* to warrant documentation.
 ## Where to Begin
 Well, let's start off with the basics.  Zones.  Zones aren't quite fleshed out and in working order yet, but they work enough for this, and so you need to know what they're about.  Zones allow multiple areas of layered permissions.  For more detailed information, see the "Zones":Zones page.  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
 ### Creating Groups
-<table><tr><td>/p group create &#60group&#62 (prefix|suffix|parent|priority) [zone]</td></tr></table>
+<table><tr><td>/p group create &#60group&#62 [prefix [suffix [parent [priority [zone]]]]]</td></tr></table>
 
 Groups, by default, are created in the _GLOBAL_ zone.  You can change this by specifying a zone for any [zone] parameter in the commands.
 
