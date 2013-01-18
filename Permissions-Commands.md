@@ -4,7 +4,7 @@ That's right, I've deemed the system finished *enough* to warrant documentation.
 ## Where to Begin
 Well, let's start off with the basics.  Zones.  Zones aren't quite fleshed out and in working order yet, but they work enough for this, and so you need to know what they're about.  Zones allow multiple areas of layered permissions.  For more detailed information, see the "Zones":Zones page.  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
 ### Creating Groups
-<table><tr><td>/p group create &#60group&#62 [prefix [suffix [parent [priority [zone]]]]]</td></tr></table>
+<table><tr><td>/p group create &#60group&#62</td></tr></table>
 Yes, I have it notated that way for a reason :P
 
 Groups, by default, are created in the _GLOBAL_ zone.  You can change this by specifying a zone for any [zone] parameter in the commands.
@@ -56,7 +56,8 @@ Then, say you want him to be able to use /msg, /r, /home, /afk, /bed, /motd, /ru
 
 What to call our group?  Let's see, most of those are pretty basic, but the ability to modify the world would make it more likely a step above the default, so let's call them Members.  They need a prefix, too, so let's give them dark green which, when referencing the [Minecraft Color Codes](http://www.minecraftwiki.net/wiki/Colors), is 2.  Our color identifier is the ampersand (&), so we'll use &f[&2Member&f] as the prefix code.  So, here's the sequence of commands we would run:
 
-<table><tr><td>/p group create Members &f[&2Member&f]</td></tr>
+<table><tr><td>/p group create Members</td></tr>
+<tr><td>/p group Members prefix set &f[&2Member&f]</td></tr>
 <tr><td>/p group Members priority set 10</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.BasicCommands.afk</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.BasicCommands.bed</td></tr>
