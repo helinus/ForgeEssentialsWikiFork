@@ -17,5 +17,7 @@ This is an automatically generated player that is used for any players when they
 // incomming picture //
 When a permission is checked.. the first thing that happens is the zone the target is in, is found. Lets take a player for example...  
  - 1 - Find the Players Zone.
- - 2 - Check if the Player has this permission allowed in this zone.
-... etc... to be contnued
+ - 2 - Check if the Player has this permission allowed in this zone. ? undefined? goto #3
+ - 3 - Get all the groups the player is part of in this zone and check them for this permission. ? undefined? goto #4
+ - 4 - Get the parent of this zone. goto #1
+Using this process, the permission checks will eventually go up to the _\_GLOBAL__ zone if they are not defined. If they are not defined in the _\_GLOBAL__ zone, then they will default to false
