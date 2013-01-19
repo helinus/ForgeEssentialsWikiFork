@@ -167,11 +167,11 @@ Here are some invalid commands:
 		<td>Will display current memory use and average ticks per second of the current world you are in. The bigger the number, the better the server is performing.</td>
 	</tr>
 	<tr>
+		<td>virtualchest</td>
 		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.virtualchest</td>
+		<td>/vchest /virtualchest</td>
+		<td>Opens a virtual chest equal to a double chest.</td>
 	</tr>
 	<tr>
 		<td></td>
