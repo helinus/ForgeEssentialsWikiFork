@@ -61,7 +61,7 @@ Here are some invalid commands:
 	</tr>
 	<tr>
 		<td>enderchest</td>
-		<td></td>
+		<td>echest</td>
 		<td>ForgeEssentials<br>.BasicCommands.enderchest</td>
 		<td>/enderchest</td>
 		<td>Opens your ender chest inventory.</td>
@@ -203,7 +203,7 @@ Here are some invalid commands:
 	</tr>
 	<tr>
 		<td>virtualchest</td>
-		<td></td>
+		<td>vchest</td>
 		<td>ForgeEssentials<br>.BasicCommands.virtualchest</td>
 		<td>/vchest /virtualchest</td>
 		<td>Opens a virtual chest equal to a double chest.</td>
