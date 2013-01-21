@@ -167,6 +167,13 @@ Here are some invalid commands:
 		<td>Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.</td>
 	</tr>
 	<tr>
+		<td>tp</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.</td>tp
+		<td>/tp</td>
+		<td>Will allow a player to port to another</td>
+	</tr>
+	<tr>
 		<td>tps</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.</td>
