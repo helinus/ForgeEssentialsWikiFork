@@ -29,7 +29,7 @@ Here are some invalid commands:
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.back</td>
 		<td>/back</td>
-		<td>Teleport to your last death point or teleport (/tp command is being worked on).</td>
+		<td>Teleport to your last death point or teleport.</td>
 	</tr>
 	<tr>
 		<td>backup</td>
@@ -169,14 +169,14 @@ Here are some invalid commands:
 	<tr>
 		<td>tp</td>
 		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>tp
+		<td>ForgeEssentials<br>.BasicCommands.tp</td>
 		<td>/tp</td>
 		<td>Will allow a player to teleport to another</td>
 	</tr>
 	<tr>
 		<td>tps</td>
 		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
+		<td>ForgeEssentials<br>.BasicCommands.tps</td>
 		<td>/tps [all|#]</td>
 		<td>Will display current memory use and average ticks per second of the current world you are in. The bigger the number, the better the server is performing.</td>
 	</tr>
@@ -300,6 +300,36 @@ Here are some invalid commands:
 		<td></td>
 	</tr>
 </table>
+
+### Vanilla Overrides
+The following commands all have the permission node structure of
++ ForgeEssentials.BasicCommands.<name>
+and have the same usage as the vanilla commands they override.
++ ban
++ ban-ip
++ banlist
++ debug
++ defaultgamemode
++ deop
++ difficulty
++ enchant
++ gamerule
++ kick
++ me
++ op
++ pardon
++ pardon-ip
++ publish
++ save-all
++ save-off
++ save-on
++ say
++ seed
++ stop
++ time
++ toggledownfall
++ weather
++ whitelist
 
 ## WorldControl Commands
 
