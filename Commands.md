@@ -131,6 +131,13 @@ Here are some invalid commands:
 		<td>/potion [player] [effect] [duration in seconds]</td>
 		<td>Applies the specified effect to the specified player, for the specified duration.  "me" makes the potion work on you.</td>
 	</tr>
+        <tr>
+		<td>ping</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.ping</td>
+		<td>/ping</td>
+		<td>"Pings" the server and returns the time taken to communicate with the server in milliseconds. Please note that ping is not guaranteed to be accurate and may produce inaccurate results for a variety of reasons beyond our control. We are not responsible for any inaccuracies of this command.</td>
+	</tr>
 	<tr>
 		<td>r</td>
 		<td></td>
