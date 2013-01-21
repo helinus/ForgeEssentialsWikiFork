@@ -219,7 +219,7 @@ Here are some invalid commands:
 
 ### Vanilla Overrides
 The following commands all have the permission node structure of
-+ ForgeEssentials.BasicCommands.<name>
++ ForgeEssentials.BasicCommands.<name><br>
 and have the same usage as the vanilla commands they override.
 + ban
 + ban-ip
