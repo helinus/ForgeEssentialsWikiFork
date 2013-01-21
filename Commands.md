@@ -171,7 +171,7 @@ Here are some invalid commands:
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.</td>tp
 		<td>/tp</td>
-		<td>Will allow a player to port to another</td>
+		<td>Will allow a player to teleport to another</td>
 	</tr>
 	<tr>
 		<td>tps</td>
