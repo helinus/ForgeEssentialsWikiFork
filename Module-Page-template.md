@@ -26,7 +26,7 @@ ilughzsgsjghsdjsdjgh
 	<tr>
 		<td>/do</td>
 		<td>/d</td>
-		<td>ForgeEssentials<br>.SomeModule.Do</td>
+		<td>ForgeEssentials.SomeModule.Do</td>
 		<td>/back</td>
 		<td>Do something</td>
 	</tr>
