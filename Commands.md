@@ -120,9 +120,23 @@ Here are some invalid commands:
 	<tr>
 		<td>msg</td>
 		<td>tell, whisper</td>
-		<td>ForgeEssentials<br>.Chat.msg</td>
+		<td>ForgeEssentials<br>.Chat.commands.msg</td>
 		<td>/msg &#60;player&#62 <message></td>
 		<td>Allows you to send a private message to another player.</td>
+	</tr>
+	<tr>
+		<td>mute</td>
+		<td></td>
+		<td>ForgeEssentials<br>.Chat.commands.mute</td>
+		<td>/mute <player></td>
+		<td>Prevents muted player from posting any messages in chat.</td>
+	</tr>
+	<tr>
+		<td>nickname</td>
+		<td>nick</td>
+		<td>ForgeEssentials<br>.Chat.commands.nick</td>
+		<td>/nick <name></td>
+		<td>Change your display name.</td>
 	</tr>
 	<tr>
 		<td>potion</td>
@@ -141,7 +155,7 @@ Here are some invalid commands:
 	<tr>
 		<td>r</td>
 		<td></td>
-		<td>ForgeEssentials<br>.Chat.r</td>
+		<td>ForgeEssentials<br>.Chat.commands.r</td>
 		<td>/r &#60;message&#62</td>
 		<td>Replies directly to the last person you interacted with in the private message system.</td>
 	</tr>
@@ -181,116 +195,18 @@ Here are some invalid commands:
 		<td>Will display current memory use and average ticks per second of the current world you are in. The bigger the number, the better the server is performing.</td>
 	</tr>
 	<tr>
+		<td>unmute</td>
+		<td></td>
+		<td>ForgeEssentials<br>.Chat.commands.unmute</td>
+		<td>/unmute <player></td>
+		<td>Unmutes the specified player.</td>
+	</tr>
+	<tr>
 		<td>virtualchest</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.virtualchest</td>
 		<td>/vchest /virtualchest</td>
 		<td>Opens a virtual chest equal to a double chest.</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.</td>
-		<td></td>
-		<td></td>
 	</tr>
 	<tr>
 		<td></td>
