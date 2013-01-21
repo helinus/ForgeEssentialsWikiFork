@@ -15,5 +15,23 @@ ilughzsgsjghsdjsdjgh
 
 # Commands <a name="command"></a>
 
+## User Commands
+<table>
+	<tr>
+		<th>Command Usage</th>
+		<th>Aliases</th>
+		<th>Permission Node</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>/do</td>
+		<td>/d</td>
+		<td>ForgeEssentials<br>.SomeModule.Do</td>
+		<td>/back</td>
+		<td>Do something</td>
+	</tr>
+	<tr>
+</table>
+
 
 # Other Info <a name="other"></a>
