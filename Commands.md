@@ -25,6 +25,13 @@ Here are some invalid commands:
 		<th>Description</th>
 	</tr>
 	<tr>
+		<td>afk</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.afk</td>
+		<td>/afk</td>
+		<td>Appends the "[AFK]" tag to your username.</td>
+	</tr>
+	<tr>
 		<td>back</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.back</td>
@@ -37,6 +44,13 @@ Here are some invalid commands:
 		<td>ForgeEssentials.backup</td>
 		<td>/backup</td>
 		<td>Runs a backup of your world data folder.</td>
+	</tr>
+	<tr>
+		<td>bed</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.bed</td>
+		<td>/bed</td>
+		<td>Teleport to your bed point.</td>
 	</tr>
 	<tr>
 		<td>burn</td>
@@ -60,6 +74,27 @@ Here are some invalid commands:
 		<td>Allows you to modify a bunch of interesting stuff related to the player.</td>
 	</tr>
 	<tr>
+		<td>clearinventory</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.clear</td>
+		<td>/clear [player]</td>
+		<td>Clears your or the specified player's inventory.</td>
+	</tr>
+	<tr>
+		<td>colorize</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.colorize</td>
+		<td>/colorize</td>
+		<td>Parses pre-existing color codes on signs.</td>
+	</tr>
+	<tr>
+		<td>craft</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.craft</td>
+		<td>/clear [player]</td>
+		<td>Brings up a crafting table GUI for use on the go.</td>
+	</tr>
+	<tr>
 		<td>enderchest</td>
 		<td>echest</td>
 		<td>ForgeEssentials<br>.BasicCommands.enderchest</td>
@@ -74,6 +109,28 @@ Here are some invalid commands:
 		<td>Edits the permissions system. For more information, see <a href=Permissions-Commands>Permissions Reference</a><br><b>**WARNING**</b> This is an all or nothing perm at the moment!</td>
 	</tr>
 	<tr>
+		<td>gamemode</td>
+		<td>gm</td>
+		<td>ForgeEssentials<br>.BasicCommands.gamemode</td>
+		<td>/gamemode [type]</td>
+		<td>Changes your gamemode to the specified type (can be number or string).  If type is not specified, game mode is changed from survival/adventure to creative, or creative to survival.</td>
+	</tr>
+	<tr>
+		<td>gamemode</td>
+		<td>gm</td>
+		<td>ForgeEssentials<br>.BasicCommands.gamemode.others</td>
+		<td>/gamemode &#60;player> [type]</td>
+		<td>Changes specified player's gamemode to the specified type (can be number or string).  If type is not specified, game mode is changed from survival/adventure to creative, or creative to survival.</td>
+	</tr>
+	<tr>
+		<td>give</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.give</td>
+		<td>/give &#60;player> &#60;id[:meta] [amount]<br>OR<br>
+		/give &#60;player> &#60;id> [amount] [meta]</td>
+		<td>Gives the specified player the specified amount of the specified item.  Meta and amount are optional.  If not specified, meta defaults to 0, amount defaults to 64.</td>
+	</tr>
+	<tr>
 		<td>heal</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.heal</td>
@@ -84,8 +141,36 @@ Here are some invalid commands:
 		<td>home</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.home</td>
-		<td>/home [here|x, y, z] </td>
-		<td>Teleports your to your home. "/home here" sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.</td>
+		<td>/home</td>
+		<td>Teleports your to your home.</td>
+	</tr>
+	<tr>
+		<td>home</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.home.set</td>
+		<td>/home &#60f;set|x, y, z></td>
+		<td>Sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.</td>
+	</tr>
+	<tr>
+		<td>i</td>
+		<td>item</td>
+		<td>ForgeEssentials<br>.BasicCommands.i</td>
+		<td>/i &#60;id[:meta] [amount]</td>
+		<td>Gives you the specified amount of the specified item.  Meta and amount are optional.  If not specified, meta defaults to 0, amount defaults to 64.</td>
+	</tr>
+        <tr>
+		<td>invsee</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.invsee</td>
+		<td>/invsee &#60;player></td>
+		<td>Allows you to see the player's inventory.  Top row is their hotbar.</td>
+	</tr>
+	<tr>
+		<td>jump</td>
+		<td>j</td>
+		<td>ForgeEssentials<br>.BasicCommands.jump</td>
+		<td>/jump</td>
+		<td>Teleports you to the location you are currently looking.</td>
 	</tr>
 	<tr>
 		<td>kill</td>
@@ -104,18 +189,18 @@ Here are some invalid commands:
 		/kit &#60;name&#62 => Get the kit</td>
 	</tr>
 	<tr>
-		<td>motd</td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.motd</td>
-		<td>/motd [new motd]  </td>
-		<td>Get the message of the day or set a new MOTD.</td>
-	</tr>
-	<tr>
 		<td>modlist</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.modlist</td>
 		<td>/modlist [page]</td>
 		<td>Prints a list of mods installed on the server.</td>
+	</tr>
+	<tr>
+		<td>motd</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.motd</td>
+		<td>/motd [new motd]  </td>
+		<td>Get the message of the day or set a new MOTD.</td>
 	</tr>
 	<tr>
 		<td>msg</td>
@@ -138,19 +223,19 @@ Here are some invalid commands:
 		<td>/nick <name></td>
 		<td>Change your display name.</td>
 	</tr>
-	<tr>
-		<td>potion</td>
-		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.potion</td>
-		<td>/potion [player] [effect] [duration in seconds]</td>
-		<td>Applies the specified effect to the specified player, for the specified duration.  "me" makes the potion work on you.</td>
-	</tr>
         <tr>
 		<td>ping</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.ping</td>
 		<td>/ping</td>
 		<td>"Pings" the server and returns the time taken to communicate with the server in milliseconds. Please note that ping is not guaranteed to be accurate and may produce inaccurate results for a variety of reasons beyond our control. We are not responsible for any inaccuracies of this command.</td>
+	</tr>
+	<tr>
+		<td>potion</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.potion</td>
+		<td>/potion [player] [effect] [duration in seconds]</td>
+		<td>Applies the specified effect to the specified player, for the specified duration.  "me" makes the potion work on you.</td>
 	</tr>
 	<tr>
 		<td>r</td>
@@ -166,6 +251,13 @@ Here are some invalid commands:
 		<td>/remove [radius] [x, y, z]</td>
 		<td>Remove all item entities within specified radius or specified point, or 15 blocks by default.</td>
 	</tr>
+        <tr>
+		<td>repair</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.repair</td>
+		<td>/repair</td>
+		<td>Restores your currently held item to its undamaged state.</td>
+	</tr>
 	<tr>
 		<td>rules</td>
 		<td></td>
@@ -173,18 +265,53 @@ Here are some invalid commands:
 		<td>/rules [&#60;number&#62 remove|&#60;new rule&#62;]  </td>
 		<td>Get the rules of the server. Specify a rule number and either a new rule or "remove" to add or remove a rule, respectively.</td>
 	</tr>
+        <tr>
+		<td>setspawn</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.setspawn</td>
+		<td>/setspawn</td>
+		<td>Sets the respawn point. (We're trying to figure out how to make it change the default spawn point while still holding onto the information we need)</td>
+	</tr>
 	<tr>
 		<td>smite</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.smite</td>
-		<td>/smite [me|&#60;player&#62;]</td>
+		<td>/smite &#60;me|player&#62;</td>
 		<td>Strike the block your are looking at with lightning, or specify "me" or a player's name to strike yourself or another player, respectively.</td>
+	</tr>
+        <tr>
+		<td>spawn</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.spawn</td>
+		<td>/spawn</td>
+		<td>Teleports you to the point set by /setspawn.</td>
+	</tr>
+        <tr>
+		<td>spawnmob</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.setspawn</td>
+		<td>/spawnmob &#60;mobname> [amount]</td>
+		<td>Spawns the amount of mobname where you are looking.  Amount defaults to 1.</td>
 	</tr>
 	<tr>
 		<td>tp</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.tp</td>
-		<td>/tp</td>
+		<td>/tp &#60;player> &#60;targetPlayer|x y z></td>
+		<td>Teleport player to targetPlayer's position or coordinates set by x, y, and z.</td>
+	</tr>
+	<tr>
+		<td>tphere</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.tphere</td>
+		<td>/tphere &#60;player></td>
+		<td>Teleport another player to your position</td>
+	</tr>
+	<tr>
+		<td>tppos</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.tppos</td>
+		<td>/tppos &#60;x y z></td>
 		<td>Will allow a player to teleport to another</td>
 	</tr>
 	<tr>
@@ -209,6 +336,20 @@ Here are some invalid commands:
 		<td>Opens a virtual chest equal to a double chest.</td>
 	</tr>
 	<tr>
+		<td>warp</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.warp</td>
+		<td>/warp &#60;warpname></td>
+		<td>Teleports you to the specified warp point.</td>
+	</tr>
+	<tr>
+		<td>warp set|del</td>
+		<td></td>
+		<td>ForgeEssentials<br>.BasicCommands.warp.admin</td>
+		<td>/warp set|del &#60;warpname></td>
+		<td>Creates (set) or deletes (del) specified warp point.  Set will fail if warp name is in use.</td>
+	</tr>
+	<tr>
 		<td></td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.</td>
@@ -218,8 +359,8 @@ Here are some invalid commands:
 </table>
 
 ### Vanilla Overrides
-The following commands all have the permission node structure of
-+ ForgeEssentials.BasicCommands.<name><br>
+The following commands all have the permission node structure of<br>
+**_ForgeEssentials.BasicCommands.&#60;name&#62;_**<br>
 and have the same usage as the vanilla commands they override.
 + ban
 + ban-ip
@@ -248,45 +389,106 @@ and have the same usage as the vanilla commands they override.
 + whitelist
 
 ## WorldControl Commands
-
-### //pos1 &lt;x> &lt;y> &lt;z>
-Sets the first selection point to given X, Y, and Z coordinates.
-
-### //pos2 &lt;x> &lt;y> &lt;z>
-Sets the second selection point to given X, Y, and Z coordinates.
-
-### //deselect
-Removes the current selection, because having it hang around when it isn't needed is annoying. Does not affect blocks.
-
-### //wand
-Binds the currently selected item in the player's hotbar to the WorldControl wand. If no item is selected, WC will use fists to select the area.
-
-### //undo
-Undoes the last WorldControl action. The system only saves five steps of undo action.
-
-### //redo
-Redoes an action previously undone using the //undo command. The system only saves five steps of redo action.
-
-### //set &lt;block ID[:metadata]>
-Sets all blocks within the current selection to the ID provided. Optionally, metadata can be provided for blocks that can use it.
-
-### //replace &lt;target block ID[:metadata]> &lt;replace with block ID[:metadata]>
-Searches the current selection for blocks of the target ID (optionally metadata; if none is provided, all blocks of the ID will be replaced) with the second block ID and optional Metadata.
-
-### //thaw &lt;radius> [&lt;x> &lt;z>]
-Removes snow from exposed blocks, and replaces ice with water blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
-
-### //freeze &lt;radius> [&lt;x> &lt;z>]
-Replaces exposed water with ice blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
-
-### //snow &lt;radius> [&lt;x> &lt;z>]
-Adds a layer of snow to exposed blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
-
-### //till &lt;radius> [&lt;x> &lt;z>]
-Transforms exposed dirt and grass into farmland within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
-
-### //untill &lt;radius> [&lt;x> &lt;z>]
-Transforms exposed farmland into dirt blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.
+<table>
+	<tr>
+		<th>Command</th>
+		<th>Aliases</th>
+		<th>Permission Node</th>
+		<th>Usage</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>pos1</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.pos1</td>
+		<td>//pos1 &lt;x> &lt;y> &lt;z></td>
+		<td>Sets the first selection point to given X, Y, and Z coordinates.</td>
+	</tr>
+	<tr>
+		<td>pos2</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.pos2</td>
+		<td>//pos2 &lt;x> &lt;y> &lt;z></td>
+		<td>Sets the second selection point to given X, Y, and Z coordinates.</td>
+	</tr>
+	<tr>
+		<td>deselect</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.deselect</td>
+		<td>//deselect</td>
+		<td>Nulls the current selection, because having it hang around when it isn't needed is annoying. Does not affect blocks.</td>
+	</tr>
+	<tr>
+		<td>wand</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.wand</td>
+		<td>//wand</td>
+		<td>Binds the currently selected item in the player's hotbar to the WorldControl wand. If no item is selected, WC will use fists to select the area.</td>
+	</tr>
+	<tr>
+		<td>undo</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.undo</td>
+		<td>//undo</td>
+		<td>Undoes the last WorldControl action. The system only saves five steps of undo action.</td>
+	</tr>
+	<tr>
+		<td>redo</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.redo</td>
+		<td>//redo</td>
+		<td>Redoes an action previously undone using the //undo command. The system only saves five steps of redo action.</td>
+	</tr>
+	<tr>
+		<td>set</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.set</td>
+		<td>//set &lt;block ID[:metadata]></td>
+		<td>Sets all blocks within the current selection to the ID provided. Optionally, metadata can be provided for blocks that can use it.</td>
+	</tr>
+	<tr>
+		<td>replace</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.replace</td>
+		<td>//replace &lt;target block ID[:metadata]> &lt;replacement block ID[:metadata]></td>
+		<td>Searches the current selection for blocks of the target ID (optionally metadata; if none is provided, all blocks of the ID will be replaced) with the second block ID and optional Metadata.</td>
+	</tr>
+	<tr>
+		<td>thaw</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.thaw</td>
+		<td>//thaw &lt;radius> [&lt;x> &lt;z>]</td>
+		<td>Removes snow from exposed blocks, and replaces ice with water blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
+	</tr>
+	<tr>
+		<td>freeze</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.freeze</td>
+		<td>//freeze &lt;radius> [&lt;x> &lt;z>]</td>
+		<td>Replaces exposed water with ice blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
+	</tr>
+	<tr>
+		<td>snow</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.snow</td>
+		<td>//snow &lt;radius> [&lt;x> &lt;z>]</td>
+		<td>Adds a layer of snow to exposed blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
+	</tr>
+	<tr>
+		<td>till</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.till</td>
+		<td>//till &lt;radius> [&lt;x> &lt;z>]</td>
+		<td>Transforms exposed dirt and grass into farmland within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
+	</tr>
+	<tr>
+		<td>untill</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl<br>.commands.untill</td>
+		<td>//untill &lt;radius> [&lt;x> &lt;z>]</td>
+		<td>Transforms exposed farmland into dirt blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
+	</tr>
+</table>
 
 ## WorldBorder Commands
 
