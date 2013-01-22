@@ -14,8 +14,6 @@ ilughzsgsjghsdjsdjgh
 
 
 # Commands <a name="command"></a>
-
-## User Commands
 <table>
 	<tr>
 		<th>Command Usage</th>
@@ -27,7 +25,6 @@ ilughzsgsjghsdjsdjgh
 		<td>/do</td>
 		<td>/d</td>
 		<td>ForgeEssentials.SomeModule.Do</td>
-		<td>/back</td>
 		<td>Do something</td>
 	</tr>
 	<tr>
