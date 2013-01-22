@@ -330,7 +330,7 @@ Here are some invalid commands:
 		<td>Mute</td>
 		<td></td>
 		<td>ForgeEssentials<br>.chat.Commands.Mute</td>
-		<td>/mute <br>&#60player name> <br>&#60Message to be sent> </td>
+		<td>/mute <br>&#60player name> </td>
 		<td></td>
 	</tr>
 	<tr>
