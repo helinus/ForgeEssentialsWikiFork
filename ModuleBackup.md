@@ -1,8 +1,8 @@
-* [installation](#install)
-* [configuration](#config)
-* [usage](#use)
-* [commands](#command)
-* [OtherInfo](#other)
+* [Installation](#install)
+* [Configuration](#config)
+* [Usage](#use)
+* [Commands](#command)
+* [Other Info](#other)
 
 # Installation <a name="install"></a>
 Put this module in the mods folder. If the Core is installed, it will be loaded.
