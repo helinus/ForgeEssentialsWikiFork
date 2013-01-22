@@ -9,10 +9,10 @@ Put this module in the mods folder. If the Core is installed, it will be loaded.
 
 # Configuration <a name="config"></a>
 The configuration file for this can be found in ./ForgeEssentials/Chat/config.cfg  
-For the chat formatting, codes are provided in teh config file for 
+For the chat formatting, codes are provided in the config file. The group prefixes and suffixes however are slightly different than standard chat formatting. they require special codes in the format {ladderName<:>zoneName}. Because a player can be in multiple zones, at multiple times, this kind of format is used so that an Admin may retain the prefixes of his Admin group in the GLOBAL zone while still having fun in the server Arena zone as one in the Contender group. Don't forget that if you don't have many groups, you can still use {...<:>...} to display groups from any ladder, and any zone.
 
 # Usage <a name="use"></a>
-
+Use the configs to format chat, and use the commands to do awesome chat related actions.
 
 # Commands <a name="command"></a>
 <table>
@@ -56,3 +56,4 @@ For the chat formatting, codes are provided in teh config file for
 
 
 # Other Info <a name="other"></a>
+Us ForgeEssentials devs plan on allowing some awesome things in forge. We plan on having IRC integration as well as a channel system. Not to to mention ranged chat.
