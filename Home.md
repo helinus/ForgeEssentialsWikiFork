@@ -10,6 +10,7 @@ Curious about the config options? Look in the configs, there should be enough in
 
 ### Module pages.
 * [ModuleBackups](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleBackup)
+* [ModuleChat](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleChat)
 
 
 ### Miscellaneous Things!
