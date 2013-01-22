@@ -1,3 +1,7 @@
+**## WARNING **
+There are commands that are not listed here that are documented in the Module where they exist. Each module will have its own page, and you will be able to find the commands for them there.
+
+
 ## Syntax Explanation
 Take this command as an example: "/rules [\<number> \<"remove">|\<new rule>]"  
 **/rules:** The command itself. Always preceded by / or in some cases, //  
@@ -195,27 +199,6 @@ Here are some invalid commands:
 		<td>/motd [new motd]  </td>
 		<td>Get the message of the day or set a new MOTD.</td>
 	</tr>
-	<tr>
-		<td>msg</td>
-		<td>tell, whisper</td>
-		<td>ForgeEssentials<br>.Chat.commands.msg</td>
-		<td>/msg &#60;player&#62 <message></td>
-		<td>Allows you to send a private message to another player.</td>
-	</tr>
-	<tr>
-		<td>mute</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.mute</td>
-		<td>/mute <player></td>
-		<td>Prevents muted player from posting any messages in chat.</td>
-	</tr>
-	<tr>
-		<td>nickname</td>
-		<td>nick</td>
-		<td>ForgeEssentials<br>.Chat.commands.nick</td>
-		<td>/nick <name></td>
-		<td>Change your display name.</td>
-	</tr>
         <tr>
 		<td>ping</td>
 		<td></td>
@@ -230,12 +213,6 @@ Here are some invalid commands:
 		<td>/potion [player] [effect] [duration in seconds]</td>
 		<td>Applies the specified effect to the specified player, for the specified duration.  "me" makes the potion work on you.</td>
 	</tr>
-	<tr>
-		<td>r</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.r</td>
-		<td>/r &#60;message&#62</td>
-		<td>Replies directly to the last person you interacted with in the private message system.</td>
 	</tr>
 	<tr>
 		<td>remove</td>
@@ -313,13 +290,6 @@ Here are some invalid commands:
 		<td>ForgeEssentials<br>.BasicCommands.tps</td>
 		<td>/tps [all|#]</td>
 		<td>Will display current memory use and average ticks per second of the current world you are in. The bigger the number, the better the server is performing.</td>
-	</tr>
-	<tr>
-		<td>unmute</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.unmute</td>
-		<td>/unmute <player></td>
-		<td>Unmutes the specified player.</td>
 	</tr>
 	<tr>
 		<td>virtualchest</td>
