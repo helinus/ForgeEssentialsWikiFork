@@ -1,7 +1,7 @@
-* [installation](#install)
-* [configuration](#config)
-* [usage](#use)
-* [commands](#command)
+* [Installation](#install)
+* [Configuration](#config)
+* [Usage](#use)
+* [Commands](#command)
 * [OtherInfo](#other)
 
 # Installation <a name="install"></a>
