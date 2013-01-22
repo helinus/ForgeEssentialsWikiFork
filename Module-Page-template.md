@@ -5,7 +5,7 @@
 * [OtherInfo](#other)
 
 # Installation <a name="install"></a>
-Put this module in the mods folder. If the Core is installed, it will be laoded.
+Put this module in the mods folder. If the Core is installed, it will be loaded.
 
 # Configuration <a name="config"></a>
 ilughzsgsjghsdjsdjgh
