@@ -8,6 +8,9 @@ For more information on Permissions, head over to our [Permissions Reference](wi
 
 Curious about the config options? Look in the configs, there should be enough info to help you out.
 
+### Module pages.
+* [ModuleBackups](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleBackups)
+
 ### Miscellaneous Things!
 
 Find out more about us [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/About-ForgeEssentials)
