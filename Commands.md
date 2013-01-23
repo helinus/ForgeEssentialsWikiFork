@@ -88,7 +88,7 @@ Here are some invalid commands:
 		<td>craft</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.craft</td>
-		<td>/clear [player]</td>
+		<td>/craft</td>
 		<td>Brings up a crafting table GUI for use on the go.</td>
 	</tr>
 	<tr>
