@@ -323,22 +323,22 @@ Here are some invalid commands:
 		<td>Message</td>
 		<td></td>
 		<td>ForgeEssentials<br>.chat.Commands.Msg</td>
-		<td>/msg <br>&#60player name> <br>&#60Message to be sent> </td>
-		<td>works the same as /tell lets you send a private message to a player</td>
+		<td>/msg <br>&#60player> <br>&#60Message to be sent> </td>
+		<td>Works the same as /tell lets you send a private message to a player</td>
 	</tr>
 	<tr>
 		<td>Mute</td>
 		<td></td>
 		<td>ForgeEssentials<br>.chat.Commands.Mute</td>
-		<td>/mute <br>&#60player name> </td>
-		<td>will mute the selected player</td>
+		<td>/mute <br>&#60player> </td>
+		<td>Mutes the selected player.</td>
 	</tr>
 	<tr>
 		<td>Nickname</td>
 		<td></td>
 		<td>ForgeEssentials<br>.chat.Commands.Nickname</td>
-		<td>/nickname </td>
-		<td></td>
+		<td>/nickname &#60player> &#60nickname></td>
+		<td>Gives the specified 'nickname' to the target player.</td>
 	</tr>
 	<tr>
 		<td>r</td>
@@ -351,7 +351,7 @@ Here are some invalid commands:
 		<td>Unmute</td>
 		<td></td>
 		<td>ForgeEssentials<br>.chat.Commands.Unmute</td>
-		<td>/unmute <br>&#60PLayer> </td>
+		<td>/unmute <br>&#60player> </td>
 		<td>remove the mute you put on a player</td>
 	</tr>
 </table>
