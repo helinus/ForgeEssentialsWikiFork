@@ -56,7 +56,7 @@ All of the info is send as a JSON string.
 ### Player armor info (type = 0x06, extra data = username)
 * Array of 4 armor slots (default stack formatting, see below)
 
-### Player inventory info (type = 0x06, extra data = username)
+### Player inventory info (type = 0x07, extra data = username)
 * Boolean Enchantments, If this is true, the enchantments where send along. This gets only false if the text to send was too long (> 2000 characters).
 * Array of all used inventory slots (default stack formatting, see below)
 
