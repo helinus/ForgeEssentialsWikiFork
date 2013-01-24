@@ -488,9 +488,45 @@ and have the same usage as the vanilla commands they override.
 	</tr>
 </table>
 
-## WorldBorder Commands
+## WorldBorder Commands - Must have World Control installed to use.
 
-### Placeholder
+<table>
+	<tr>
+		<th>Command</th>
+		<th>Aliases</th>
+		<th>Permission Node</th>
+		<th>Usage</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>fill</td>
+		<td></td>
+		<td>?</td>
+		<td>/wb fill ok <dimension></td>
+		<td>Pre-generates chunks up to world border. This will cause lag.</td>
+	</tr>
+	<tr>
+		<td>turbo</td>
+		<td></td>
+		<td>?</td>
+		<td>/wb turbo <dimension> [off]</td>
+		<td>Enables 10 chunks per tick. This will cause severe lag.</td>
+	</tr>
+	<tr>
+		<td>autopilot</td>
+		<td></td>
+		<td>?</td>
+		<td>?</td>
+		<td>?</td>
+	</tr>
+	<tr>
+		<td>set</td>
+		<td></td>
+		<td>?</td>
+		<td>/wb set <round|square> <Radius> <X> <Z></td>
+		<td>Used to set a world border.</td>
+	</tr>
+</table>
 
 ## Admin Commands
 
