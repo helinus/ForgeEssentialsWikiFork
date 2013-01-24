@@ -22,4 +22,4 @@ or like this:
     127.0.0.1       localhost
     127.0.1.1       ubuntuServer.lan
 
-**ForgeEssentials will not work until the hosts file is changed **
+**ForgeEssentials will not work until the hosts file is changed**
