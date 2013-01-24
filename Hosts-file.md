@@ -1,6 +1,8 @@
 How to check if your linux computer/system can run ForgeEssentials
 
-You can usually find the hosts file in ``/etc/hosts`` on Debian based systems
+You can usually find the hosts file in....
+ ``/etc/hosts`` *nix systems
+ ``C:/WINDOWS/system32/drivers/etc/hosts``
 
 In this example "ubuntuServer" is the hostname of the computer running the Minecraft server with ForgeEssentials.
 
