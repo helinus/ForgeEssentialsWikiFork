@@ -99,4 +99,4 @@ Owners, by default, have all /feperm permissions, and all zone and commands.  Th
 
 ### Setting a default group:
 
-* /p user \_ENTRY_PLAYER\_ group set <DefaultGroupName>
+<table><tr><td>/p user \_ENTRY_PLAYER\_ group set (DefaultGroup)</td></tr></table>
