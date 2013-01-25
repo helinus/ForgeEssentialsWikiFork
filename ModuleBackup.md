@@ -33,4 +33,4 @@ Just use the command.
 
 
 # Other Info <a name="other"></a>
-This is Module is going to be updated after the 1.0 release of Forge Essentials. t is currently planned that this module will support backing up individual worlds, as well as scheduled backups.
+This Module is going to be updated after the 1.0 release of Forge Essentials. t is currently planned that this module will support backing up individual worlds, as well as scheduled backups.
