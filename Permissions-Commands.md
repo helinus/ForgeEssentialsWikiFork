@@ -96,3 +96,7 @@ Members are where Protection first lets them through.  The have all the permissi
 This is basically an admin position, but only in the zones where they have this group.  However, for the initial run, they are essentially global admins.  By default, at the moment, they don't have any more defaults than the other two, but that will probably change shortly.
 ### Owners
 Owners, by default, have all /feperm permissions, and all zone and commands.  The wildcard modifier has not been implemented, though, so you may actually have to make your Owners ops until that can be straightened out.  Eventually, the wildcard will be an _all_ at the end of a node, like "ForgeEssentials.BasicCommands._all_" would give you everything from /afk to /give and /i.
+
+### Setting a default group:
+
+* /p user _ENTRY_PLAYER_ group set <DefaultGroupName>
