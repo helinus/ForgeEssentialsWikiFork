@@ -398,14 +398,14 @@ and have the same usage as the vanilla commands they override.
 	<tr>
 		<td>pos1</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.pos1</td>
+		<td>ForgeEssentials.WorldControl<br>.commands.pos</td>
 		<td>//pos1 &lt;x> &lt;y> &lt;z></td>
 		<td>Sets the first selection point to given X, Y, and Z coordinates.</td>
 	</tr>
 	<tr>
 		<td>pos2</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.pos2</td>
+		<td>ForgeEssentials.WorldControl<br>.commands.pos</td>
 		<td>//pos2 &lt;x> &lt;y> &lt;z></td>
 		<td>Sets the second selection point to given X, Y, and Z coordinates.</td>
 	</tr>
