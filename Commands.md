@@ -386,53 +386,6 @@ and have the same usage as the vanilla commands they override.
 + weather
 + whitelist
 
-## WorldControl Commands
-see th Module page. it is linked from the main page.
-<table>
-	<tr>
-		<th>Command</th>
-		<th>Aliases</th>
-		<th>Permission Node</th>
-		<th>Usage</th>
-		<th>Description</th>
-	</tr>
-	<tr>
-		<td>thaw</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.thaw</td>
-		<td>//thaw &lt;radius> [&lt;x> &lt;z>]</td>
-		<td>Removes snow from exposed blocks, and replaces ice with water blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
-	</tr>
-	<tr>
-		<td>freeze</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.freeze</td>
-		<td>//freeze &lt;radius> [&lt;x> &lt;z>]</td>
-		<td>Replaces exposed water with ice blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
-	</tr>
-	<tr>
-		<td>snow</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.snow</td>
-		<td>//snow &lt;radius> [&lt;x> &lt;z>]</td>
-		<td>Adds a layer of snow to exposed blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
-	</tr>
-	<tr>
-		<td>till</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.till</td>
-		<td>//till &lt;radius> [&lt;x> &lt;z>]</td>
-		<td>Transforms exposed dirt and grass into farmland within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
-	</tr>
-	<tr>
-		<td>untill</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.untill</td>
-		<td>//untill &lt;radius> [&lt;x> &lt;z>]</td>
-		<td>Transforms exposed farmland into dirt blocks within a specified radius. If the X and Z coordinates are not provided, the player's position will be used.</td>
-	</tr>
-</table>
-
 ## WorldBorder Commands - Must have World Control installed to use.
 
 <table>
