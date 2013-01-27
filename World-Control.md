@@ -43,10 +43,27 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>//set [id|id:meta|name]</td>
 		<td></td>
 		<td>ForgeEssentials.WorldControl.commands.set</td>
-		<td>Allows a player to set their selection to a given block/td>
+		<td>Allows a player to set their selection to a given block</td>
+	</tr>
+	<tr>
+		<td>//replace [1st] [with]</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.set</td>
+		<td>Replaces all instances of the 1st block in the selection with the second</td>
+	</tr>
+	<tr>
+		<td>//undo</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.undo</td>
+		<td>Undoes the last WorldControl action</td>
+	</tr>
+	<tr>
+		<td>//redo</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.redo</td>
+		<td>Redoes the last undone action</td>
 	</tr>
 </table>
-
 
 # Other Info <a name="other"></a>
 This module will be expanded to work with all the WorldEdit commands.
