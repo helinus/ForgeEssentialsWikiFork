@@ -63,6 +63,36 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>ForgeEssentials.WorldControl.commands.redo</td>
 		<td>Redoes the last undone action</td>
 	</tr>
+	<tr>
+		<td>//thaw</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.thaw</td>
+		<td>thaws the selection area. Melts all ice and snow.</td>
+	</tr>
+	<tr>
+		<td>//freeze</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.freeze</td>
+		<td>Turns all the water in the selection into ice</td>
+	</tr>
+	<tr>
+		<td>//snow</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.snow</td>
+		<td>Puts a layer of snow over the selection</td>
+	</tr>
+	<tr>
+		<td>//till</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.till</td>
+		<td>Turns all dirt in the selection into farmland</td>
+	</tr>
+	<tr>
+		<td>//untill</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.commands.untill</td>
+		<td>Turns all farmland in the selection to dirt</td>
+	</tr>
 </table>
 
 # Other Info <a name="other"></a>
