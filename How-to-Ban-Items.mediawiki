@@ -2,7 +2,7 @@ First off its very easy to use.
 The file is located in ./ForgeEssentials/banneditems.cfg
 If you wish to ban the crafting of an item you place the item "id:meta" under "S:List" in the #nocraft section. pretty self explanatory.
 
-Now say you didn't want anyone on your server to be able to craft some items. For this example were going to use a Cobblestone Drive (id=9278) and a Shoulder-Mounted Piston(id=9279). We will also show you how to ban all variants of an item/block. For that we will use Wool(id=35). There are many different colors of wool so to save you from entering in each on separately you can use the "-1" to ban them all in one line.
+Now say you didn't want anyone on your server to be able to craft some items. For this example were going to use a TNT (id=46) and a Chunk Loader(id=243). We will also show you how to ban all variants of an item/block. For that we will use a Mining Laser(id=30208:1 and 30208:27). You have 2 meta's for the mining laser for charged and uncharged so to be safe we ban them both by using "-1" to ban them all in one line.
 lets see what this looks like in the cfg.
 
     ####################
@@ -13,13 +13,13 @@ lets see what this looks like in the cfg.
     nocraft {
         # Use this format: "id:meta". Use meta -1 to ban ALL variants of an item/block.
         S:List <
-            9278
-            9279
-            35:-1
+            243
+            46
+            30208:-1
          >
 
 Now we have the nocraft down, lets take a look at the nouse.
-In theory this will allow the player to have or craft the item but will block the use of the right/left clicks. I will use Alumentum(id=25263) for this example. Say you wanted your players to be able to acquire this item for use in crafting or some other need but its also a destructive item that may bypass protections you set so you want to block the right click of this. You would use the nouse ban.
+This will allow the player to have or craft the item but will block the use of the right/left clicks or placement of the block. I will use TnT again(id=46) for this example. Say you wanted your players to be able to acquire this item for use in crafting or some other need but its also a destructive item that may bypass protections you set so you want to block this from being placed in your world. You would use the nouse ban.
 Lets have a look at what this might look like in the cfg.
 
     ####################
@@ -30,6 +30,6 @@ Lets have a look at what this might look like in the cfg.
     nouse {
         # Use this format: "id:meta". Use meta -1 to ban ALL variants of an item/block.
         S:List <
-            25263
+            46
          >
     }
