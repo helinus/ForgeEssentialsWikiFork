@@ -4,9 +4,9 @@ Welcome to the ForgeEssentials wiki!
 
 Take a look at our [Commands Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Commands) to figure out how to use the functions in FE and peripheral modules.
 
-For more information on Permissions, head over to our [Permissions Reference](Permissions-Commands) for a guide on how to set up permissions and what they do.
+For more information on Permissions, head over to our [Permissions Reference](wiki/Permissions-Commands) for a guide on how to set up permissions and what they do.
 
-[How to ban items](How-to-Ban-Items)
+[How to ban items](wiki/How-to-Ban-Items)
 
 Curious about the config options? Look in the configs, there should be enough info to help you out.
 
