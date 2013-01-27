@@ -387,6 +387,7 @@ and have the same usage as the vanilla commands they override.
 + whitelist
 
 ## WorldControl Commands
+see th Module page. it is linked from the main page.
 <table>
 	<tr>
 		<th>Command</th>
@@ -394,62 +395,6 @@ and have the same usage as the vanilla commands they override.
 		<th>Permission Node</th>
 		<th>Usage</th>
 		<th>Description</th>
-	</tr>
-	<tr>
-		<td>pos1</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.pos</td>
-		<td>//pos1 &lt;x> &lt;y> &lt;z></td>
-		<td>Sets the first selection point to given X, Y, and Z coordinates.</td>
-	</tr>
-	<tr>
-		<td>pos2</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.pos</td>
-		<td>//pos2 &lt;x> &lt;y> &lt;z></td>
-		<td>Sets the second selection point to given X, Y, and Z coordinates.</td>
-	</tr>
-	<tr>
-		<td>deselect</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.deselect</td>
-		<td>//deselect</td>
-		<td>Nulls the current selection, because having it hang around when it isn't needed is annoying. Does not affect blocks.</td>
-	</tr>
-	<tr>
-		<td>wand</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.wand</td>
-		<td>//wand</td>
-		<td>Binds the currently selected item in the player's hotbar to the WorldControl wand. If no item is selected, WC will use fists to select the area.</td>
-	</tr>
-	<tr>
-		<td>undo</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.undo</td>
-		<td>//undo</td>
-		<td>Undoes the last WorldControl action. The system only saves five steps of undo action.</td>
-	</tr>
-	<tr>
-		<td>redo</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.redo</td>
-		<td>//redo</td>
-		<td>Redoes an action previously undone using the //undo command. The system only saves five steps of redo action.</td>
-	</tr>
-	<tr>
-		<td>set</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.set</td>
-		<td>//set &lt;block ID[:metadata]></td>
-		<td>Sets all blocks within the current selection to the ID provided. Optionally, metadata can be provided for blocks that can use it.</td>
-	</tr>
-	<tr>
-		<td>replace</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl<br>.commands.replace</td>
-		<td>//replace &lt;target block ID[:metadata]> &lt;replacement block ID[:metadata]></td>
-		<td>Searches the current selection for blocks of the target ID (optionally metadata; if none is provided, all blocks of the ID will be replaced) with the second block ID and optional Metadata.</td>
 	</tr>
 	<tr>
 		<td>thaw</td>
