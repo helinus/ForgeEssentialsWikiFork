@@ -40,7 +40,7 @@ The chat configuration file contains a lost of banned words. You can add and rem
 	<tr>
 		<td>/nickname [nick|del]<br/>/nickname [username] [nick|del]</td>
 		<td>/nick</td>
-		<td>ForgeEssentials.Chat.commands.nick.self<br/>ForgeEssentials.Chat.commands.nick.others<br/></td>
+		<td>ForgeEssentials.Chat.commands.nickname<br/>ForgeEssentials.Chat.commands.nickname.others<br/></td>
 		<td>changes the players nickname</td>
 	</tr>
 	<tr>
