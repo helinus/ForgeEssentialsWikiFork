@@ -75,7 +75,7 @@ What to call our group?  Let's see, most of those are pretty basic, but the abil
 And there you go!  AbrarSyed is now a part of the Members group, and can use those specific commands and place/break blocks and utilize right clicks.
 ## Superperms
 Now, what if there was one thing you wanted Abrar, and only Abrar, to be able to do no matter where he was, like, say, /i.  All you'd have to do is run this command:
-<table><tr><td>/p user supers AbrarSyed allow ForgeEssentials.BasicCommands.i</td></tr></table>
+<table><tr><td>/p user AbrarSyed supers allow ForgeEssentials.BasicCommands.i</td></tr></table>
 And bam, Abrar can now give himself whatever he wants, wherever he wants, whenever he wants, no matter what other groups or zones say about that node.  You can do the same for any players you put in staff groups, and make super groups by using the _SUPER_ zone tag.
 
 ## Default Groups
