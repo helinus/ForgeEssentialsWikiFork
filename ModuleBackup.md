@@ -6,6 +6,7 @@
 
 # Installation <a name="install"></a>
 Put this module in the mods folder. If the Core is installed, it will be loaded.
+You need not install this if you have [ForgeBackup by monoxide](https://github.com/monoxide0184/ForgeBackup)
 
 # Configuration <a name="config"></a>
 The configuration file for this module can be found in <serverDir>/ForgeEssentials/Backup/config.cfg  
