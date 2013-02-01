@@ -26,4 +26,4 @@ Check out our plans for [design features](https://github.com/ForgeEssentials/For
 
 Looking for information on localizing ForgeEssentials? [Look here!](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Localization-Guide)
 
-How to open ForgeEssentials database file: Click [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/How-to-open-ForgeEssentials-database-file)
+How to edit permissions in flatfile [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Export-Import-permissions)
