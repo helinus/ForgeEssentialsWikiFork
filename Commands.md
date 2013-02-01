@@ -311,49 +311,6 @@ Here are some invalid commands:
 		<td>ForgeEssentials<br>.BasicCommands.warp.admin</td>
 		<td>/warp set|del &#60;warpname></td>
 		<td>Creates (set) or deletes (del) specified warp point.  Set will fail if warp name is in use.</td>
-	</tr>
-	<tr>
-		<td><b>Chat Commands</b></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Message</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.msg</td>
-		<td>/msg <br>&#60player> <br>&#60Message to be sent> </td>
-		<td>Works the same as /tell lets you send a private message to a player</td>
-	</tr>
-	<tr>
-		<td>Mute</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.mute</td>
-		<td>/mute <br>&#60player> </td>
-		<td>Mutes the selected player.</td>
-	</tr>
-	<tr>
-		<td>Nickname</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.nickname</td>
-		<td>/nickname &#60player> &#60nickname></td>
-		<td>Gives the specified 'nickname' to the target player.</td>
-	</tr>
-	<tr>
-		<td>r</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.r</td>
-		<td>/r &#60Message to be sent> </td>
-		<td>this lets you reply to the player whom sent you a private message</td>
-	</tr>
-	<tr>
-		<td>Unmute</td>
-		<td></td>
-		<td>ForgeEssentials<br>.Chat.commands.unmute</td>
-		<td>/unmute <br>&#60player> </td>
-		<td>remove the mute you put on a player</td>
-	</tr>
 </table>
 
 ### Vanilla Overrides
