@@ -12,14 +12,17 @@ Put this module in the mods folder. If the Core is installed, it will be loaded.
 The configuration file for this can be found in ./ForgeEssentials/WorldBorder/config.cfg  
 
 # Penalties <a name="penalties"></a>
-Possible penalties:
-damage
-executecommand
-knockback
-message
-potion
-serverkick
-smite
+Possible penalties
+<table>
+<tr><th>penalty name</th><th>effect</th><th>example</th></tr>
+<tr><th>damage</th></tr>
+<tr><th>executecommand</th></tr>
+<tr><th>knockback</th></tr>
+<tr><th>message</th></tr>
+<tr><th>potion</th></tr>
+<tr><th>serverkick</th></tr>
+<tr><th>smite</th></tr>
+<table>
 
 
 
