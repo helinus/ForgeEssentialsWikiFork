@@ -15,13 +15,13 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 Possible penalties
 <table>
 <tr><th>penalty name</th><th>effect</th><th>example</th></tr>
-<tr><th>damage</th></tr>
-<tr><th>executecommand</th></tr>
-<tr><th>knockback</th></tr>
-<tr><th>message</th></tr>
-<tr><th>potion</th></tr>
-<tr><th>serverkick</th></tr>
-<tr><th>smite</th></tr>
+<tr><td>damage</th></tr>
+<tr><td>executecommand</td><td></td><td></td></tr>
+<tr><td>knockback</td><td></td><td></td></tr>
+<tr><td>message</td><td></td><td></td></tr>
+<tr><td>potion</td><td></td><td></td></tr>
+<tr><td>serverkick</td><td></td><td></td></tr>
+<tr><td>smite</td><td></td><td></td></tr>
 <table>
 
 
