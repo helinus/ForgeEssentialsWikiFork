@@ -15,7 +15,7 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 Possible penalties
 <table>
 <tr><th>penalty name</th><th>effect</th><th>example</th></tr>
-<tr><td>damage</th></tr>
+<tr><td>damage</th><td></td><td></td></tr>
 <tr><td>executecommand</td><td></td><td></td></tr>
 <tr><td>knockback</td><td></td><td></td></tr>
 <tr><td>message</td><td></td><td></td></tr>
