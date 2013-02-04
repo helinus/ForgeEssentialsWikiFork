@@ -14,15 +14,14 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 # Penalties <a name="penalties"></a>
 Possible penalties
 <table>
-<tr><th>penalty name</th><th>effect</th><th>example</th></tr>
-<tr><td>IEffect</th><td></td><td></td></tr>
+<tr><th>penalty name</th><th>effect</th><th>option</th></tr>
 <tr><td>damage</th><td></td><td></td></tr>
 <tr><td>executecommand</td><td></td><td></td></tr>
 <tr><td>knockback</td><td></td><td></td></tr>
 <tr><td>message</td><td> Message to send to the player. You can use color codes.</td><td></td></tr>
 <tr><td>potion</td><td></td><td></td></tr>
 <tr><td>serverkick</td><td></td><td></td></tr>
-<tr><td>smite</td><td></td><td></td></tr>
+<tr><td>smite</td><td></td><td>This effect has no option.</td></tr>
 <table>
 
 
