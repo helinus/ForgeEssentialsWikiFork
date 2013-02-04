@@ -15,13 +15,13 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 Possible penalties
 <table>
 <tr><th>penalty name</th><th>effect</th><th>effect options</th></tr>
-<tr><td>damage</th><td></td><td>Amount of damage in 1/2 hearts.</td></tr>
-<tr><td>executecommand</td><td></td><td>%p gets replaced with the players username</td></tr>
-<tr><td>knockback</td><td></td><td>This effect has no options.</td></tr>
+<tr><td>damage</th><td>hurts the player by the given value</td><td>Amount of damage in 1/2 hearts.</td></tr>
+<tr><td>executecommand</td><td>executes a given server command</td><td>%p gets replaced with the players username</td></tr>
+<tr><td>knockback</td><td>Teleports the player back to the start of the border</td><td>This effect has no options.</td></tr>
 <tr><td>message</td><td> Message to send to the player. You can use color codes.</td><td>Message to send to the player. You can use color codes.</td></tr>
-<tr><td>potion</td><td></td><td>Format like this: 'ID:duration:amplifier</td></tr>
-<tr><td>serverkick</td><td></td><td>Message to send to the player on the kick screen.</td></tr>
-<tr><td>smite</td><td></td><td>This effect has no option.</td></tr>
+<tr><td>potion</td><td>Applies a given potion (multiple possible) on a player</td><td>Format like this: 'ID:duration:amplifier</td></tr>
+<tr><td>serverkick</td><td>Kicks the player</td><td>Message to send to the player on the kick screen.</td></tr>
+<tr><td>smite</td><td>Player is struck by lightning</td><td>This effect has no option.</td></tr>
 <table>
 
 
