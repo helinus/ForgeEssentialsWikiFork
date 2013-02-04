@@ -3,7 +3,7 @@
 * [Penalties] (#Penalties)
 * [Commands](#command)
 * [Other Permissions](#perms)
-* [OtherInfo](#other)
+* [Other Info](#other)
 
 # Installation <a name="install"></a>
 Put this module in the mods folder. If the Core is installed, it will be loaded.
