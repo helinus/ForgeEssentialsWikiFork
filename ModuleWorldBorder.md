@@ -13,8 +13,13 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 
 # Penalties <a name="penalties"></a>
 Possible penalties:
-
-
+damage
+executecommand
+knockback
+message
+potion
+serverkick
+smite
 
 
 
@@ -61,5 +66,3 @@ Possible penalties:
 
 # Other Permissions <a name="perms"></a>
 # Other Info <a name="other"></a>
-
-
