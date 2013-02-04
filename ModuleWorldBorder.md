@@ -14,7 +14,7 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 # Penalties <a name="penalties"></a>
 Possible penalties
 <table>
-<tr><th>penalty name</th><th>effect</th><th>option</th></tr>
+<tr><th>penalty name</th><th>effect</th><th>effect options</th></tr>
 <tr><td>damage</th><td></td><td>Amount of damage in 1/2 hearts.</td></tr>
 <tr><td>executecommand</td><td></td><td>%p gets replaced with the players username</td></tr>
 <tr><td>knockback</td><td></td><td>This effect has no options.</td></tr>
