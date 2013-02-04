@@ -15,10 +15,10 @@ The configuration file for this can be found in ./ForgeEssentials/WorldBorder/co
 Possible penalties
 <table>
 <tr><th>penalty name</th><th>effect</th><th>option</th></tr>
-<tr><td>damage</th><td></td><td></td></tr>
-<tr><td>executecommand</td><td></td><td></td></tr>
+<tr><td>damage</th><td></td><td>Amount of damage in 1/2 hearts.</td></tr>
+<tr><td>executecommand</td><td></td><td>%p gets replaced with the players username</td></tr>
 <tr><td>knockback</td><td></td><td>This effect has no options.</td></tr>
-<tr><td>message</td><td> Message to send to the player. You can use color codes.</td><td>"Message to send to the player. You can use color codes.</td></tr>
+<tr><td>message</td><td> Message to send to the player. You can use color codes.</td><td>Message to send to the player. You can use color codes.</td></tr>
 <tr><td>potion</td><td></td><td>Format like this: 'ID:duration:amplifier</td></tr>
 <tr><td>serverkick</td><td></td><td>Message to send to the player on the kick screen.</td></tr>
 <tr><td>smite</td><td></td><td>This effect has no option.</td></tr>
