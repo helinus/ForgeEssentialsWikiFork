@@ -1,5 +1,6 @@
 * [Installation](#install)
 * [Configuration](#config)
+* [Penalties] (#Penalties)
 * [Commands](#command)
 * [Other Permissions](#perms)
 * [OtherInfo](#other)
@@ -9,6 +10,10 @@ Put this module in the mods folder. If the Core is installed, it will be loaded.
 
 # Configuration <a name="config"></a>
 The configuration file for this can be found in ./ForgeEssentials/WorldBorder/config.cfg  
+
+# Penalties <a name="penalties"></a>
+Possible penalties:
+
 
 
 
