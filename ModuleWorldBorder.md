@@ -19,7 +19,7 @@ Possible penalties
 <tr><td>executecommand</td><td></td><td></td></tr>
 <tr><td>knockback</td><td></td><td>This effect has no options.</td></tr>
 <tr><td>message</td><td> Message to send to the player. You can use color codes.</td><td></td></tr>
-<tr><td>potion</td><td></td><td></td></tr>
+<tr><td>potion</td><td></td><td>Format like this: 'ID:duration:amplifier</td></tr>
 <tr><td>serverkick</td><td></td><td>Message to send to the player on the kick screen.</td></tr>
 <tr><td>smite</td><td></td><td>This effect has no option.</td></tr>
 <table>
