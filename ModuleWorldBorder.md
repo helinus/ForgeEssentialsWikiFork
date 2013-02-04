@@ -17,7 +17,7 @@ Possible penalties
 <tr><th>penalty name</th><th>effect</th><th>option</th></tr>
 <tr><td>damage</th><td></td><td></td></tr>
 <tr><td>executecommand</td><td></td><td></td></tr>
-<tr><td>knockback</td><td></td><td></td></tr>
+<tr><td>knockback</td><td></td><td>This effect has no options.</td></tr>
 <tr><td>message</td><td> Message to send to the player. You can use color codes.</td><td></td></tr>
 <tr><td>potion</td><td></td><td></td></tr>
 <tr><td>serverkick</td><td></td><td>Message to send to the player on the kick screen.</td></tr>
