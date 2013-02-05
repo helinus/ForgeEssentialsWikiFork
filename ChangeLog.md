@@ -4,16 +4,18 @@ try to keep changelog to stuff that is important towards the users.
 
 
 **1.1.1.xxx**
-
+1. Added
+2. Changed
  * modified the chat layout for the capabilities command
+3. Fixed
+4. Removed
 
 **1.1.1.251**
 
-+added
-
--removed
-
--fixed
+1. Added
+2. Changed
+3. Fixed
+4. Removed
 
 **1.1.1**
 
