@@ -6,7 +6,7 @@ try to keep changelog to stuff that is important towards the users.
 **1.1.1.xxx**
 
 1. Added
- * added version check handler [commit](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/3d4351ef7785798deb1eeb43cbb83492039b0cc3)
+ * added version check handler [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/3d4351ef7785798deb1eeb43cbb83492039b0cc3)
 2. Changed
  * modified the chat layout for the capabilities command
 3. Fixed
