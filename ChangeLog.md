@@ -11,7 +11,7 @@ try to keep changelog to stuff that is important towards the users.
 
 -changed/fixed
 
-*modified the chat layout for the capabilities command
+ * modified the chat layout for the capabilities command
 
 **1.1.1.251**
 
