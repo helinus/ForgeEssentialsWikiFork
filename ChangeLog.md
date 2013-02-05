@@ -24,11 +24,9 @@ try to keep changelog to stuff that is important towards the users.
 **1.1.1**
 
 
-Changed permission table names to fepermission_<tableName>
-
-Fixed issue where perms on a user wernt checked correctly
-
-Fixed an issue with the SUPER permisisons
+ * Changed permission table names to fepermission_<tableName>
+ * Fixed issue where perms on a user wernt checked correctly
+ * Fixed an issue with the SUPER permisisons
 
 Added user and group perms listing to console parsing
 
@@ -79,4 +77,3 @@ Fixed /feperm export for MySQL
 Changed prefix and suffix parsing to allow for group prefixes to color usernames
 1.0.0
 initial release
-
