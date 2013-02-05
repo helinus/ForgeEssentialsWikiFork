@@ -11,6 +11,7 @@ try to keep changelog to stuff that is important towards the users.
  * modified the chat layout for the capabilities command [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/8094ee0db46bb365d60e886eae4c47bdeac90bd5)
  * Better border system. (Uses moveEvent) [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/1603deb889fff62e27ac6d7017f67dcb5a9d4d6e)
 3. Fixed
+ * banneditems.cfg misbehaving [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/8230df5eb3971a83296aab66707133d76bc8949e)
 4. Removed
 
 **1.1.1.251**
