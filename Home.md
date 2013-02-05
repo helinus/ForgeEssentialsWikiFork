@@ -16,10 +16,10 @@ Curious about the config options? Look in the configs, there should be enough in
 * [ModuleWorldControl](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/World-Control)
 * [ModuleWorldBorder](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleWorldBorder)
 
+### Changelog
+Changelog over [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
 
 ### Miscellaneous Things!
-
-Changelog overe [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
 
 Find out more about us [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/About-ForgeEssentials)
 
