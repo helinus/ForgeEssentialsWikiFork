@@ -19,6 +19,8 @@ Curious about the config options? Look in the configs, there should be enough in
 
 ### Miscellaneous Things!
 
+Changelog overe [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
+
 Find out more about us [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/About-ForgeEssentials)
 
 The minecraftforums post is [here](http://www.minecraftforum.net/topic/1661157-forgeforgeessentials-bukkit-functionality-for-your-forge-server/#entry20533111).
