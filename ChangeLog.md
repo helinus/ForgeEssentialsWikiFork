@@ -19,6 +19,7 @@ try to keep changelog to stuff that is important towards the users.
  * Worldborder fill bug fixed [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/950579cf5f4ebaaff36ba90ffc5e72a08080c1e6)
  * ```/afk``` issue fixed [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/ce9e4d1df1f3bee5bdd9207a9b708cd4a4ce28f4)
  * ```/invsee``` bug solved [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/6b9b9bd29292a8a2d61bb5bf5930a6cb314cf1de)
+ * Fixed ```/spawn``` usage and added ```/spawnmob``` usage.
 4. Removed
 
 **1.1.1.251**
