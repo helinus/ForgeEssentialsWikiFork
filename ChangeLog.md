@@ -58,5 +58,6 @@ try to keep changelog to stuff that is important towards the users.
  * Fixed /feperm export for MySQL
  * Changed prefix and suffix parsing to allow for group prefixes to color usernames
 
-1.0.0
-initial release
+**1.0.0**
+
+ * initial release
