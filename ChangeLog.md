@@ -30,6 +30,7 @@ try to keep changelog to stuff that is important towards the users.
  * Fixed case-sensitive issue with H2 (everything in db is now totally case-insensitive, including perm node checks)
 
 **1.1.0**
+
 1. Added
  * Added update.sql for help in updating database structures.
  * Added Module Overriding to the API
