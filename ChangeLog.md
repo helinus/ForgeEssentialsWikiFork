@@ -48,7 +48,6 @@ try to keep changelog to stuff that is important towards the users.
  * Moved WorldControl config file
  * Redid /rules command
  * Changed prefix and suffix parsing to allow for group prefixes to color usernames
-
 3. Fixed
  * Forever fixed H2 "host not found" error
  * Fixed zone area calculations
@@ -60,5 +59,4 @@ try to keep changelog to stuff that is important towards the users.
   * Removed <x y z> functionality of /home command
 
 **1.0.0**
-
  * initial release
