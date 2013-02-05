@@ -22,12 +22,13 @@ try to keep changelog to stuff that is important towards the users.
 -fixed
 
 **1.1.1**
-
-
+1. Added
+ * Added user and group perms listing to console parsing
+2. Changed
  * Changed permission table names to fepermission_<tableName>
+3. Fixed
  * Fixed issue where perms on a user wernt checked correctly
  * Fixed an issue with the SUPER permisisons
- * Added user and group perms listing to console parsing
  * Fixed issue with perms not being removed from groups with clear
  * Fixed /spawn permission checking and notification
  * Fixed permissions exporting and importing (no more lost groups)
