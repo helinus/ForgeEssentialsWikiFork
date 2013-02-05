@@ -22,6 +22,7 @@ try to keep changelog to stuff that is important towards the users.
 -fixed
 
 **1.1.1**
+
 1. Added
  * Added user and group perms listing to console parsing
 2. Changed
