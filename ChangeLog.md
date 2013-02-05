@@ -8,7 +8,7 @@ try to keep changelog to stuff that is important towards the users.
 1. Added
  * added version check handler [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/3d4351ef7785798deb1eeb43cbb83492039b0cc3)
 2. Changed
- * modified the chat layout for the capabilities command
+ * modified the chat layout for the capabilities command [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/8094ee0db46bb365d60e886eae4c47bdeac90bd5)
 3. Fixed
 4. Removed
 
