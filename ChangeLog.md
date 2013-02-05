@@ -6,6 +6,7 @@ try to keep changelog to stuff that is important towards the users.
 **1.1.1.xxx**
 
 1. Added
+ * Added ```/locate```  [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/7c88bfdad5e3a182b5939fcc4e6a679b9f6bb0bc)
  * Added check for headroom in /bed [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/ea6b64c75892064af006aad1d28f437485da54b1)
  * added version check handler [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/3d4351ef7785798deb1eeb43cbb83492039b0cc3)
 2. Changed
