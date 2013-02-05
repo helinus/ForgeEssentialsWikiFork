@@ -16,6 +16,7 @@ try to keep changelog to stuff that is important towards the users.
  * /enchant usable without player name and search for matches to strings. [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/24bb1644167e898793da184b479fbad597f2d501)
  * banneditems.cfg misbehaving [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/8230df5eb3971a83296aab66707133d76bc8949e)
  * worldborder color codes work now [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/453207ac46b2c688c86fb32a841c3e82d2f97d25)
+ * Worldborder fill bug fixed [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/950579cf5f4ebaaff36ba90ffc5e72a08080c1e6)
 4. Removed
 
 **1.1.1.251**
