@@ -11,7 +11,7 @@ try to keep changelog to stuff that is important towards the users.
 
 -changed/fixed
 
-modified the chat layout for the capabilities command
+*modified the chat layout for the capabilities command
 
 **1.1.1.251**
 
@@ -80,15 +80,3 @@ Changed prefix and suffix parsing to allow for group prefixes to color usernames
 1.0.0
 initial release
 
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.  
-   
-   Some text that should be aligned with the above item.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
