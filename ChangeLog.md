@@ -12,6 +12,7 @@ try to keep changelog to stuff that is important towards the users.
 2. Changed
  * modified the chat layout for the capabilities command [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/8094ee0db46bb365d60e886eae4c47bdeac90bd5)
  * Better border system. (Uses moveEvent) [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/1603deb889fff62e27ac6d7017f67dcb5a9d4d6e)
+ * better TPS command [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/574b8ea860380b69dc52d3a365d7ebeaf5a1c8e8)
 3. Fixed
  * ```/enchant``` usable without player name and search for matches to strings. [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/24bb1644167e898793da184b479fbad597f2d501)
  * banneditems.cfg misbehaving [#](https://github.com/ForgeEssentials/ForgeEssentialsMain/commit/8230df5eb3971a83296aab66707133d76bc8949e)
