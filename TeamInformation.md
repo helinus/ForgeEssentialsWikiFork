@@ -8,9 +8,24 @@
 <table>
 <tr><th>Subdomain</th><th>Type</th><th>Destination</th></tr>
     <tr>
+      <td>betas</td>
+      <td>Direct (permanent)</td>
+      <td>http://driesgames.game-server.cc:8080/job/ForgeEssentials-betabuilds/</span></td>
+    </tr>
+    <tr>
       <td>code</td>
       <td>Direct (permanent)</td>
       <td>https://github.com/forgeessentials/forgeessentialsmain</td>
+    </tr>
+    <tr>
+      <td>files</td>
+      <td>Direct (permanent)</td>
+      <td>http://files.minecraftforge.net/ForgeEssentials</span></td>
+    </tr>
+    <tr>
+      <td>forum</td>
+      <td>Direct (permanent)</td>
+      <td>http://www.minecraftforum.net/topic/1661157-</span></td>
     </tr>
     <tr>
       <td>graphs</td>
