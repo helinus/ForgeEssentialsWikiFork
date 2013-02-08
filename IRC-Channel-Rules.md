@@ -18,6 +18,8 @@ Rule #9: Logs or it never happened.
 
 Rule #10: We the ops reserve the right to kick/ban anyone.
 
+Rule #11: luacs doesn't take any money from the FE kitty anyway, so he doesn't care if you donated.
+
 You are always welcome in the IRC channel (irc.esper.net/#forgeessentials) if you follow these rules.
 
 Webchat: http://webchat.esper.net/?nick=FEUser...&channels=forgeessentials&prompt=1
