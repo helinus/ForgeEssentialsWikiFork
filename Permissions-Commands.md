@@ -66,8 +66,8 @@ What to call our group?  Let's see, most of those are pretty basic, but the abil
 <tr><td>/p group Members allow ForgeEssentials.BasicCommands.motd</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.BasicCommands.rules</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.BasicCommands.spawn</td></tr>
-<tr><td>/p group Members allow ForgeEssentials.Chat.msg</td></tr>
-<tr><td>/p group Members allow ForgeEssentials.Chat.r</td></tr>
+<tr><td>/p group Members allow ForgeEssentials.Chat.commands.msg</td></tr>
+<tr><td>/p group Members allow ForgeEssentials.Chat.commands.r</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.Protection.allowEdits</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.Protection.allowBlockInteractions</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.Protection.allowEntityInteractions</td></tr>
