@@ -1,19 +1,17 @@
-* [Installation](#install)
 * [Configuration](#config)
 * [Usage](#use)
 * [Commands](#command)
-* [Other Info](#other)
-
-# Installation <a name="install"></a>
-Put this module in the mods folder. If the Core is installed, it will be loaded.
-You need not install this if you have [ForgeBackup by monoxide](https://github.com/monoxide0184/ForgeBackup)
+* [AutoBackup](#autobackup)
+* [AutoRemove](#autoremove)
 
 # Configuration <a name="config"></a>
 The configuration file for this module can be found in <serverDir>/ForgeEssentials/Backup/config.cfg  
 The configuration file is well documented.
+[Example of default config file after beta #219 or official build #252](http://pastebin.com/raw.php?i=Lv5wSTgr)
 
 # Usage <a name="use"></a>
-Just use the command.
+You can use the command to make manual backups of worlds or folders.
+And you can use the AutoBackup & AutoRemove functions, explained in the config, to set up a fully automated backup system. More on that later.
 
 # Commands <a name="command"></a>
 <table>
@@ -26,12 +24,35 @@ Just use the command.
 	<tr>
 		<td>/backup</td>
 		<td></td>
-		<td>ForgeEssentials.backup</td>
-		<td>Backs up the server</td>
+		<td>ForgeEssentials.backup.command</td>
+		<td>Makes a backup of all loaded worlds.</td>
+	</tr>
+        <tr>
+		<td>/backup <dimensionID></td>
+		<td></td>
+		<td>ForgeEssentials.backup.command</td>
+		<td>Makes a backup of a specific world.</td>
+	</tr>
+        <tr>
+		<td>/backup <folder></td>
+		<td></td>
+		<td>ForgeEssentials.backup.command</td>
+		<td>Makes a backup a folder relative to the server's jar file.</td>
 	</tr>
 	<tr>
 </table>
 
+# AutoBackup <a name="autobackup"></a>
+Some properties explained:
+"worldSaving":
+If you change this to true you will allow all worlds to save. If this remains false, the worlds will only save at the set intervals.
+This will reduce the HDD lag but if your server crashes, you will lose all changes made after the last save.
+"whitelist":
+If you add any dimensions to this list, it will assume they will need backups. Even though they might not be loaded. Still, if "backupOnWorldUnload" is false, it will not save unloaded worlds!
+"blacklist":
+If you add any dimensions to this list, it will never automatically make backups of that dimension. Manual backups don't check this list.
+"extraFolders":
+If you add folders to this list, it will make backups of those folders every time the world is backed up. You can use this to save the config folder or extra data saved by mods.
 
-# Other Info <a name="other"></a>
-This Module is going to be updated after the 1.0 release of Forge Essentials. t is currently planned that this module will support backing up individual worlds, as well as scheduled backups.
+# AutoRemove <a name="autoremove"></a>
+
