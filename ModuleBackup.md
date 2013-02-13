@@ -4,6 +4,10 @@
 * [AutoBackup](#autobackup)
 * [AutoRemove](#autoremove)
 
+# Warning
+Word of warning:
+Do NOT change anything in the backup folder. Only copy out of the folder and change there. If you make changes to the folder structure, if WILL mess up the AutoRemove system.
+
 # Configuration <a name="config"></a>
 The configuration file for this module can be found in <serverDir>/ForgeEssentials/Backup/config.cfg  
 The configuration file is well documented.
@@ -59,4 +63,4 @@ If you add any dimensions to this list, it will never automatically make backups
 If you add folders to this list, it will make backups of those folders every time the world is backed up. You can use this to save the config folder or extra data saved by mods.
 
 # AutoRemove <a name="autoremove"></a>
-
+This is explained in the config. Use this to regulate the amount of backups made.
