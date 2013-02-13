@@ -44,13 +44,17 @@ And you can use the AutoBackup & AutoRemove functions, explained in the config, 
 
 # AutoBackup <a name="autobackup"></a>
 Some properties explained:
+
 "worldSaving":
 If you change this to true you will allow all worlds to save. If this remains false, the worlds will only save at the set intervals.
 This will reduce the HDD lag but if your server crashes, you will lose all changes made after the last save.
+
 "whitelist":
 If you add any dimensions to this list, it will assume they will need backups. Even though they might not be loaded. Still, if "backupOnWorldUnload" is false, it will not save unloaded worlds!
+
 "blacklist":
 If you add any dimensions to this list, it will never automatically make backups of that dimension. Manual backups don't check this list.
+
 "extraFolders":
 If you add folders to this list, it will make backups of those folders every time the world is backed up. You can use this to save the config folder or extra data saved by mods.
 
