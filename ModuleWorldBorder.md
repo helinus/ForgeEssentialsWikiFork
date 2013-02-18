@@ -22,7 +22,7 @@ Possible penalties
 <tr><td>potion</td><td>Applies a given potion (multiple possible) on a player</td><td>Format like this: 'ID:duration:amplifier</td></tr>
 <tr><td>serverkick</td><td>Kicks the player</td><td>Message to send to the player on the kick screen.</td></tr>
 <tr><td>smite</td><td>Player is struck by lightning</td><td>This effect has no option.</td></tr>
-<table>
+</table>
 
 
 
