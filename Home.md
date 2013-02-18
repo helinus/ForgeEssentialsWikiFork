@@ -29,4 +29,4 @@ Check out our plans for [design features](https://github.com/ForgeEssentials/For
 
 Looking for information on localizing ForgeEssentials? [Look here!](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Localization-Guide)
 
-How to edit permissions in flatfile [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Export-Import-permissions)
+How to edit permissions in flatfile. [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Export-Import-permissions)
