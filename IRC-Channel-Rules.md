@@ -22,6 +22,8 @@ Rule #11: luacs doesn't take any money from the FE kitty anyway, so he doesn't c
 
 Rule #12: Logging in, pinging a dev, then logging out will get you a permanent ip ban. It's bloody annoying.
 
+Rule #13: There is not, never has been, and never will be any integration with BukkitForge or MCPC.  Period.  End of discussion.
+
 You are always welcome in the IRC channel (irc.esper.net/#forgeessentials) if you follow these rules.
 
 Webchat: http://webchat.esper.net/?nick=FEUser...&channels=forgeessentials&prompt=1
