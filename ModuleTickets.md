@@ -23,7 +23,7 @@ Add new categories by putting each new one on it's own line
 There are three categories to create tickets in, griefing, overflow and dispute.
 More can be added in the config file.
 
-To create a ticket in the category ``griefing`` with the message ``dries007 but lava in my wooden house`` at the spot where the player stands he/she types ``/ticket new griefing dries007 but lava in my wooden house`` in chat.
+To create a ticket in the category ``griefing`` with the message ``dries007 put lava in my wooden house`` at the spot where the player stands he/she types ``/ticket new griefing dries007 put lava in my wooden house`` in chat.
 
 When a player with the permission node ``ForgeEssentials.Tickets.admin`` logs in he/she get's the text ``There are 'numberOfOpenTickets' open tickets.`` in chat
 
