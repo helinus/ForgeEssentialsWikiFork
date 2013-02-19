@@ -1,7 +1,5 @@
-lets try to keep a changelog
-just ignore the wiki style
-try to keep changelog to stuff that is important towards the users.
-
+**1.2rc1**
+// Will fill up on release of 1.2rc1
 
 **1.1.1.xxx**
 
