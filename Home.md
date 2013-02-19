@@ -10,12 +10,6 @@ For more information on Permissions, head over to our [Permissions Reference](wi
 
 Curious about the config options? Look in the configs, there should be enough info to help you out.
 
-### Module pages.
-* [ModuleBackups](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleBackup)
-* [ModuleChat](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleChat)
-* [ModuleWorldControl](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/World-Control)
-* [ModuleWorldBorder](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleWorldBorder)
-
 ### Changelog
 Changelog over [here](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
 
