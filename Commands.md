@@ -1,5 +1,4 @@
-**## WARNING **
-There are commands that are not listed here that are documented in the Module where they exist. Each module will have its own page, and you will be able to find the commands for them there.
+
 
 
 ## Syntax Explanation
@@ -317,6 +316,7 @@ Here are some invalid commands:
 The following commands all have the permission node structure of<br>
 **_ForgeEssentials.BasicCommands.&#60;name&#62;_**<br>
 and have the same usage as the vanilla commands they override.
+For usage, please see http://www.minecraftwiki.net/wiki/Command .
 + ban
 + ban-ip
 + banlist
@@ -343,7 +343,7 @@ and have the same usage as the vanilla commands they override.
 + weather
 + whitelist
 
-## Admin Commands
+## Console Commands 
 
 ### /serverdo &lt;command> [arg1] [arg2] ...
 Allows network clients to perform server commands as though they had been typed into the server's console.
