@@ -8,10 +8,13 @@
 Put this module in the mods folder. If the Core is installed, it will be loaded.
 
 # Configuration <a name="config"></a>
-ilughzsgsjghsdjsdjgh
 
 # Usage <a name="use"></a>
+There are three categories to create tickets in, griefing, overflow and dispute.
 
+To create a ticket in the category ``griefing`` with the message ``dries007 but lava in my wooden house`` at the spot where the player stands he/she types ``/ticket new griefing dries007 but lava in my wooden house`` in chat.
+
+When a player with the permission node ``ForgeEssentials.Tickets.admin`` logs in he/she get's the text ``There are 'numberOfOpenTickets' open tickets.`` in chat
 
 # Commands <a name="command"></a>
 <table>
