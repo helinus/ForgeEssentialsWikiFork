@@ -4,3 +4,4 @@
 * [ModuleWorldBorder](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleWorldBorder)
 * [Commands](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Commands)
 * [How to ban items](wiki/How-to-Ban-Items)
+* [ModuleSnooper](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Snooper-Info)
