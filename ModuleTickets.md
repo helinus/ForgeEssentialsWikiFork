@@ -24,37 +24,37 @@ ilughzsgsjghsdjsdjgh
 	<tr>
 		<td>/ticket</td>
 		<td>/tickets</td>
-		<td>ForgeEssentials.Ticket.command</td>
+		<td>ForgeEssentials.Tickets.command</td>
 		<td>Prints usage help in chat</td>
 	</tr>
 	<tr>
 		<td>/ticket list 'page'</td>
 		<td></td>
-		<td>ForgeEssentials.Ticket.view</td>
+		<td>ForgeEssentials.Tickets.view</td>
 		<td>Prints a paged list of tickets in chat</td>
 	</tr>
 	<tr>
 		<td>/ticket new 'category' 'message'</td>
 		<td></td>
-		<td>ForgeEssentials.Ticket.new</td>
+		<td>ForgeEssentials.Tickets.new</td>
 		<td>Creates a new ticket in the specified category with the message you specified</td>
 	</tr>
 	<tr>
 		<td>/ticket view 'id'</td>
 		<td></td>
-		<td>ForgeEssentials.Ticket.view</td>
+		<td>ForgeEssentials.Tickets.view</td>
 		<td>Prints the ticket information in chat</td>
 	</tr>
 	<tr>
 		<td>/ticket tp 'id'</td>
 		<td></td>
-		<td>ForgeEssentials.Ticket.tp</td>
+		<td>ForgeEssentials.Tickets.tp</td>
 		<td>Teleports you to the location where the ticket was created</td>
 	</tr>
 	<tr>
 		<td>/ticket del 'id'</td>
 		<td></td>
-		<td>ForgeEssentials.Ticket.admin</td>
+		<td>ForgeEssentials.Tickets.admin</td>
 		<td>Deletes the ticket specified</td>
 	</tr>
 	<tr>
