@@ -2,6 +2,7 @@
 * [Configuration](#config)
 * [Usage](#use)
 * [Commands](#command)
+* [ID Syntax](#idsyntax)
 * [Other Info](#other)
 
 # Installation <a name="install"></a>
@@ -95,6 +96,7 @@ Use the wand command to make a selection, and then make edits to the selection w
 	</tr>
 </table>
 
+# ID Syntax <a name="idsyntax"></a>
 <table>
 <tr>
 <th>Name</th>
