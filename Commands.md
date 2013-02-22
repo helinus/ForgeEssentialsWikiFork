@@ -1,6 +1,5 @@
 
 
-
 ## Syntax Explanation
 Take this command as an example: "/rules [\<number> \<"remove">|\<new rule>]"  
 **/rules:** The command itself. Always preceded by / or in some cases, //  
@@ -258,7 +257,7 @@ Here are some invalid commands:
         <tr>
 		<td>spawnmob</td>
 		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.setspawn</td>
+		<td>ForgeEssentials<br>.BasicCommands.spawnmob</td>
 		<td>/spawnmob &#60;mobname> [amount]</td>
 		<td>Spawns the amount of mobname where you are looking.  Amount defaults to 1.</td>
 	</tr>
