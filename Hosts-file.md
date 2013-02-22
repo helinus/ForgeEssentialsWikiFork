@@ -4,6 +4,7 @@ You can usually find the hosts file in ``/etc/hosts`` on *nix systems
 
 In this example "ubuntuServer" is the hostname of the computer running the Minecraft server with ForgeEssentials.
 
+To see content of hosts file open file with vi/gedit/nano or run `cat /etc/hosts` - this will print out content of file into console.
 
 ### If your hostsfile looks like this:
 
