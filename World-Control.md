@@ -35,7 +35,7 @@ Use the wand command to make a selection, and then make edits to the selection w
 	</tr>
 	<tr>
 		<td>//deselect</td>
-		<td>//sel</td>
+		<td>//desel</td>
 		<td>ForgeEssentials.WorldControl.commands.deselect</td>
 		<td>Allows a player to deselect the current selection</td>
 	</tr>
@@ -95,16 +95,50 @@ Use the wand command to make a selection, and then make edits to the selection w
 	</tr>
 </table>
 
-ID Syntax:
-ID - Block ID, if invalid or 0, results in air
-ID:Meta - same as ID, just metadata is added
-Name - The name of any block, no spaces, case is irrelevant, no periods. Ex: oakwoodplanks
-Name:meta - Same as name, if a block name has a metadata it work work, for instance, sprucewood:1 does not work, but oakwood:1 does.
-ID:Meta-Meta - Same as ID:Meta, except it ranges the meta, Ex: wool:0-15 returns all types of wool
-Name:Meta-Meta - Same as above, but uses a name instead, must be an ID based name.
-ID_ID - ID range, does not work with names, may eventually be deprecated.
+<table>
+<tr>
+<th>Name</th>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>Block ID, if invalid or 0, results in air</td>
+</tr>
+<tr>
+<td>ID & Meta</td>
+<td>ID:Meta</td>
+<td>same as ID, just metadata is added</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>oakwoodplanks</td>
+<td>The name of any block, no spaces, case is irrelevant, no periods.</td>
+</tr>
+<tr>
+<td>Name & Meta</td>
+<td>oakwoodplanks:2</td>
+<td>Same as name, if a block name has a metadata it work work, for instance, sprucewood:1 does not work, but oakwood:1 does.</td>
+</tr>
+<tr>
+<td>ID & Meta Range</td>
+<td>35:0-15</td>
+<td>Same as ID:Meta, except it ranges the meta, Ex: wool:0-15 returns all types of wool</td>
+</tr>
+<tr>
+<td>Name & Meta Range</td>
+<td>wool:0-15</td>
+<td>Same as above, but uses a name instead, must be an ID based name.</td>
+</tr>
+<tr>
+<td>ID Range</td>
+<td>35_40</td>
+<td>ID range, does not work with names, may eventually be deprecated.</td>
+</tr>
+</table>
 
-Special Features: 
+Special Features: <br>
 Long Range placing & breaking(just like normal)
 
 # Other Info <a name="other"></a>
