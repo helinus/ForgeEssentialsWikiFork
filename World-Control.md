@@ -40,7 +40,7 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>Allows a player to deselect the current selection</td>
 	</tr>
 	<tr>
-		<td>//set [id|id:meta|name]</td>
+		<td>//set [id]</td>
 		<td></td>
 		<td>ForgeEssentials.WorldControl.commands.set</td>
 		<td>Allows a player to set their selection to a given block</td>
@@ -94,6 +94,18 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>Turns all farmland in the selection to dirt</td>
 	</tr>
 </table>
+
+ID Syntax:
+ID - Block ID, if invalid or 0, results in air
+ID:Meta - same as ID, just metadata is added
+Name - The name of any block, no spaces, case is irrelevant, no periods. Ex: oakwoodplanks
+Name:meta - Same as name, if a block name has a metadata it work work, for instance, sprucewood:1 does not work, but oakwood:1 does.
+ID:Meta-Meta - Same as ID:Meta, except it ranges the meta, Ex: wool:0-15 returns all types of wool
+Name:Meta-Meta - Same as above, but uses a name instead, must be an ID based name.
+ID_ID - ID range, does not work with names, may eventually be deprecated.
+
+Special Features: 
+Long Range placing & breaking(just like normal)
 
 # Other Info <a name="other"></a>
 This module will be expanded to work with all the WorldEdit commands.
