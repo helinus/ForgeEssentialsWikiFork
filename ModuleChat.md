@@ -15,7 +15,7 @@ For the chat formatting, codes are provided in the config file.
 The group prefixes and suffixes however are slightly different than standard chat formatting. They require special codes in the format {ladderName<:>zoneName}. Because a player can be in multiple zones, at multiple times, this kind of format is used so that an Admin may retain the prefixes of his Admin group in the GLOBAL zone while still having fun in the server Arena zone as one in the Contender group. Don't forget that if you don't have many groups, you can still use {...<:>...} to display groups from any ladder (first "..."), and any zone (second "...").
 
 ### Censoring
-The chat configuration file contains a lost of banned words. You can add and remove these words from that list to control what will be censored and what will not be censored in the chat windows. Censoring can also be removed entirely by setting the ```censor``` property to false.
+The chat configuration file contains a list of banned words. You can add and remove these words from that list to control what will be censored and what will not be censored in the chat windows. Censoring can also be removed entirely by setting the ```censor``` property to false.
 
 # Commands <a name="command"></a>
 <table>
