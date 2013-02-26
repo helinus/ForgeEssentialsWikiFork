@@ -94,6 +94,24 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>ForgeEssentials.WorldControl.commands.untill</td>
 		<td>Turns all farmland in the selection to dirt</td>
 	</tr>
+	<tr>
+		<td>//chunk</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.selection</td>
+		<td>Selects the chunk the players is in</td>
+	</tr>
+	<tr>
+		<td>//contract [amount] [reverse] [direction(NSEWUD)]</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.selection</td>
+		<td>Contracts the selection with the choosen amount in the choosen direction</td>
+	</tr>
+	<tr>
+		<td>//copy [name(default)] [filler]</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.clipboard</td>
+		<td>Copies selection to clipboard</td>
+	</tr>
 </table>
 
 # ID Syntax <a name="idsyntax"></a>
