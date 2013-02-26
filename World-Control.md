@@ -29,39 +29,39 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>Allows a player to bind the wand</td>
 	</tr>
 	<tr>
-		<td>//pos1<br/>//pos2</td>
-		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.pos</td>
+		<td>//pos1 [x y z]<br/>//pos2 [x y z]</td>
+		<td>//p1<br/>//p2</td>
+		<td>ForgeEssentials.WorldControl.selection</td>
 		<td>Allows a player to select points by looking or coords</td>
 	</tr>
 	<tr>
 		<td>//deselect</td>
-		<td>//desel</td>
-		<td>ForgeEssentials.WorldControl.commands.deselect</td>
+		<td>//desel<br/>//sel</td>
+		<td>ForgeEssentials.WorldControl.selection</td>
 		<td>Allows a player to deselect the current selection</td>
 	</tr>
 	<tr>
 		<td>//set [id]</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.set</td>
+		<td>ForgeEssentials.WorldControl.blockmanipulation</td>
 		<td>Allows a player to set their selection to a given block</td>
 	</tr>
 	<tr>
 		<td>//replace [1st] [with]</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.set</td>
+		<td>ForgeEssentials.WorldControl.blockmanipulation</td>
 		<td>Replaces all instances of the 1st block in the selection with the second</td>
 	</tr>
 	<tr>
 		<td>//undo</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.undo</td>
+		<td>ForgeEssentials.WorldControl.backup</td>
 		<td>Undoes the last WorldControl action</td>
 	</tr>
 	<tr>
 		<td>//redo</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.redo</td>
+		<td>ForgeEssentials.WorldControl.backup</td>
 		<td>Redoes the last undone action</td>
 	</tr>
 	<tr>
