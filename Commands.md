@@ -1,5 +1,4 @@
 
-
 ## Syntax Explanation
 Take this command as an example: "/rules [\<number> \<"remove">|\<new rule>]"  
 **/rules:** The command itself. Always preceded by / or in some cases, //  
@@ -177,7 +176,7 @@ Here are some invalid commands:
 	<tr>
 		<td>kit</td>
 		<td></td>
-		<td>ForgeEssentials<br>.BasicCommands.kit</td>
+		<td>ForgeEssentials<br>.BasicCommands.kit<br>ForgeEssentials.BasicCommands.kit.kitname </td>
 		<td>/kit [set|del][kitname]</td>
 		<td>/kit set &#60;name&#62; [timeout in seconds] => Save your inventory as a kit.<br>
 		/kit del &#60;name&#62 => Delete the kit.<br>
