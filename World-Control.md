@@ -118,6 +118,24 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<td>ForgeEssentials.WorldControl.clipboard</td>
 		<td>Copies selection to clipboard</td>
 	</tr>
+	<tr>
+		<td>//cut [name(default)]</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.clipboard</td>
+		<td>Copy and clear selection to clipboard</td>
+	</tr>
+	<tr>
+		<td>//paste [name(default)]</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.clipboard</td>
+		<td>Paste item from clipboard</td>
+	</tr>
+	<tr>
+		<td>//expand [amount] [reverse] [direction(NSEWUD)]</td>
+		<td>//extend</td>
+		<td>ForgeEssentials.WorldControl.selection</td>
+		<td>Expand Selection Positions</td>
+	</tr>
 </table>
 
 # ID Syntax <a name="idsyntax"></a>
