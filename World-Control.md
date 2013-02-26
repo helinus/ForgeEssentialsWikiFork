@@ -23,9 +23,9 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>//fewand</td>
+		<td>//wand [rebind|unbind|ITEM]</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.fewand</td>
+		<td>ForgeEssentials.WorldControl.selection</td>
 		<td>Allows a player to bind the wand</td>
 	</tr>
 	<tr>
