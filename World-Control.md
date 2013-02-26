@@ -67,32 +67,38 @@ Use the wand command to make a selection, and then make edits to the selection w
 	<tr>
 		<td>//thaw</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.thaw</td>
+		<td>ForgeEssentials.WorldControl.topmanipulate</td>
 		<td>thaws the selection area. Melts all ice and snow.</td>
 	</tr>
 	<tr>
 		<td>//freeze</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.freeze</td>
+		<td>ForgeEssentials.WorldControl.topmanipulate</td>
 		<td>Turns all the water in the selection into ice</td>
 	</tr>
 	<tr>
 		<td>//snow</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.snow</td>
+		<td>ForgeEssentials.WorldControl.topmanipulate</td>
 		<td>Puts a layer of snow over the selection</td>
 	</tr>
 	<tr>
 		<td>//till</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.till</td>
+		<td>ForgeEssentials.WorldControl.topmanipulate</td>
 		<td>Turns all dirt in the selection into farmland</td>
 	</tr>
 	<tr>
 		<td>//untill</td>
 		<td></td>
-		<td>ForgeEssentials.WorldControl.commands.untill</td>
+		<td>ForgeEssentials.WorldControl.topmanipulate</td>
 		<td>Turns all farmland in the selection to dirt</td>
+	</tr>
+	<tr>
+		<td>//green</td>
+		<td></td>
+		<td>ForgeEssentials.WorldControl.topmanipulate</td>
+		<td>Turns all dirt in the selection to grass.</td>
 	</tr>
 	<tr>
 		<td>//chunk</td>
