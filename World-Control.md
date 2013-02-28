@@ -22,19 +22,19 @@ Use the wand command to make a selection, and then make edits to the selection w
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>//fewand</td>
+		<td>/fewand</td>
 		<td></td>
 		<td>ForgeEssentials.WorldControl.commands.wand</td>
 		<td>Allows a player to bind the wand</td>
 	</tr>
 	<tr>
-		<td>//fepos1<br/>//fepos2</td>
+		<td>/fepos1<br/>/fepos2</td>
 		<td></td>
 		<td>ForgeEssentials.WorldControl.commands.pos</td>
 		<td>Allows a player to select points by looking or coords</td>
 	</tr>
 	<tr>
-		<td>//fedesel</td>
+		<td>/fedesel</td>
 		<td></td>
 		<td>ForgeEssentials.WorldControl.commands.deselect</td>
 		<td>Allows a player to deselect the current selection</td>
