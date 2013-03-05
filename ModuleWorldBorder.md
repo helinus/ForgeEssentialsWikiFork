@@ -44,13 +44,6 @@ Possible penalties
 		<td>Pre-generates chunks up to world border. This will cause lag.</td>
 	</tr>
 	<tr>
-		<td>turbo</td>
-		<td></td>
-		<td>?</td>
-		<td>/wb turbo <dimension> [off]</td>
-		<td>Enables 10 chunks per tick. This will cause severe lag.</td>
-	</tr>
-	<tr>
 		<td>autopilot</td>
 		<td></td>
 		<td>?</td>
