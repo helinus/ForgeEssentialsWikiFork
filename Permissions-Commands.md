@@ -71,6 +71,7 @@ What to call our group?  Let's see, most of those are pretty basic, but the abil
 <tr><td>/p group Members allow ForgeEssentials.Protection.allowEdits</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.Protection.allowBlockInteractions</td></tr>
 <tr><td>/p group Members allow ForgeEssentials.Protection.allowEntityInteractions</td></tr>
+<tr><td>/p group Members allow ForgeEssentials.Protection.pvp</td></tr>
 <tr><td>/p user AbrarSyed group set Members</td></tr></table>
 And there you go!  AbrarSyed is now a part of the Members group, and can use those specific commands and place/break blocks and utilize right clicks.
 ## Superperms
