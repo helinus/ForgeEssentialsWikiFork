@@ -1,3 +1,4 @@
+* [ModuleAfterlife](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleAfterlife)
 * [ModuleBackups](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleBackup)
 * [ModuleChat](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleChat)
 * [ModuleTickets](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ModuleTickets)
