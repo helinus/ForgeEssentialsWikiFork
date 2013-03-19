@@ -1,5 +1,4 @@
 * [Configuration](#config)
-* [Usage](#use)
 * [Commands](#command)
 * [Other Info](#other)
 
