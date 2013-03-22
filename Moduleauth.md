@@ -13,14 +13,14 @@ When this Module is **enabled**...
 * Anyone logging into the server that has not registered will be forced to register.
 * Anyone logging into the server that has registered will be forced to login.
 * Anyone who has not registered or not logged in will be unable to do the following...
-* * break/place blocks
-* * send chat messages
-* * use commands other than /register and /login
-* * hit mobs or other players
-* * be hurt by anything
-* * move
-* * interact with mobs or blocks
-* * use items
+* --- break/place blocks
+* --- send chat messages
+* --- use commands other than /register and /login
+* --- hit mobs or other players
+* --- be hurt by anything
+* --- move
+* --- interact with mobs or blocks
+* --- use items
 
 `B:allowOfflineReg=false`
 This configuration is geared towards server owners that usually keep their servers "Online". That means that the servers check to ensure that the players logging in have paid, and are using their Minecraft accounts. Setting this property to `true` will allow players to register their usernames even if the server is offline. The default `false` of the property makes it so that players can only register their usernames while the server is using the Minecraft Authorization Services.
