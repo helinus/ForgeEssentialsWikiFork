@@ -39,12 +39,12 @@ Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 		<td>Gets info about the (global / world) border.</td>
 	</tr>
 	<tr>
-		<td>/wb <global|world|dimID> <enable|disable></td>
+		<td>/wb &lt;global|world|dimID> &lt;enable|disable></td>
 		<td>Enable or disable the border.</td>
 	</tr>
 	<tr>
-		<td>/wb <global|world|dimID> <center|radius|shape></td>
-		<td>Set the center (<x y z>), radius (<size>) or shape (<square|round>) of the border.</td>
+		<td>/wb &lt;global|world|dimID> &lt;center|radius|shape></td>
+		<td>Set the center (&lt;x y z>), radius (&lt;size>) or shape (&lt;square|round>) of the border.</td>
 	</tr>
 </table>
 
