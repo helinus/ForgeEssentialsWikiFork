@@ -28,34 +28,24 @@ Possible penalties
 
 
 # Commands <a name="command"></a>
+The command name is "worldborder", or use "wb" as alias.
+Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 <table>
 	<tr>
 		<th>Command</th>
-		<th>Aliases</th>
-		<th>Permission Node</th>
-		<th>Usage</th>
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>fill</td>
-		<td></td>
-		<td>?</td>
-		<td>/wb fill ok <dimension></td>
-		<td>Pre-generates chunks up to world border. This will cause lag.</td>
+		<td>/wb <global|world|dimID> [info]</td>
+		<td>Gets info about the (global / world) border.</td>
 	</tr>
 	<tr>
-		<td>autopilot</td>
-		<td></td>
-		<td>?</td>
-		<td>?</td>
-		<td>?</td>
+		<td>/wb <global|world|dimID> <enable|disable></td>
+		<td>Enable or disable the border.</td>
 	</tr>
 	<tr>
-		<td>set</td>
-		<td></td>
-		<td>?</td>
-		<td>/wb set <round|square> <Radius> <X> <Z></td>
-		<td>Used to set a world border.</td>
+		<td>/wb <global|world|dimID> <center|radius|shape></td>
+		<td>Set the center (<x y z>), radius (<size>) or shape (<square|round>) of the border.</td>
 	</tr>
 </table>
 
