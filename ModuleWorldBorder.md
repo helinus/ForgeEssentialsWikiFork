@@ -2,7 +2,6 @@
 * [Configuration](#config)
 * [Penalties] (#Penalties)
 * [Commands](#command)
-* [Other Permissions](#perms)
 * [Other Info](#other)
 
 # Installation <a name="install"></a>
@@ -50,5 +49,5 @@ Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 </table>
 
 
-# Other Permissions <a name="perms"></a>
 # Other Info <a name="other"></a>
+Written by Dries007, so you will most likely find some bugs. ;-)
