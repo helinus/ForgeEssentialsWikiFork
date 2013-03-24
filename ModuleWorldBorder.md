@@ -49,6 +49,7 @@ Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 	</tr>
 </table>
 ## Filling the border.
+Permission node is "ForgeEssentials.WorldBorder.filler". Defaults to owners.
 <table>
 	<tr>
 		<th>Command</th>
@@ -59,8 +60,20 @@ Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 		<td>Gets info on all running fillers.</td>
 	</tr>
 	<tr>
-		<td>/filler &lt;world|dimID></td>
+		<td>/filler [world|dimID]</td>
 		<td>Gets info on the filler for that world.</td>
+	</tr>
+	<tr>
+		<td>/filler &lt;world|dimID> &lt;start|stop></td>
+		<td>Starts or stops the filler for that world. The progress gets saved and resumed.</td>
+	</tr>
+	<tr>
+		<td>/filler &lt;world|dimID> &lt;reset></td>
+		<td>Start a new filler in that dimension. Progress made before is lost.</td>
+	</tr>
+	<tr>
+		<td>/filler &lt;world|dimID> &lt;speed> [newSpeed]</td>
+		<td>Gets or sets the fillers speed.</td>
 	</tr>
 </table>
 
