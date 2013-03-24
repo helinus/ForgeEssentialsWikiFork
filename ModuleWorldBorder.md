@@ -27,6 +27,7 @@ Possible penalties
 
 
 # Commands <a name="command"></a>
+## Setting the border.
 The command name is "worldborder", or use "wb" as alias.
 Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 <table>
@@ -47,7 +48,21 @@ Permission node is "ForgeEssentials.WorldBorder.admin". Defaults to owners.
 		<td>Set the center (&lt;x y z>), radius (&lt;size>) or shape (&lt;square|round>) of the border.</td>
 	</tr>
 </table>
-
+## Filling the border.
+<table>
+	<tr>
+		<th>Command</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>/filler</td>
+		<td>Gets info on all running fillers.</td>
+	</tr>
+	<tr>
+		<td>/filler &lt;world|dimID></td>
+		<td>Gets info on the filler for that world.</td>
+	</tr>
+</table>
 
 # Other Info <a name="other"></a>
 Written by Dries007, so you will most likely find some bugs. ;-)
