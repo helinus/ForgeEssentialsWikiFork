@@ -1,4 +1,4 @@
-* [Itroduction](#intro)
+* [Introduction](#intro)
 * [Configuration](#config)
 * [Commands](#command)
 * [Other Info](#other)
@@ -46,16 +46,46 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>/login [password]</td>
+		<td>/auth help</td>
 		<td> _ none _</td>
 		<td> _ none _</td>
-		<td>allows the player to login if they supply <br /> the correct password for their username</td>
+		<td>Shows the player help for the <br /> /auth command</td>
 	</tr>
 	<tr>
-		<td>/register [password[</td>
+		<td>/auth register [password]</td>
 		<td> _ none _</td>
+		<td>ForgeEssentials.ModuleAuth</td>
+		<td>Registers the player with the <br /> supplied password</td>
+	</tr>
+	<tr>
+		<td>/auth login [password]</td>
 		<td> _ none _</td>
-		<td>Registers the player with the supplied password</td>
+		<td>ForgeEssentials.ModuleAuth</td>
+		<td>Allows the player to login if they supply <br /> the correct password for their username</td>
+	</tr>
+	<tr>
+		<td>/auth changepass [oldpass] [newpass]</td>
+		<td> _ none _</td>
+		<td> ForgeEssentials.ModuleAuth</td>
+		<td>Allows the player to change their password</td>
+	</tr>
+	<tr>
+		<td>/auth setpass [player] [password]</td>
+		<td> _ none _</td>
+		<td>ForgeEssentials.ModuleAuth.admin</td>
+		<td>Sets the named players password to the <br /> one supplied</td>
+	</tr>
+	<tr>
+		<td>/auth kick [player]</td>
+		<td> _ none _</td>
+		<td> ForgeEssentials.ModuleAuth.admin</td>
+		<td>Forces the named palyer to login again</td>
+	</tr>
+	<tr>
+		<td>/auth unregister [player]</td>
+		<td> _ none _</td>
+		<td> ForgeEssentials.ModuleAuth.admin</td>
+		<td>Forces the named palyer to register again</td>
 	</tr>
 </table>
 
