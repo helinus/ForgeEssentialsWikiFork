@@ -20,7 +20,7 @@ lets see what this looks like in the cfg.
 
 
 
-# NO-USE CONFIGURATIONS ARE NOW OBSOLETE! SEE THE PROTECTION MODULE!
+## NO-USE CONFIGURATIONS ARE NOW OBSOLETE! SEE THE PROTECTION MODULE!
 
 Now we have the nocraft down, lets take a look at the nouse.
 This will allow the player to have or craft the item but will block the use of the right/left clicks or placement of the block. I will use TnT again(id=46) for this example. Say you wanted your players to be able to acquire this item for use in crafting or some other need but its also a destructive item that may bypass protections you set so you want to block this from being placed in your world. You would use the nouse ban.
