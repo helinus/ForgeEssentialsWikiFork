@@ -30,7 +30,7 @@ Also, you can use the keyword "here" to specify the zone you're in.  The zone ma
 ##Users
 Next is the users section.  Users can be a part of many different groups.  In fact, it's bound to happen throughout the course of your server, as anyone who makes a zone has admin rights over that zone for the users who come into them.  Players also have their own permissions that you can set.  A player's permissions are checked before the zone and allowed unless the zone specifically denies them the permission.  This is always the case, except when a player has a _SUPER_ permission.  Then that is ALWAYS what is used, whether it's allowed or denied.  Any zone that deals with that specific node has no effect on that node.
 ### Changing Player Settings
-<table><tr><td>/p user &#60player&#62 (prefix|suffix) [set &#60value&#62]</td></tr></table>
+<table><tr><td>/p user &#60player&#62 (prefix|suffix) set [&#60value&#62]</td></tr></table>
 
 The players' prefixes and suffixes are stored as part of their PlayerInfo configs, usually found in the FEData folder (.minecraft/<worldFolder>/FEData/ForgeConfig/PlayerInfo/<username>.cfg).  You can also change it there.  Using the command with `set value` will tell you what the player's current personal prefix or suffix is.
 ### Modifying User Permissions
