@@ -1,4 +1,4 @@
-### [Core Features](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Core)
+### [Core Features](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Core-Features)
 
 ### [Module pages](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/FE-Modules)
 These pages contain everything you need to know about each module. They include information about the possible permissions, commands, and configurations that you can do with the module.
