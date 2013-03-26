@@ -33,8 +33,11 @@ If this property is set to `true`, then this module will be **enabled** at all t
 
 `S:salt=#############`
 This property property will automatically be set with an auto-generated salt to be used when encryption passwords. Setting this property and reloading the server will change the salt. Once the salt has been generated, it will never be auto-generated again unless this entire property line is deleted.
+
 `java >> password = sha1(rawpassword + salt);`
+
 ` PHP >> $password = sha1($rawPassword.$salt);`
+
 The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 
 # Commands <a name="command"></a>
