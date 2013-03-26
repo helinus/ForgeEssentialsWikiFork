@@ -51,7 +51,7 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 	<tr>
 		<td>/auth help</td>
 		<td> _ none _</td>
-		<td> _ none _</td>
+		<td> ForgeEssentials.ModuleAuth</td>
 		<td>Shows the player help for the <br /> /auth command</td>
 	</tr>
 	<tr>
@@ -94,4 +94,11 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 
 
 # Other Info <a name="other"></a>
-This module is deemed nearly perfect, and has no changes or upgrades planned for the future. Please make an issue if you wish to suggest a new feature or improvement.
+The following improvements are planned for the Auth module.. Mind you these are my dream improvements
+* password complexity nforcement
+* variable encryption, not just SHA1
+* per-player generated salts
+* failed login punishments
+* AuthModule bans
+* Web request authentication
+* configurable login and register commands. (force an email anyone?)
