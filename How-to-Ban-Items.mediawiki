@@ -5,7 +5,7 @@ If you wish to ban the crafting of an item you place the item "id:meta" under "S
 Now say you didn't want anyone on your server to be able to craft some items. For this example were going to use a TNT (id=46) and a Chunk Loader(id=243). We will also show you how to ban all variants of an item/block. For that we will use a Mining Laser(id=30208:1 and 30208:27). You have 2 meta's for the mining laser for charged and uncharged so to be safe we ban them both by using "-1" to ban them all in one line.
 lets see what this looks like in the cfg.
 
-`
+
     ####################
     # nocraft
     #===================
@@ -18,15 +18,15 @@ lets see what this looks like in the cfg.
             46
             30208:-1
          >
-`
 
-## NO-USE CONFIGURATIONS ARE NOW OBSOLETE! SEE THE PROTECTION MODULE!
+
+<h1> NO-USE CONFIGURATIONS ARE NOW OBSOLETE! SEE THE PROTECTION MODULE! </h1>
 
 Now we have the nocraft down, lets take a look at the nouse.
 This will allow the player to have or craft the item but will block the use of the right/left clicks or placement of the block. I will use TnT again(id=46) for this example. Say you wanted your players to be able to acquire this item for use in crafting or some other need but its also a destructive item that may bypass protections you set so you want to block this from being placed in your world. You would use the nouse ban.
 Lets have a look at what this might look like in the cfg.
 
-`
+
     ####################
     # nouse
     #===================
@@ -38,4 +38,4 @@ Lets have a look at what this might look like in the cfg.
             46
          >
     }
-`
+
