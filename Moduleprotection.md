@@ -57,7 +57,7 @@ The protection module is similar to the ModifyWorld plugin for PEx. it simply ad
 </table>
 
 ## ItemUse permission
-ForgeEssentials uses an sophisticated algorithm to search for all existing items in Minecraft as of the start of the server. It compiles a list of all of these items, and converts them into permissions. The names are created in the following format: `[source].[block|item].[name|id]`
+ForgeEssentials uses an sophisticated algorithm to search for all existing items in Minecraft as of the start of the server. It compiles a list of all of these items, and converts them into permissions. To make the list of generated permissions more manageable, `ForgeEssentials.itemUse._ALL_` has been registerred than all the variations that have you will learn about below. The names are created in the following format: `[source].[block|item].[name|id]`
 
 example for vanilla dirt: `vanilla.block.dirt`
 
@@ -91,6 +91,10 @@ if you wish to Allow/Deny all an entire ID. Use the name format. if you wish to 
 `IronChest.block.IronChest.6` affects the Obsidian chest
 
 For your convenience, a list of all the generated names and their equivalent itemIDs can be found in `./ForgeEssentials/UnfreindlyItemList.txt`. This file will help you regarding what IDs are mapped to which names and vice versa. It does not however, help you at all when it comes to damage values and meta. For this, it is better to use something like NEI to ascertain the damage values of items.
+
+## MobSpawn Permissions
+
+...................................
 
 # Other Info <a name="other"></a>
 As new hooks are added to forge, such as endermen griefing events and creeper explosions, new permissions will be added to stop them.
