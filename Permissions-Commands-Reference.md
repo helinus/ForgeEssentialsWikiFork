@@ -8,8 +8,7 @@
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>/zone</td>
-		<td> none</td>
+		<td>/zone list [#page]</td>
 		<td>The Credits for ForgeEssentials</td>
 	</tr>
 </table>
