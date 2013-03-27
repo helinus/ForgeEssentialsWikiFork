@@ -92,7 +92,7 @@
 		<td>Sets the players suffix</td>
 	</tr>
 	<tr>
-		<td>/feperm user &lt;player|_ME_> supers get &lt;permission></td>
+		<td>/feperm user &lt;player|_ME_> get &lt;permission> [zone]</td>
 		<td>Displays the status of the permission, if its allowed or denied</td>
 	</tr>
 	<tr>
@@ -110,5 +110,29 @@
 	<tr>
 		<th>feperm group commands</th>
 		<th>Description</th>
+	</tr>
+	<tr>
+		<td>/feperm group &lt;group> prefix set &lt;prefix></td>
+		<td>Sets the players prefix</td>
+	</tr>
+	<tr>
+		<td>/feperm group &lt;group> suffix set &lt;suffix></td>
+		<td>Sets the players suffix</td>
+	</tr>
+	<tr>
+		<td>/feperm group &lt;group> get &lt;permission></td>
+		<td>Displays the status of the permission, if its allowed or denied</td>
+	</tr>
+	<tr>
+		<td>/feperm group &lt;group> &lt;allow|true> &lt;permission> [zone]</td>
+		<td>Allows a permission for the group in the specified zone or the _GLOBAL_ zone</td>
+	</tr>
+	<tr>
+		<td>/feperm group &lt;group> &lt;deny|false> &lt;permission> [zone]</td>
+		<td>Denies a permission for the group in the specified zone or the _GLOBAL_ zone</td>
+	</tr>
+	<tr>
+		<td>/feperm group &lt;group> &lt;clear|remove> &lt;permission> [zone]</td>
+		<td>clears a permission for the group in the specified zone or the _GLOBAL_ zone</td>
 	</tr>
 </table>
