@@ -52,31 +52,31 @@
 		<td>Exports the permissions to the specified folder. Default is folder 'export'</td>
 	</tr>
 	<tr>
-		<td>/zone user &lt;player|_ME_> supers get </td>
-		<td>Displays information about the zone such as parent, priority, and location</td>
+		<td>/feperm user &lt;player|_ME_> supers get &lt;permission></td>
+		<td>Displays the status of the permission, if its allowed or denied</td>
 	</tr>
 	<tr>
-		<td>/zone &lt;define|create> &lt;name> </td>
-		<td>Creates a a zone with the given name</td>
+		<td>/feperm user &lt;player|_ME_> supers &lt;allow|true> &lt;permission></td>
+		<td>Allows a permission for the player in the SUPERS context</td>
 	</tr>
 	<tr>
-		<td>/zone &lt;redefine> &lt;name> </td>
-		<td>Changes an existing zone to the new selection</td>
+		<td>/feperm user &lt;player|_ME_> supers &lt;deny|false> &lt;permission></td>
+		<td>Denies a permission for the player in the SUPERS context</td>
 	</tr>
 	<tr>
-		<td>/zone &lt;remove|delete> &lt;name> </td>
-		<td>Removes the specified zone</td>
+		<td>/feperm user &lt;player|_ME_> supers &lt;clear|remove> &lt;permission></td>
+		<td>clears a permission for the player in the SUPERS context</td>
 	</tr>
 	<tr>
-		<td>/zone &lt;setparent> &lt;name> &lt;name></td>
-		<td>Sets the parent of the first zone to the second zone.</td>
+		<td>/feperm user &lt;player|_ME_> group set &lt;group></td>
+		<td>Removes the player from all other groups, and then adds them to the specified group </td>
 	</tr>
 	<tr>
-		<td>/zone &lt;entry> &lt;name> [... message ...]</td>
-		<td>Sets the zone's entry message to the specified</td>
+		<td>/feperm user &lt;player|_ME_> group add &lt;group></td>
+		<td>Adds the player to the specified group </td>
 	</tr>
 	<tr>
-		<td>/zone &lt;exit> &lt;name> [... message ...]</td>
-		<td>Sets the zone's exit message to the specified</td>
+		<td>/feperm user &lt;player|_ME_> group remove &lt;group></td>
+		<td>Removes the player from the specified group </td>
 	</tr>
 </table>
