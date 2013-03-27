@@ -5,7 +5,7 @@ That's right, I've deemed the system finished *enough* to warrant documentation.
 Well, let's start off with the basics. 
 
 ### Zones
-Zones aren't quite fleshed out and in working order yet, but they work enough for this, and so you need to know what they're about.  Zones allow multiple areas of layered permissions.  For more detailed information, see the "Zones":Zones page.  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
+Zones allow multiple areas of layered permissions.  For more detailed information, see the [zones page] (https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-System-and-Zones).  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
 
 ### Creating Groups
 <table><tr><td>/p group create &#60group&#62</td></tr></table>
