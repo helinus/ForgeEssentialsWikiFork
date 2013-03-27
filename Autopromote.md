@@ -22,7 +22,7 @@ Command: "/autopromote". Alias: "/ap"
 	<tr>
 		<td>/ap &lt;zone> edit add <time> <group></td>
 		<td>ForgeEssentials.autoPromote</td>
-		<td>Add a time and corresponding time to the list.</td>
+		<td>Add a time and corresponding group to the list.</td>
 	</tr>
 	<tr>
 		<td>/ap &lt;zone> message [get]</td>
