@@ -32,13 +32,13 @@ And you can use the AutoBackup & AutoRemove functions, explained in the config, 
 		<td>Makes a backup of all loaded worlds.</td>
 	</tr>
         <tr>
-		<td>/backup <dimensionID></td>
+		<td>/backup &lt;dimensionID></td>
 		<td></td>
 		<td>ForgeEssentials.backup.command</td>
 		<td>Makes a backup of a specific world.</td>
 	</tr>
         <tr>
-		<td>/backup <folder></td>
+		<td>/backup &lt;folder></td>
 		<td></td>
 		<td>ForgeEssentials.backup.command</td>
 		<td>Makes a backup a folder relative to the server's jar file.</td>
