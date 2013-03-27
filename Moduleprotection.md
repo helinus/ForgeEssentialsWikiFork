@@ -90,11 +90,15 @@ if you wish to Allow/Deny all an entire ID. Use the name format. if you wish to 
 
 `IronChest.block.IronChest.6` affects the Obsidian chest
 
-For your convenience, a list of all the generated names and their equivalent itemIDs can be found in `./ForgeEssentials/UnfreindlyItemList.txt`. This file will help you regarding what IDs are mapped to which names and vice versa. It does not however, help you at all when it comes to damage values and meta. For this, it is better to use something like NEI to ascertain the damage values of items.
+For your convenience, a list of all the generated names and their equivalent itemIDs can be found in `./ForgeEssentials/UnfreindlyItemList.txt`. This file will help you regarding what IDs are mapped to which names and vice versa. It does not however, help you at all when it comes to damage values and meta. For this, it is better to use something like NEI to ascertain the damage values of items. Like all the rest of the permissions, these can be found in `./ForgeEssentials/Permissions/PermissionsList.txt` minus the IDs.
 
 ## MobSpawn Permissions
+Similar to the ItemUse permission, the MobSpawn permission also relies on a list of all the types of mobs. However, unlike the ItemUse list, the MobSpawn list is nearly infallible. Because of this infallibility, a file similar to UnfreindlyItemList.txt is NOT created for mobs, They are only outputted as part of the PermissionsList.txt
 
-...................................
+### Forced vs Natural
+Natural spawns are spawns that Minecraft usually does on its own in the world.
+
+Forced spawns are rarely done, but in case they are, a permission exists for them.
 
 # Other Info <a name="other"></a>
 As new hooks are added to forge, such as endermen griefing events and creeper explosions, new permissions will be added to stop them.
