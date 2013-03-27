@@ -79,4 +79,28 @@
 		<td>/feperm user &lt;player|_ME_> group remove &lt;group></td>
 		<td>Removes the player from the specified group </td>
 	</tr>
+	<tr>
+		<td>/feperm user &lt;player|_ME_> prefix set &lt;prefix></td>
+		<td>Sets the players prefix</td>
+	</tr>
+	<tr>
+		<td>/feperm user &lt;player|_ME_> suffix set &lt;suffix></td>
+		<td>Sets the players suffix</td>
+	</tr>
+	<tr>
+		<td>/feperm user &lt;player|_ME_> supers get &lt;permission></td>
+		<td>Displays the status of the permission, if its allowed or denied</td>
+	</tr>
+	<tr>
+		<td>/feperm user &lt;player|_ME_> &lt;allow|true> &lt;permission> [zone]</td>
+		<td>Allows a permission for the player in the specified zone or the _GLOBAL_ zone</td>
+	</tr>
+	<tr>
+		<td>/feperm user &lt;player|_ME_> &lt;deny|false> &lt;permission> [zone]</td>
+		<td>Denies a permission for the player in the specified zone or the _GLOBAL_ zone</td>
+	</tr>
+	<tr>
+		<td>/feperm user &lt;player|_ME_> &lt;clear|remove> &lt;permission> [zone]</td>
+		<td>clears a permission for the player in the specified zone or the _GLOBAL_ zone</td>
+	</tr>
 </table>
