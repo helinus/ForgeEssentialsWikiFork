@@ -56,6 +56,8 @@ The protection module is similar to the ModifyWorld plugin for PEx. it simply ad
 	</tr>
 </table>
 
+### ItemUse permission
+ForgeEssentials uses an sophisticated algorithm to search for all existing items in Minecraft as of the start of the server. It compiles a list of all of these items, and converts them into permissions. The names are created in the following format.
 
 # Other Info <a name="other"></a>
-As new hooks are added to forge, such as MobGrefing events and CreeperExplosions, new permissions will be added to stop them.
+As new hooks are added to forge, such as endermen griefing events and creeper explosions, new permissions will be added to stop them.
