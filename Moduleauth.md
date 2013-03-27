@@ -64,7 +64,7 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 	</tr>
 	<tr>
 		<td>/auth changepass [oldpass] [newpass]</td>
-		<td> ForgeEssentials.ModuleAuth</td>
+		<td> none</td>
 		<td>Allows the player to change their password</td>
 	</tr>
 	<tr>
