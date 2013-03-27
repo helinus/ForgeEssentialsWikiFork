@@ -33,3 +33,5 @@ This property is a list of potion effects. They are to be inputted in the format
 
 # Other Info <a name="other"></a>
 Module was coded by Dries007. If you have issues, you might get fastest response if you put @dries007 in the issue info.
+
+The configurations in this module may be converted to PermissionProps so that they can be configureable per-player, per-group, and per-zone.
