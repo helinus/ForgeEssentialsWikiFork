@@ -3,6 +3,52 @@ This is where all the features of ForgeEssentials exist that are NOT included in
 # ModList
 A list of all the mods loaded and their versions is included in "./ForgeEssentials/modlist.txt"
 
+# Commands
+
+<table>
+	<tr>
+		<th>Command Usage</th>
+		<th>Permission Node</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>/fecredits</td>
+		<td> none</td>
+		<td>The Credits for ForgeEssentials</td>
+	</tr>
+	<tr>
+		<td>/feversion</td>
+		<td> none</td>
+		<td>Shows the current ForgeEssentials version</td>
+	</tr>
+	<tr>
+		<td>/fedebug</td>
+		<td> ForgeEssentials.CoreCommands.fedebug</td>
+		<td>Displayys data about injected Block events</td>
+	</tr>
+	<tr>
+		<td>//fewand</td>
+		<td> ForgeEssentials.CoreCommands.select.wand</td>
+		<td>Binds the wand</td>
+	</tr>
+	<tr>
+		<td>//fewand</td>
+		<td> ForgeEssentials.CoreCommands.select.wand</td>
+		<td>Binds the wand</td>
+	</tr>
+	<tr>
+		<td>//fepos1 <br /> //fepos2</td>
+		<td> ForgeEssentials.CoreCommands.select.pos</td>
+		<td>allows selecting points</td>
+	</tr>
+	<tr>
+		<td>//fedesel</td>
+		<td> ForgeEssentials.CoreCommands.select.deselect/td>
+		<td> Clears the selection</td>
+	</tr>
+</table>
+
+
 # Banning recipes
 First off its very easy to use.
 The file is located in `./ForgeEssentials/banneditems.cfg`
