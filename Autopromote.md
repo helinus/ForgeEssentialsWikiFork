@@ -10,32 +10,32 @@ Command: "/autopromote". Alias: "/ap"
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>/ap[zone] [get]</td>
+		<td>/ap [zone] [get]</td>
 		<td>ForgeEssentials.autoPromote</td>
 		<td>Get the autopromote for the [zone] you are in.</td>
 	</tr>
 	<tr>
-		<td>/ap<zone> <enable|disable></td>
+		<td>/ap &lt;zone> <enable|disable></td>
 		<td>ForgeEssentials.autoPromote</td>
 		<td>Enables or disables the autopromote for that zone.</td>
 	</tr>
 	<tr>
-		<td>/ap<zone> edit add <time> <group></td>
+		<td>/ap &lt;zone> edit add <time> <group></td>
 		<td>ForgeEssentials.autoPromote</td>
 		<td>Add a time and corresponding time to the list.</td>
 	</tr>
 	<tr>
-		<td>/ap<zone> message [get]</td>
+		<td>/ap &lt;zone> message [get]</td>
 		<td>ForgeEssentials.autoPromote</td>
 		<td>Get the current message</td>
 	</tr>
 	<tr>
-		<td>/ap<zone> message <enable|disable></td>
+		<td>/ap &lt;zone> message <enable|disable></td>
 		<td>ForgeEssentials.autoPromote</td>
 		<td>Enables or disables the autopromote message for that zone.</td>
 	</tr>
 	<tr>
-		<td>/ap<zone> message set [msg ...]</td>
+		<td>/ap &lt;zone> message set [msg ...]</td>
 		<td>ForgeEssentials.autoPromote</td>
 		<td>Set the message. Use %time for the time played, %group for the new group and '&'for color codes.</td>
 	</tr>
