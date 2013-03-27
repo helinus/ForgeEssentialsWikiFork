@@ -52,6 +52,10 @@
 		<td>Exports the permissions to the specified folder. Default is folder 'export'</td>
 	</tr>
 	<tr>
+		<th>feperm user commands</th>
+		<th>Description</th>
+	</tr>
+	<tr>
 		<td>/feperm user &lt;player|_ME_> supers get &lt;permission></td>
 		<td>Displays the status of the permission, if its allowed or denied</td>
 	</tr>
@@ -102,5 +106,9 @@
 	<tr>
 		<td>/feperm user &lt;player|_ME_> &lt;clear|remove> &lt;permission> [zone]</td>
 		<td>clears a permission for the player in the specified zone or the _GLOBAL_ zone</td>
+	</tr>
+	<tr>
+		<th>feperm group commands</th>
+		<th>Description</th>
 	</tr>
 </table>
