@@ -3,7 +3,11 @@
 ### [Module pages](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/FE-Modules)
 These pages contain everything you need to know about each module. They include information about the possible permissions, commands, and configurations that you can do with the module.
 
-### [Permissions Reference](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands)
+### [Getting Started with Permissions](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands)
+
+### [Permissions System Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-System-and-Zones)
+
+### [Permissions Command Reference](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands-Reference)
 
 ### [Changelog](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
 
