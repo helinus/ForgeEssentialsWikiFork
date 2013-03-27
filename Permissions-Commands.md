@@ -2,7 +2,11 @@
 Welcome, one and all, to the fantastical explanation you've all been waiting for:  Permissions commands!
 That's right, I've deemed the system finished *enough* to warrant documentation.  So, without further adieu, let us begin!
 ## Where to Begin
-Well, let's start off with the basics.  Zones.  Zones aren't quite fleshed out and in working order yet, but they work enough for this, and so you need to know what they're about.  Zones allow multiple areas of layered permissions.  For more detailed information, see the "Zones":Zones page.  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
+Well, let's start off with the basics. 
+
+### Zones
+Zones aren't quite fleshed out and in working order yet, but they work enough for this, and so you need to know what they're about.  Zones allow multiple areas of layered permissions.  For more detailed information, see the "Zones":Zones page.  For the purpose of this document, however, I will say this:  The root zone is called _GLOBAL_.  This is the zone that all WORLD zones reside in.  Each dimension has its own unique Zone.
+
 ### Creating Groups
 <table><tr><td>/p group create &#60group&#62</td></tr></table>
 Yes, I have it notated that way for a reason :P
