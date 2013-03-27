@@ -8,7 +8,11 @@
 Put this module in the mods folder. If the Core is installed, it will be loaded.
 
 # Configuration <a name="config"></a>
-The configuration file for this Module can be found in .ForgeEssentials/WorldControl.config.cfg
+The configuration file for this Module can be found in `./ForgeEssentials/WorldControl.config.cfg`
+
+`I:BlocksPerTick=20`
+
+This configuration is for how many blocks should be placed per-tick. Increasing thus number will ensure that `//set` and `//replace` commads will progess faster. However, it may also cause more lag on the server. it is up to individual Server owners to decide what a good number is for them.
 
 # Usage <a name="use"></a>
 Use the wand command to make a selection, and then make edits to the selection with the other commands.
