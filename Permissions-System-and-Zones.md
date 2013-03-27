@@ -7,7 +7,7 @@ The GLIOBAL zone is a zone the encompasses the entire server. Any permissions se
 ### _WORLD__  zones
 The WORLD_ zones are zones that are automatically created for every world that loads on the server. This allows an entire world to be treated as a zone. They are especially useful with MystCraft because it allows you to set permissions for a certain dimension while leaving the GLOBAL permissions intact.
 
-### the _\_DEFAULT__ group
+### the _\_ZONE__ group
 This is an automatically generated group that stands for the zone. Think of anything set here as a WorldGuard flag. This is usually the place where CommandBlocks, Pistons, and liquids check for their permissions if they are allowed to act in a given zone. It is also a fallback for players and groups. See the examples section for the DEFAULT group in action.
 
 ### the _\_ENTRY_PLAYER__ player
