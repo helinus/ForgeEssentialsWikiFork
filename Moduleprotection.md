@@ -57,7 +57,21 @@ The protection module is similar to the ModifyWorld plugin for PEx. it simply ad
 </table>
 
 ### ItemUse permission
-ForgeEssentials uses an sophisticated algorithm to search for all existing items in Minecraft as of the start of the server. It compiles a list of all of these items, and converts them into permissions. The names are created in the following format.
+ForgeEssentials uses an sophisticated algorithm to search for all existing items in Minecraft as of the start of the server. It compiles a list of all of these items, and converts them into permissions. The names are created in the following format: `[source].[block|item].[name|id]`
+
+example for vanilla dirt: `vanilla.block.dirt`
+
+example for BuildCraft DiamondGears : `BuildCraft|Core.item.diamondGearItem`
+
+Sometimes, the algorithm somehow finds multiple items of the same name.
+
+`vanilla.item.record~
+
+`vanilla.item.record1`
+
+`vanilla.item.record2`
+
+`vanilla.item.record3`
 
 # Other Info <a name="other"></a>
 As new hooks are added to forge, such as endermen griefing events and creeper explosions, new permissions will be added to stop them.
