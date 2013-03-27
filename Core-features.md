@@ -1,8 +1,5 @@
 This is where all the features of ForgeEssentials exist that are NOT included in a separate module.
 
-# Permissions
-### [Getting Started With Permissions](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands)
-
 # ModList
 A list of all the mods loaded and their versions is included in "./ForgeEssentials/modlist.txt"
 
