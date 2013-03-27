@@ -56,7 +56,7 @@ The protection module is similar to the ModifyWorld plugin for PEx. it simply ad
 	</tr>
 </table>
 
-### ItemUse permission
+## ItemUse permission
 ForgeEssentials uses an sophisticated algorithm to search for all existing items in Minecraft as of the start of the server. It compiles a list of all of these items, and converts them into permissions. The names are created in the following format: `[source].[block|item].[name|id]`
 
 example for vanilla dirt: `vanilla.block.dirt`
