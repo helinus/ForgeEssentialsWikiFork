@@ -29,7 +29,7 @@ A list of all the mods loaded and their versions is included in "./ForgeEssentia
 		<td>Displays data about injected Block events</td>
 	</tr>
 	<tr>
-		<td>//reload</td>
+		<td>/fereload</td>
 		<td> ForgeEssentials.CoreCommands.fereload</td>
 		<td>Attempts to reload the ForgeEssentials Modules</td>
 	</tr>
