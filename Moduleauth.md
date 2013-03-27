@@ -44,49 +44,41 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 <table>
 	<tr>
 		<th>Command Usage</th>
-		<th>Aliases</th>
 		<th>Permission Node</th>
 		<th>Description</th>
 	</tr>
 	<tr>
 		<td>/auth help</td>
-		<td> _ none _</td>
 		<td> ForgeEssentials.ModuleAuth</td>
 		<td>Shows the player help for the <br /> /auth command</td>
 	</tr>
 	<tr>
 		<td>/auth register [password]</td>
-		<td> _ none _</td>
 		<td>none</td>
 		<td>Registers the player with the <br /> supplied password</td>
 	</tr>
 	<tr>
 		<td>/auth login [password]</td>
-		<td> _ none _</td>
 		<td>none</td>
 		<td>Allows the player to login if they supply <br /> the correct password for their username</td>
 	</tr>
 	<tr>
 		<td>/auth changepass [oldpass] [newpass]</td>
-		<td> _ none _</td>
 		<td> ForgeEssentials.ModuleAuth</td>
 		<td>Allows the player to change their password</td>
 	</tr>
 	<tr>
 		<td>/auth setpass [player] [password]</td>
-		<td> _ none _</td>
 		<td>ForgeEssentials.ModuleAuth.admin</td>
 		<td>Sets the named players password to the <br /> one supplied</td>
 	</tr>
 	<tr>
 		<td>/auth kick [player]</td>
-		<td> _ none _</td>
 		<td> ForgeEssentials.ModuleAuth.admin</td>
 		<td>Forces the named palyer to login again</td>
 	</tr>
 	<tr>
 		<td>/auth unregister [player]</td>
-		<td> _ none _</td>
 		<td> ForgeEssentials.ModuleAuth.admin</td>
 		<td>Forces the named palyer to register again</td>
 	</tr>
