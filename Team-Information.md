@@ -5,7 +5,8 @@ AbrarSyed started the ForgeEssentials project in October of 2012. He is also the
 write your own stuff here
 
 ### Dries007
-write your own stuff here
+Cause of all typos and small mistakes. 
+Made PlayerLogger, Snooper and a bunch of misk features.
 
 ### Jgdovin
 write your own stuff here
