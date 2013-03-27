@@ -26,7 +26,7 @@ A list of all the mods loaded and their versions is included in "./ForgeEssentia
 	<tr>
 		<td>/fedebug</td>
 		<td> ForgeEssentials.CoreCommands.fedebug</td>
-		<td>Displayys data about injected Block events</td>
+		<td>Displays data about injected Block events</td>
 	</tr>
 	<tr>
 		<td>//fewand</td>
