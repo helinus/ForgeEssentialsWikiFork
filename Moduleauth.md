@@ -57,13 +57,13 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 	<tr>
 		<td>/auth register [password]</td>
 		<td> _ none _</td>
-		<td>ForgeEssentials.ModuleAuth</td>
+		<td>none</td>
 		<td>Registers the player with the <br /> supplied password</td>
 	</tr>
 	<tr>
 		<td>/auth login [password]</td>
 		<td> _ none _</td>
-		<td>ForgeEssentials.ModuleAuth</td>
+		<td>none</td>
 		<td>Allows the player to login if they supply <br /> the correct password for their username</td>
 	</tr>
 	<tr>
