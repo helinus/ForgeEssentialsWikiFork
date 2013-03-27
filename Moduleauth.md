@@ -49,7 +49,7 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 	</tr>
 	<tr>
 		<td>/auth help</td>
-		<td> ForgeEssentials.ModuleAuth</td>
+		<td> none</td>
 		<td>Shows the player help for the <br /> /auth command</td>
 	</tr>
 	<tr>
