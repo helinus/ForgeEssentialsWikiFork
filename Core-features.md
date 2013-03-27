@@ -29,9 +29,9 @@ A list of all the mods loaded and their versions is included in "./ForgeEssentia
 		<td>Displays data about injected Block events</td>
 	</tr>
 	<tr>
-		<td>//fewand</td>
-		<td> ForgeEssentials.CoreCommands.select.wand</td>
-		<td>Binds the wand</td>
+		<td>//reload</td>
+		<td> ForgeEssentials.CoreCommands.fereload</td>
+		<td>Attempts to reload the ForgeEssentials Modules</td>
 	</tr>
 	<tr>
 		<td>//fewand</td>
