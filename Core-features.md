@@ -1,4 +1,9 @@
-# Banning Recipes
+This is where all the features of ForgeEssentials exist that are NOT included in a separate module.
+
+# ModList
+A list of all the mods loaded and their versions is included in "./ForgeEssentials/modlist.txt"
+
+# Banning recipes
 First off its very easy to use.
 The file is located in `./ForgeEssentials/banneditems.cfg`
 If you wish to ban the crafting of an item you place the item "id:meta" under "S:List" in the #nocraft section. pretty self explanatory.
