@@ -192,8 +192,8 @@ Here are some invalid commands:
 		<td>motd</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.motd</td>
-		<td>/motd [new motd]  </td>
-		<td>Get the message of the day or set a new MOTD.</td>
+		<td>/motd [reload]  </td>
+		<td>Get or reload the message of the day</td>
 	</tr>
         <tr>
 		<td>ping</td>
