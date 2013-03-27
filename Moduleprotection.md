@@ -63,15 +63,34 @@ example for vanilla dirt: `vanilla.block.dirt`
 
 example for BuildCraft DiamondGears : `BuildCraft|Core.item.diamondGearItem`
 
-Sometimes, the algorithm somehow finds multiple items of the same name.
+Sometimes, the algorithm somehow finds multiple items of the same name, thus numbers are appended to the names in order to keep them unique.
 
-`vanilla.item.record~
+`vanilla.item.record`
 
 `vanilla.item.record1`
 
 `vanilla.item.record2`
 
 `vanilla.item.record3`
+
+Sometimes, multiples items are scrunched into a single ItemID like in the case of IronChests.
+`IronChest.block.IronChest` Only one name is generated for all the possible types of IronChests there are. 
+
+In order to get arround this, the permissions checked for items when they are used is the following.
+
+if the item is registerred: `ForgeEssentials.protection.itemUse.[source].[block|item].[name].[#damage|#meta]`
+
+if the item somehow evaded registration: `ForgeEssentials.protection.itemUse.unknownSource.unknownType.[#id].[#damage|#meta]`
+
+if you wish to Allow/Deny all an entire ID. Use the name format. if you wish to deny an ID with a specific damage value, simple add the damage value to the end of the permission as the above format.
+
+`IronChest.block.IronChest.0` affects the Iron chest
+
+`IronChest.block.IronChest.1` affects the Gold chest
+
+`IronChest.block.IronChest.6` affects the Obsidian chest
+
+For your convenience, a list of all the generated names and their equivalent itemIDs can be found in `./ForgeEssentials/UnfreindlyItemList.txt`. This file will help you regarding what IDs are mapped to which names and vice versa. It does not however, help you at all when it comes to damage values and meta. For this, it is better to use something like NEI to ascertain the damage values of items.
 
 # Other Info <a name="other"></a>
 As new hooks are added to forge, such as endermen griefing events and creeper explosions, new permissions will be added to stop them.
