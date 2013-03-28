@@ -41,7 +41,7 @@ A list of all the mods loaded and their versions is included in "./ForgeEssentia
 		<td>allows selecting points</td>
 	</tr>
 	<tr>
-		<td>//fedesel</td>
+		<td>/fedesel</td>
 		<td> ForgeEssentials.CoreCommands.select.deselect/td>
 		<td> Clears the selection</td>
 	</tr>
