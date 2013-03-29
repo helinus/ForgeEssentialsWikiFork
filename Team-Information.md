@@ -12,7 +12,7 @@ Made PlayerLogger, Snooper and a bunch of misc features.
 write your own stuff here
 
 ### Luacs1998
-write your own stuff here
+Occasionally comes in to screw with the code. :P
 
 ### Malkerian
 Malkierian joined the team in December of 2012, at first as merely a bugfixer.  He has since done most of the basic commands and the permissions commands, as well as a lot of cleanup and more bugfixing.  He's also the maintainer and primary author of PlasmaCraft.
