@@ -12,7 +12,7 @@ The configuration file is split into multiple categories.
 ### AfterLife.DeathChest
 `B:Enable=true` Enables the creation of DeathChests when a player dies
 
-`B:EnableXP=true` Enables DeachChests to store the XP of their player onDeath
+`B:EnableXP=true` Enables DeathChests to store the XP of their player onDeath
 
 `B:enableFencePost=true` Put the DeathChest on a fence post
 
