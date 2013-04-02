@@ -119,7 +119,7 @@ Here are some invalid commands:
 		<td>give</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.give</td>
-		<td>/give &#60;player> &#60;id[:meta] [amount]<br>OR<br>
+		<td>/give &#60;player> &#60;id>[:meta] [amount]<br>OR<br>
 		/give &#60;player> &#60;id> [amount] [meta]</td>
 		<td>Gives the specified player the specified amount of the specified item.  Meta and amount are optional.  If not specified, meta defaults to 0, amount defaults to 64.</td>
 	</tr>
@@ -141,14 +141,14 @@ Here are some invalid commands:
 		<td>home</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.home.set</td>
-		<td>/home &#60f;set|x, y, z></td>
+		<td>/home &#60;set|x, y, z></td>
 		<td>Sets your home to your current location. "/home x y z" sets your home to specific coordinates, where x, y, and z are numbers.</td>
 	</tr>
 	<tr>
 		<td>i</td>
 		<td>item</td>
 		<td>ForgeEssentials<br>.BasicCommands.i</td>
-		<td>/i &#60;id[:meta] [amount]</td>
+		<td>/i &#60;id>[:meta] [amount]</td>
 		<td>Gives you the specified amount of the specified item.  Meta and amount are optional.  If not specified, meta defaults to 0, amount defaults to 64.</td>
 	</tr>
         <tr>
@@ -312,7 +312,7 @@ Here are some invalid commands:
 		<td>warp set|del</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.warp.admin</td>
-		<td>/warp set|del &#60;warpname></td>
+		<td>/warp &#60;set|del> &#60;warpname></td>
 		<td>Creates (set) or deletes (del) specified warp point.  Set will fail if warp name is in use.</td>
 </table>
 
