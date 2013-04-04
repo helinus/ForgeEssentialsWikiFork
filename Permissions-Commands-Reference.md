@@ -16,7 +16,7 @@
 		<td>Displays information about the zone such as parent, priority, and location</td>
 	</tr>
 	<tr>
-		<td>/zone &lt;define|create> &lt;name> </td>
+		<td>/zone &lt;define> &lt;name> </td>
 		<td>Creates a a zone with the given name</td>
 	</tr>
 	<tr>
