@@ -11,4 +11,3 @@
 * [World-Border](World-Border Module)
 * [Snooper](Snooper Module)
 * [Commands](Commands Module)
-* [How to ban items](How-to-Ban-Items)
