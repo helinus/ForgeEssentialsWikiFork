@@ -2,7 +2,7 @@ A Zone is first and foremost an area definition. Think regions from WorldGuard. 
 
 ## Automagically generated groups, zones, and players
 ### the _\_GLOBAL__ zone
-The GLIOBAL zone is a zone the encompasses the entire server. Any permissions set here would be set for players and groups no matter where they are on the server. This allows server-wide ranks or protections.
+The GLOBAL zone is a zone the encompasses the entire server. Any permissions set here would be set for players and groups no matter where they are on the server. This allows server-wide ranks or protections.
 
 ### _WORLD__  zones
 The WORLD_ zones are zones that are automatically created for every world that loads on the server. This allows an entire world to be treated as a zone. They are especially useful with MystCraft because it allows you to set permissions for a certain dimension while leaving the GLOBAL permissions intact.
