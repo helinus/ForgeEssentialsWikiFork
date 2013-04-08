@@ -58,7 +58,7 @@ The root permission for the Protection module, if you have that installed, is "F
 
 Then, say you want him to be able to use /msg, /r, /home, /afk, /bed, /motd, /rules, and /spawn.  If you look over on the [Commands Documentation](Commands), you will find the permission root for /msg and /r are "ForgEssentials.Chat", and the root for the others is "ForgeEssentials.BasicCommands".  You also want to be able to easily assign these permissions to other players.  The answer?  Groups.
 
-What to call our group?  Let's see, most of those are pretty basic, but the ability to modify the world would make it more likely a step above the default, so let's call them Members.  They need a prefix, too, so let's give them dark green which, when referencing the [Minecraft Color Codes](http://www.minecraftwiki.net/wiki/Colors), is 2.  Our color identifier is the ampersand (&), so we'll use &f[&2Member&f] as the prefix code.  So, here's the sequence of commands we would run:
+What to call our group?  Let's see, most of those are pretty basic, but the ability to modify the world would make it more likely a step above the default, so let's call them Members.  They need a prefix, too, so let's give them dark green which, when referencing the [Minecraft Color Codes](http://www.minecraftwiki.net/wiki/Formatting_codes#Color_codes), is 2.  Our color identifier is the ampersand (&), so we'll use &f[&2Member&f] as the prefix code.  So, here's the sequence of commands we would run:
 
 <table><tr><td>/p group create Members</td></tr>
 <tr><td>/p group Members prefix set &f[&2Member&f]</td></tr>
