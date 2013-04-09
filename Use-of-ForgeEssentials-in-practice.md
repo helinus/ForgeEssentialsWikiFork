@@ -16,6 +16,10 @@ Read this page to find out more or proceed to implementing your own ideas on you
 
 **NOTE:** This page was created based on a working beta build: 1.5.1-1.2.1.43 and will be continued with next releases.	
 
+## Credits
+
+**This page was created, written and is being maintained by [Dravic](https://github.com/Dravic)**
+
 ## Let's get started
 
 Most of the stuff here is adaptation of mechanics found among Bukkit plugins.
