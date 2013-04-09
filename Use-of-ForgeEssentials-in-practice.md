@@ -124,3 +124,5 @@ This is similar in construction to groups, except we are allowing an user's prot
 This is it! Bruce has now a very own plot of land, where regular players with group Members can't build or destroy blocks.
 
 They also can't interact with blocks (i.e. open chests), so he's safe now! Yay!
+
+[Come back to the quick list](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice#quick-list-of-examples)
