@@ -24,6 +24,16 @@ All you need to implement them to your server is Forge Essentials.
 
 Remember, Permissions are easy to edit in flatfile (config outside of Minecraft), but you can work from ingame and it will work just as well. =)
 
+## Quick list of examples
+
+You can quickly jump to an example of choice.
+
+All you have to do is:
+
+Move your mouse over an example you want to jump to and click the little <link> icon next to it.
+
+### World Guard
+
 ## World Guard
 
 **Requirements:**
