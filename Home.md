@@ -7,7 +7,7 @@ These pages contain everything you need to know about each module. They include 
 ### [Getting Started with Permissions](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands)
 Here you may find help getting started with permissions.
 
-### [How to use Permissions and Zones practicably](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-and-Zones-Examples)
+### [Use of ForgeEssentials in practice](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-and-Zones-Examples)
 Here you may find excercises and ideas for use of Permissions and Zones.
 
 ### [Permissions System Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-System-and-Zones)
