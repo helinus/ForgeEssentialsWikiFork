@@ -30,8 +30,6 @@ You can quickly jump to an example of choice.
 
 [World Guard](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice#world-guard)
 
-### World Guard
-
 ## World Guard
 
 **Requirements:**
