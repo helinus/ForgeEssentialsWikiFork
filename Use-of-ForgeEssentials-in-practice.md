@@ -2,7 +2,7 @@
 
 Welcome to this little tutorial and/or bank of ideas how to use Permissions and Zones to improve your server and add new features.
 
-You will find here some examples and you can practice by copying them into your server/singleplayer test world.
+You will find few examples here and you can practice by copying them into your server/singleplayer test world.
 
 No matter if you find knowledge here useful or not, remember this:
 
