@@ -26,11 +26,9 @@ Remember, Permissions are easy to edit in flatfile (config outside of Minecraft)
 
 ## Quick list of examples
 
-You can quickly jump to an example of choice.
+You can quickly jump to an example of choice. 
 
-All you have to do is:
-
-Move your mouse over an example you want to jump to and click the little <link> icon next to it.
+[World Guard](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice#world-guard)
 
 ### World Guard
 
