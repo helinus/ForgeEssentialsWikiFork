@@ -59,7 +59,7 @@ Bruce is scared of Members griefing his house, so he asks us to make a World Gua
 
 We have to keep in mind Bruce is part of Members, too!
 
-1) Define a zone around Bruce's plot.
+**1)** Define a zone around Bruce's plot.
 
 To do that, we need to select an area around his plot with a wand.
 
@@ -83,7 +83,7 @@ We will be using the _GLOBAL_ zone as a parent to import the Members group into 
 
 That's it for the zone.
 
-2) Deny (set to false) the protection permissions for all members inside the _bruceplot_ zone
+**2)** Deny (set to false) the protection permissions for all members inside the _bruceplot_ zone
 
 To do that, we have to use following commands:
 
@@ -103,7 +103,7 @@ _bruceplot_ is the name of zone affected, if you left it blank it would use _GLO
 
 Congratulations, by now you would have disabled permission to build for all Members on _bruceplot_!
 
-3) Allow Bruce to build on his plot of land
+**3)** Allow Bruce to build on his plot of land
 
 Bruce is part of Members group, so at the moment he can't build on his plot. Let's fix it by allowing him to! We will use a universal permission:
 
