@@ -4,7 +4,7 @@ Welcome to this little tutorial and/or bank of ideas how to use Permissions and 
 
 You will find few examples here and you can practice by copying them into your server/singleplayer test world.
 
-No matter if you find knowledge here useful or not, remember this:
+No matter if you find the knowledge on this page useful or not, remember this:
 
 **Creativity is all that matters**
 
