@@ -32,6 +32,8 @@ Remember, Permissions are easy to edit in flatfile (config outside of Minecraft)
 
 ## World Guard
 
+[Come back to the quick list](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice#quick-list-of-examples)
+
 **Requirements:**
 
 ForgeEssentials, Protection submod
@@ -125,4 +127,4 @@ This is it! Bruce has now a very own plot of land, where regular players with gr
 
 They also can't interact with blocks (i.e. open chests), so he's safe now! Yay!
 
-[Come back to the quick list](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice#quick-list-of-examples)
+[Come back to the top of World Guard example](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice#world-guard)
