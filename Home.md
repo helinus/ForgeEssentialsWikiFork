@@ -7,14 +7,14 @@ These pages contain everything you need to know about each module. They include 
 ### [Getting Started with Permissions](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands)
 Here you may find help getting started with permissions.
 
-### [Use of ForgeEssentials in practice](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-and-Zones-Examples)
-Here you may find excercises and ideas for use of Permissions and Zones.
-
 ### [Permissions System Documentation](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-System-and-Zones)
 Here may be found a detailed explanation of both the permission and zone systems.
 
 ### [Permissions Command Reference](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands-Reference)
 All of ForgeEssential's commands are documented here.
+
+### [Use of ForgeEssentials in practice _NEW!_](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice)
+Here you may find examples and ideas how to use ForgeEssentials to your advantage.
 
 ### [Changelog](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
 Here may be found documentation of recent changes to the mod.
