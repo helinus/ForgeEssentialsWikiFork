@@ -100,13 +100,15 @@ Congratulations, by now you would have disabled permission to build for all Memb
 
 3) Allow Bruce to build on his plot of land
 
-Bruce is part of Members group, so at the moment he can't build on his plot. Let's fix it by allowing him to!
+Bruce is part of Members group, so at the moment he can't build on his plot. Let's fix it by allowing him to! We will use a universal permission:
 
-`/p user Bruce allow ForgeEssentials.Protection.allowBlockInteractions bruceplot`
+_ForgeEssentials.Protection.overrideProtection_
 
-`/p user Bruce allow ForgeEssentials.Protection.allowEdits bruceplot`
+which makes the group/user to use their own permissions for Protection instead of those set in the zone.
 
-This is similar in construction to groups, except we are using allowing permissions for an user, and not denying permissions for a group.
+`/p user Bruce allow ForgeEssentials.Protection.overrideProtection bruceplot`
+
+This is similar in construction to groups, except we are allowing an user's protection permissions to override those set in the zone, and not denying permissions for a group.
 
 This is it! Bruce has now a very own plot of land, where regular players with group Members can't build or destroy blocks.
 
