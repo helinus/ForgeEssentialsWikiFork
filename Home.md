@@ -13,7 +13,7 @@ Here may be found a detailed explanation of both the permission and zone systems
 ### [Permissions Command Reference](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Permissions-Commands-Reference)
 All of ForgeEssential's commands are documented here.
 
-### [Use of ForgeEssentials in practice _NEW!_](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice)
+### [Use of ForgeEssentials in practice - _NEW!_](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Use-of-ForgeEssentials-in-practice)
 Here you may find examples and ideas how to use ForgeEssentials to your advantage.
 
 ### [Changelog](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/ChangeLog)
