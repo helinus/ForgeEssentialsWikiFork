@@ -1,4 +1,5 @@
 ## In the beginning there was Chaos
+
 Welcome to this little tutorial and/or bank of ideas, how to use Permissions and Zones to improve your server and add new features.
 
 You will find here some examples and you can practice by copying them into your server/singleplayer test world.
@@ -7,7 +8,11 @@ No matter if you find knowledge here useful or not, remember this:
 
 **Creativity is all that matters**
 
-By using imagination and creativity you can accomplish things that developers of ForgeEssentials didn't even think of. So, what are you waiting for? Read this page to find out more or proceed to implementing your own ideas on your server!
+By using imagination and creativity you can accomplish things that developers of ForgeEssentials didn't even think of.
+
+So, what are you waiting for?
+
+Read this page to find out more or proceed to implementing your own ideas on your server!
 
 **NOTE:** This page was created based on a working beta build: 1.5.1-1.2.1.43 and will be continued with next releases.	
 
