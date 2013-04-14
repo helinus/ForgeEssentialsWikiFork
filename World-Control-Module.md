@@ -74,4 +74,4 @@ Use the wand command to make a selection, and then make edits to the selection w
 ### The Selection commands `//fewand, //fepos, //fedesel` have been moved to the core
 
 # Other Info <a name="other"></a>
-This module will be replaced with World Edit.
+This module will be eventually replaced with hooks into [WorldEdit](https://github.com/sk89q/worldedit) when luacs1998 gets around to doing it (it's hard work!)
