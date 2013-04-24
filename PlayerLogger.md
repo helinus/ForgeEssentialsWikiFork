@@ -22,10 +22,10 @@ ilughzsgsjghsdjsdjgh
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>/playerlogger [enable|disable]</td>
+		<td>/playerlogger \<enable|disable> [limit]</td>
 		<td>/pl</td>
 		<td>ForgeEssentials.playerLogger.playerlogger</td>
-		<td>Click a block and you will get the last 5 changes.</td>
+		<td>This enables you to click a block to get the last 5 changes, or more if you define a limit</td>
 	</tr>
 	<tr>
 		<td>/rollback</td>
