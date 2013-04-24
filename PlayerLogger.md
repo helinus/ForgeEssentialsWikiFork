@@ -8,7 +8,7 @@
 Put this module in the mods folder. If the Core is installed, it will be loaded.
 
 # Configuration <a name="config"></a>
-ilughzsgsjghsdjsdjgh
+You have to have a MySQL database for PlayerLogger to put it's data in
 
 # Usage <a name="use"></a>
 ### Rollback usage
