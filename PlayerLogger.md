@@ -22,10 +22,10 @@ ilughzsgsjghsdjsdjgh
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>/playerlogger</td>
+		<td>/playerlogger [enable|disable]</td>
 		<td>/pl</td>
 		<td>ForgeEssentials.playerLogger.playerlogger</td>
-		<td>Do something</td>
+		<td>Click a block and you will get the last 5 changes.</td>
 	</tr>
 	<tr>
 		<td>/rollback</td>
