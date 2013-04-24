@@ -11,7 +11,15 @@ Put this module in the mods folder. If the Core is installed, it will be loaded.
 ilughzsgsjghsdjsdjgh
 
 # Usage <a name="use"></a>
-
+### Rollback usage
+All actions must be confirmed with '/rb ok'.  
+All actions can be canceld with '/rb abort'.  
+`/rb clear <username>` => Removes a players data.  
+`/rb undo <username>` => Undo a rollback. You can specify time and radius.  
+`/rb <undo|rollback> <username>` => Rolls back a players changes. All the way!  
+`/rb <undo|rollback> <username> <rad>` => Format like this: 10r");  
+`/rb <undo|rollback> <username> <time>` => Format time like this: 10d = 10 days, 10h = 10 hours.  
+A combo of the above is possible too.
 
 # Commands <a name="command"></a>
 <table>
