@@ -2,7 +2,7 @@
 * [Authentication](Authentication Module)
 * [Backup](Backup Module)
 * [Chat](Chat Module)
-* [Commands](Commands Module)
+* [Commands](Commands)
 * [Economy](Economy Module)
 * [PlayerLogger] (playerLogger)
 * [Protection](Protection Module)
