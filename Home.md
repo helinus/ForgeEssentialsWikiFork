@@ -29,3 +29,5 @@ Here may be found documentation of recent changes to the mod.
 [Localizations and Translations information](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Localization-Guide)
 
 [How to edit permissions in flatfile](https://github.com/ForgeEssentials/ForgeEssentialsMain/wiki/Export-Import-permissions)
+
+[Newest beta builds] (http://driesgames.game-server.cc:8080/job/ForgeEssentials-betabuilds/) - WARNING! MAY NOT BE STABLE!
