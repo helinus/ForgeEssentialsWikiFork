@@ -319,7 +319,7 @@ Here are some invalid commands:
 ### Vanilla Overrides
 The following commands all have the permission node structure of<br>
 **_ForgeEssentials.BasicCommands.&#60;name&#62;_** up to beta version 1.2.1.77<br>
-**_Minecraft.commands.&#60;name&#62;_** for versions after that
+**_Minecraft.commands.&#60;name&#62;_** for versions after that<br>
 and have the same usage as the vanilla commands they override.
 For usage, please see http://www.minecraftwiki.net/wiki/Command .
 + ban
