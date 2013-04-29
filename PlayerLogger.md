@@ -6,6 +6,7 @@
 
 # Installation <a name="install"></a>
 Put this module in the mods folder. If the Core is installed, it will be loaded.
+**Requires the WorldControl module to be able to use rollback**
 
 # Configuration <a name="config"></a>
 You have to have a MySQL database for PlayerLogger to put it's data in.
