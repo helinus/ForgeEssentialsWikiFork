@@ -6,3 +6,5 @@
 
 /pay <player> -- Pays a player from your own wallet<br /> &nbsp;&nbsp; **ForgeEssentials.Economy.pay** <br /><br />
 /getwallet <player> -- Display's a players money(wallet)<br /> &nbsp;&nbsp; **ForgeEssentials.Economy.getwallet** <br /><br />
+
+/money -- Displays how much you have in your wallet <br /> &nbsp;&nbsp; **ForgeEssentials.Economy.money** <br /><br />
