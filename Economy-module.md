@@ -23,3 +23,6 @@ Configuration file is pretty straight forward.  Here's mine as a reference.  It 
 /getwallet _player_ -- Display's a _players_ money(wallet)<br /> &nbsp;&nbsp; **ForgeEssentials.Economy.getwallet** <br /><br />
 
 /money -- Displays how much you have in your wallet <br /> &nbsp;&nbsp; **ForgeEssentials.Economy.money** <br /><br />
+### Footnote
+<br />
+I'm sure that someone will clear this up, or add to it if I don't get to it in the next couple of days. --Zhivotnoya
