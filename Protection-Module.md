@@ -12,7 +12,7 @@ Put this module in the mods folder. If the Core is installed, it will be loaded.
 If this configuration is set to false, None of the permissions created by this module will be checked.
 
 `B:enableMobCheck=false`
-If this configuration is set to true, the permissions controlling mobspawning will take effect. Sometimes the mob-spawn permissionbs cause extensive ammounts of lag. You have been warned.
+If this configuration is set to true, the permissions controlling mobspawning will take effect. Sometimes the mob-spawn permissions cause extensive ammounts of lag. You have been warned.
 
 # Usage <a name="use"></a>
 The protection module is similar to the ModifyWorld plugin for PEx. it simply adds permissions relating to protection of the world.
