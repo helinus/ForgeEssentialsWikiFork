@@ -5,3 +5,6 @@ Javadocs are available from https://github.com/ForgeEssentials/ForgeEssentialsMa
 
 # Permission nodes
 The permission node syntax we recommend goes as this: `[modid].[category].[subcat|node name]`.
+
+# API downloads
+You can get the latest version of the API here: http://files.minecraftforge.net/ForgeEssentials/ForgeEssentials-API-recommended.zip
