@@ -1,17 +1,13 @@
 # Description
 
-Allows you to have a basic server economy.  Good if you have bukkitForge installed as well, and you have Jobs installed.  Give players another means to buy/sell stuff in a market.  Also good as a reward for voting.
+A Basic server economy module. Players have access to a virtual wallet and with that money they can buy, sell, and transfer it to other players.
 
 # Configuration
+``` S:currencySingular=Credit``` the singular form of your currency
 
-Configuration file is pretty straight forward.  Here's mine as a reference.  It can be found in the ForgeEssentials/Economy directory of your server.
-<br /><br />
-> economy { <br />
->     S:currencyPlural=Kredits <br />
->     S:currencySingular=Kredit <br />
->     I:startbuget=100  _that's a not my typo...that's how it's spelled in the config_ :) <br />
-> } 
-<br /> <br />
+``` S:currencyPlural=Credits``` The plural form of your currency
+
+``` I:startbuget=100 ``` _not a typo_ The ammount of money players start with when they join the server
 
 # Commands and Permissions
 
