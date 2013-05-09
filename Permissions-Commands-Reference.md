@@ -33,11 +33,13 @@
 	</tr>
 	<tr>
 		<td>/zone &lt;entry> &lt;name> [... message ...]</td>
-		<td>Sets the zone's entry message to the specified</td>
+		<td>Sets the zone's entry message to the specified.<br>
+keyword "remove" as the message will erase any existing entry message</td>
 	</tr>
 	<tr>
 		<td>/zone &lt;exit> &lt;name> [... message ...]</td>
-		<td>Sets the zone's exit message to the specified</td>
+		<td>Sets the zone's exit message to the specified.<br>
+keyword "remove" as the message will erase any existing entry message</td>
 	</tr>
 </table>
 ## Permissions Commands
