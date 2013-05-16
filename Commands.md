@@ -235,8 +235,8 @@ Here are some invalid commands:
 		<td>setspawn</td>
 		<td></td>
 		<td>ForgeEssentials<br>.BasicCommands.setspawn</td>
-		<td>/setspawn</td>
-		<td>Sets the respawn point. (We're trying to figure out how to make it change the default spawn point while still holding onto the information we need)</td>
+		<td>/setspawn type &#60;player|group|zone> &#60;name> &#60;none|bed|point> [zone]<br>/setspawn point &#60;player|group|zone> &#60;name> &#60;here|&#60;x> &#60;y> &#60;z>> [zone]</td>
+		<td>The final [zone] argument is not necessary if the 2nd argument is zone. Sets the respawn point. (We're trying to figure out how to make it change the default spawn point while still holding onto the information we need)</td>
 	</tr>
 	<tr>
 		<td>smite</td>
