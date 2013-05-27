@@ -108,6 +108,8 @@ Note that the source of the mob is not included in the permission.
 
 actual permission examples
 
+**NOTE THAT THIS PERMISSION HAS TO BE APPLIED TO PLACE BLOCKS!**
+
 ### Forced vs Natural
 Natural spawns are spawns that Minecraft usually does on its own in the world.
 
