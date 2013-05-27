@@ -92,6 +92,9 @@ if you wish to Allow/Deny all an entire ID. Use the name format. if you wish to 
 
 For your convenience, a list of all the generated names and their equivalent itemIDs can be found in `./ForgeEssentials/UnfreindlyItemList.txt`. This file will help you regarding what IDs are mapped to which names and vice versa. It does not however, help you at all when it comes to damage values and meta. For this, it is better to use something like NEI to ascertain the damage values of items. Like all the rest of the permissions, these can be found in `./ForgeEssentials/Permissions/PermissionsList.txt` minus the IDs.
 
+
+**NOTE THAT THIS PERMISSION HAS TO BE APPLIED TO PLACE BLOCKS!**
+
 ## MobSpawn Permissions
 Similar to the ItemUse permission, the MobSpawn permission also relies on a list of all the types of mobs. However, unlike the ItemUse list, the MobSpawn list is nearly infallible. Because of this infallibility, a file similar to UnfreindlyItemList.txt is NOT created for mobs, They are only outputted as part of the PermissionsList.txt
 
@@ -108,7 +111,6 @@ Note that the source of the mob is not included in the permission.
 
 actual permission examples
 
-**NOTE THAT THIS PERMISSION HAS TO BE APPLIED TO PLACE BLOCKS!**
 
 ### Forced vs Natural
 Natural spawns are spawns that Minecraft usually does on its own in the world.
