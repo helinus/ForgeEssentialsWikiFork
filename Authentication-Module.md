@@ -75,12 +75,12 @@ The sha1 encryption algorithm is designed to work flawlessly to imitate PHP.
 	<tr>
 		<td>/auth kick [player]</td>
 		<td> ForgeEssentials.ModuleAuth.admin</td>
-		<td>Forces the named palyer to login again</td>
+		<td>Forces the named player to login again</td>
 	</tr>
 	<tr>
 		<td>/auth unregister [player]</td>
 		<td> ForgeEssentials.ModuleAuth.admin</td>
-		<td>Forces the named palyer to register again</td>
+		<td>Forces the named player to register again</td>
 	</tr>
 </table>
 
