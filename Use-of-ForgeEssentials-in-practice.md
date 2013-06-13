@@ -117,13 +117,17 @@ Congratulations, by now you would have disabled permission to build for all Memb
 
 **3)** Allow Bruce to build on his plot of land
 
-Bruce is part of Members group, so at the moment he can't build on his plot. Let's fix it by allowing him to! We will use a universal permission:
+Bruce is part of Members group, so at the moment he can't build on his plot. Let's fix it by allowing him to! We will add back what he lost:
 
-_ForgeEssentials.Protection.overrideProtection_
+_ForgeEssentials.Protection.allowEdits_
+
+_ForgeEssentials.Protection.allowBlockInteractions_
 
 which makes the group/user to use their own permissions for Protection instead of those set in the zone.
 
-`/p user Bruce allow ForgeEssentials.Protection.overrideProtection bruceplot`
+`/p user Bruce allow ForgeEssentials.Protection.allowEdits`
+
+`/p user Bruce allow ForgeEssentials.Protection.allowBlockInteractions`
 
 This is similar in construction to groups, except we are allowing an user's protection permissions to override those set in the zone, and not denying permissions for a group.
 
