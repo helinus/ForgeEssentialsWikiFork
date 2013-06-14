@@ -125,9 +125,9 @@ _ForgeEssentials.Protection.allowBlockInteractions_
 
 which makes the group/user to use their own permissions for Protection instead of those set in the zone.
 
-`/p user Bruce allow ForgeEssentials.Protection.allowEdits`
+`/p user Bruce allow ForgeEssentials.Protection.allowEdits`bruceplot
 
-`/p user Bruce allow ForgeEssentials.Protection.allowBlockInteractions`
+`/p user Bruce allow ForgeEssentials.Protection.allowBlockInteractions`bruceplot
 
 This is similar in construction to groups, except we are allowing an user's protection permissions to override those set in the zone, and not denying permissions for a group.
 
