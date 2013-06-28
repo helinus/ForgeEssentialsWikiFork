@@ -2,6 +2,7 @@
 * [Configuration](#config)
 * [Commands](#command)
 * [Other Permissions](#perms)
+* [IRC Integration](#irc)
 * [OtherInfo](#other)
 
 # Installation <a name="install"></a>
@@ -60,5 +61,8 @@ The chat configuration file contains a list of banned words. You can add and rem
 # Other Permissions <a name="perms"></a>
 ```ForgeEssentials.chat.usecolor```  Controls if a & format tags will be replaced when the player chats.
 
+# IRC Integration <a name="irc"></a>
+The chat module now contains integrated support for IRC courtesy of luacs1998. If you know what IRC is... then this feature is largely self-explanatory. Settings for IRC may be found in the chat config. 
+
 # Other Info <a name="other"></a>
-Us ForgeEssentials devs plan on allowing some awesome things in forge. We plan on having IRC integration as well as a channel system. Not to to mention ranged chat.
+Us ForgeEssentials devs plan on allowing some awesome things in forge. ~~We plan on having IRC integration as well as~~ We plan on an IRC channel system. Not to to mention ranged chat.
